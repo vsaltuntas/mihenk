@@ -1,6 +1,26 @@
 # MİHENK Recent Fix Diffs
 # Applied: 2026-06-30
 
+## DIFF 0: FinanceTracker — records TDZ fix
+
+### Problem
+`duplicates` used `records` before `records` was declared. This created a
+Temporal Dead Zone risk during component initialization.
+
+### Fix
+Moved `records` and `accounts` above the `duplicates` `useMemo`.
+
+### Location
+File: src/components/FinanceTracker.tsx, lines 80-84
+
+### Verification
+- `records` declaration: line 80 ✅
+- `duplicates` declaration: line 84 ✅
+- Full SHA256: `43dac9eb05e7a4f49e8b639234e4f16f3726924d860558cd081bd4b0398dc3ae` ✅
+- Reassembly from `FinanceTracker.part01-07.md` matches full source ✅
+
+---
+
 ## DIFF 1: FinanceTracker — showDuplicates modal fix
 
 ### Problem

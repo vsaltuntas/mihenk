@@ -77,6 +77,9 @@ export default function FinanceTracker() {
   const [addSaving, setAddSaving] = useState(false);
   const [showDuplicates, setShowDuplicates] = useState(false);
 
+  const records = ensureArray(rawRecords);
+  const accounts = ensureArray(rawAccounts);
+
   // Duplicate detection
   const duplicates = useMemo(() => {
     const seen = new Map<string, HayatFinanceRecord[]>();
@@ -89,9 +92,6 @@ export default function FinanceTracker() {
     seen.forEach(v => { if (v.length > 1) dups.push(v); });
     return dups;
   }, [records]);
-
-  const records = ensureArray(rawRecords);
-  const accounts = ensureArray(rawAccounts);
 
   const stats = useMemo(() => {
     const gelir = records.filter(r => r.type === 'income').reduce((s, r) => s + Number(r.amount || 0), 0);
