@@ -1,0 +1,376 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "defd921d-5cb2-4657-a255-e5cb2e2345ee",
+        "text": {
+          "ops": [
+            {
+              "insert": "MİHENK Provider Sync Log"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "76dc23e5-b7eb-494a-abcb-cdbbd2485655",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Schema"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "42e15bd0-2f35-4dbc-9b0e-19add4da8a53",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "sync_id"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b24de657-3414-4694-9f16-89694743a334",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "provider_id"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d6ca2832-0c23-4849-81e5-cbea190cae80",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "endpoint"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "04afbb14-fe36-4d2d-aed5-05b71f963119",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "status"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "67aee728-1666-4d17-bbce-37ec560f18ee",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "started_at"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f7e7d9e1-8c44-4bdf-b90d-9dee1ad6acb9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "completed_at"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "77efcfb7-e866-4264-befd-41f8a281a1e3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "records_read"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "cbb1adf6-d43d-47b3-a926-a72512d6812d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "records_written"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8ff4d7eb-83d6-43ab-8409-f896a7f8de42",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "freshness_status"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a3c8345f-9aaa-4a68-ad90-08d8e9583b58",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "error"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "ec47589a-50d8-442f-990a-b57267960e14",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Records"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "40463f00-2d8d-4cb8-8908-48392f4b96c3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Bridge Sync — initial seed 2026-06-17"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "019ee44c-85b7-4aec-8bcd-a8c22c4c62cc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"status\":\"SEEDED_FROM_ZO_BRIDGE\",\"freshness\":{\"stale\":true,\"last_analytics_date\":\"2026-05-27\",\"last_video_fetch_at\":\"2026-05-30 14:14:34.642448\",\"rule\":\"READY requires current/fresh ingest evidence, not just historical DuckDB rows.\"},\"summary\":{\"channel_count\":16,\"video_count\":654,\"daily_row_count\":252,\"analytics_channel_count\":9,\"first_analytics_date\":\"2026-04-30\",\"last_analytics_date\":\"2026-05-27\",\"last_video_fetch_at\":\"2026-05-30 14:14:34.642448\",\"revenue_sum\":4775.8,\"analytics_views_sum\":10339576,\"total_subscribers\":481430,\"total_channel_views\":226385521},\"counts\":{\"channels\":16,\"videos\":654,\"daily\":252},\"source\":\"zo:youtube_channels.duckdb\",\"note\":\"Freshness is stale; do not mark READY until Pipedream/Zo ingest is current and Taskade pull automation is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "📎"
+    }
+  }
+}

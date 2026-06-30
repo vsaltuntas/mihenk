@@ -1,0 +1,2437 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "dd000001-0000-0000-0000-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "MİHENK-Handoff-020-Full-Audit-Checkpoint"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "dd000001-0000-0000-0000-000000000010",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Handoff #020 — MİHENK Full Module Status Matrix (2026-06-17)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000011",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Auditor: EVE. Ground truth audit — no fake READY. Source: app/src/components/ + memory + Taskade projects + agents + automations.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000012",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CODEBASE: 165 files, 56 modules routed in App.tsx, 10 Taskade projects (9 data + 1 backup), 2 agents (both public), 2 automations (1 empty stub, 1 working backup).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "dd000001-0000-0000-0000-000000000020",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TAM ÇALIŞAN (Real API + CRUD + Readback verified)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000021",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Gün Masası (Dashboard.tsx, 249L) — 6 tabs. Aggregates 9 projects via mihenkAPI. Real data. API:9. No PENDING. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000022",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Görevler (GorevlerModule.tsx, 330L) — 7 tabs. qujHhVX1pJpC2Jh4. Real CRUD. API:6. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000023",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Projeler (ProjectHub.tsx, 247L) + ProjectDetail. qujHhVX1pJpC2Jh4. 7 tabs. Real CRUD. API:6. Bridge pending etiketli. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000024",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Finans (FinanceTracker.tsx, 662L). w5EPpzmGJ3pnwZtS. Real CRUD. API:6. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000025",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Katalog (CatalogModule.tsx, 889L) + TrackCard + AlbumGroup. yEjrmczcFwSrYQBn + JYDvWUVTRtjtN9Hx. Real CRUD. @tartid field links. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000026",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Kişiler (CrmModule.tsx, 483L). CYeN3eSk4BASymrF. Real CRUD. 6 real contacts. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000027",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Takvim (CalendarModule.tsx, 618L). FwJpuE4BjZoB7zif. Real CRUD. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000028",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Wellness (WellnessZone.tsx, 804L). dBt8bMYNG8aL41Fv. Real CRUD. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000029",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Notlar (NotesModule.tsx, 244L). Ba6qULrBj9iCmoBw. Real CRUD. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-00000000002a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Fikirler (IdeasModule.tsx, 293L). vRBUsv5XdkdYfB4q. Real CRUD. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-00000000002b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sinyaller (SinyallerModule.tsx, 210L). Unified stream of Not/Fikir/Görev/Event/Üretim. Real multi-project reads. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-00000000002c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sabah Brifingi (SabahBrifingi.tsx, 130L). 5-section system briefing. Real multi-project reads. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-00000000002d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sistem Nabzı (SistemNabzi.tsx, 77L). 9-project health table. JSON Export button. Real data. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-00000000002e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Analytics Hub (AnalyticsHub.tsx, 428L). 15 API calls. Multi-project analytics. No stubs. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-00000000002f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Yaşam Raporu (YasamRaporu.tsx, 151L). API:4. Aggregates. Real reads. ✅ TAM (read, no write yet)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "46533c15-8aa6-4c55-aad7-1c2550363c7b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Hızlı Not (HizliNot.tsx, 87L) + Hızlı Görev (HizliGorev.tsx, 99L). Write to Notlar/Görevler. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "60b0c303-d576-4350-861a-979ce966e365",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Bilgi Haritası (BilgiHaritasi.tsx, 163L). API:4. Real reads but 2 PENDING. 🔶 MIXED",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "94a8c311-b273-43e4-a070-6e274510738a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Üretimler (UretimlerModule.tsx, 44L). API:2. Small real read. 🔶 MINIMAL",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "6a3d6f84-3945-4ef9-b354-692eab15adf4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Backup (BackupModule.tsx, 97L). No API. Info/presentation only. Automation 01KV8K6SZ... works nightly. 🔶 UI-ONLY",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "919c0f2c-7025-4868-827d-c8de193ff263",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Bildirim Merkezi (79L), Enerji Modu (92L), Yer İmleri (101L), Tekrarlayan (71L), Şablonlar (90L). Internal state/zustand. No Taskade API. 🔶 MINI-FUNCTIONAL",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "dd000001-0000-0000-0000-000000000030",
+            "text": {
+              "ops": [
+                {
+                  "insert": "YARI ÇALIŞAN (Partial flow, known bugs, gatekept)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000031",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "FABRİKA (FabrikaModule.tsx, 1"
+                    },
+                    {
+                      "insert": "078",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "L) — v0."
+                    },
+                    {
+                      "insert": "4",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "."
+                    },
+                    {
+                      "insert": "0",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": ". localStorage-based. 6 AGENT_BRIDGE_PENDING badges. "
+                    },
+                    {
+                      "insert": "Brand",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Kit",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "s"
+                    },
+                    {
+                      "insert": " readbac",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "k"
+                    },
+                    {
+                      "insert": " FIXED (H",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "a"
+                    },
+                    {
+                      "insert": "n",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "d"
+                    },
+                    {
+                      "insert": "off #020",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " P"
+                    },
+                    {
+                      "insert": "0).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Ü",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "r"
+                    },
+                    {
+                      "insert": "et",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "i"
+                    },
+                    {
+                      "insert": "m Geçmişi tab a",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "d"
+                    },
+                    {
+                      "insert": "d",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e"
+                    },
+                    {
+                      "insert": "d. Source export: tKEAbTaGP67KxvUz",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "dd000001-0000-0000-0000-000000000032",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "PASS: Üretim Sohbeti paste-flow: input → Step 2 (Rol Seçimi) → Brand Architect → output → Onayla ve Kaydet → 'Üretim Kaydedildi!' success panel.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "dd000001-0000-0000-0000-000000000033",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "FI"
+                        },
+                        {
+                          "insert": "XED",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": " ("
+                        },
+                        {
+                          "insert": "v0.4.0",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "): Brand Kits readback "
+                        },
+                        {
+                          "insert": "now wo",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "rk"
+                        },
+                        {
+                          "insert": "s",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": ". saveProductionOutput() cross"
+                        },
+                        {
+                          "insert": "-w",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "rit"
+                        },
+                        {
+                          "insert": "e",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "s to fabrika_brand_kits "
+                        },
+                        {
+                          "insert": "w",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "hen ro"
+                        },
+                        {
+                          "insert": "le=",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "brand"
+                        },
+                        {
+                          "insert": "_arch",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "it"
+                        },
+                        {
+                          "insert": "ect",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": " "
+                        },
+                        {
+                          "insert": "&& approv",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "e"
+                        },
+                        {
+                          "insert": "d",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": ". "
+                        },
+                        {
+                          "insert": "par",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "s"
+                        },
+                        {
+                          "insert": "e",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "Brand"
+                        },
+                        {
+                          "insert": "K",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "it"
+                        },
+                        {
+                          "insert": "Fr",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "o"
+                        },
+                        {
+                          "insert": "mO",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "utput"
+                        },
+                        {
+                          "insert": "()",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": " "
+                        },
+                        {
+                          "insert": "extract",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "s "
+                        },
+                        {
+                          "insert": "s",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "tr"
+                        },
+                        {
+                          "insert": "uctur",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "ed BrandKit "
+                        },
+                        {
+                          "insert": "f",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "r"
+                        },
+                        {
+                          "insert": "om ",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "t"
+                        },
+                        {
+                          "insert": "ext. Ch",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "r"
+                        },
+                        {
+                          "insert": "om",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "e "
+                        },
+                        {
+                          "insert": "sm",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "o"
+                        },
+                        {
+                          "insert": "k",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "e"
+                        },
+                        {
+                          "insert": " 8/8 PASS by Volkan",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "."
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "dd000001-0000-0000-0000-000000000034",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "CAVEAT: Chrome extension keyboard typing into iframe textarea produces 0-length/0-change/disabled=yes. Paste works. Not a FABRİKA code bug — extension/iframe sandbox limitation.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "dd000001-0000-0000-0000-000000000035",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Manual Brand Kit CRUD works: create/edit/delete uses fabrika_brand_kits localStorage directly. But Üretim Sohbeti output never populates it.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "dd000001-0000-0000-0000-000000000036",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "All 7 agent roles: AGENT_BRIDGE_PENDING (no real agent chat connected).",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "dd000001-0000-0000-0000-000000000037",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Other sub-tabs: Album Konseptleri, Kanal Niche, Prompt Üretici, Release Planı — all useState/localStorage-only, no Taskade API, no AI. Manual CRUD works locally.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000038",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube (YouTubeModule.tsx, 226L) — PROVIDER_PENDING. API:3 stubs return []. No YOUTUBE_DATA_API_KEY. Honest empty state + activation panel. No Taskade project. 🔶 GATEKEPT",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000039",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Maestro (MaestroModule.tsx, 436L) — MULTI-PENDING. API:6 stubs all return []/{}. No Suno/Udio API key, no worker, no Taskade project. Honest 5-source health panel. 🔶 GATEKEPT",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-00000000003a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MİHENK Asistanı (AssistantChat.tsx, 153L) — AGENT_BRIDGE_PENDING. Uses legacy v1 agent-chat SDK, not v2. AGENT_ID = '01KMT63AYCHYKPGZNB12NPS9M4' (HayatOS Asistan — public). Real createConversation + sendMessage. v1 may or may not work. v2 SDK EXISTS but not used. 🔶 V1-AGENT-BRIDGE",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "dd000001-0000-0000-0000-000000000040",
+            "text": {
+              "ops": [
+                {
+                  "insert": "HİÇ ÇALIŞMAYAN / PLACEHOLDER (29-50 lines, no API, no real data)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000041",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "BİLGİ: DosyalarModule(48L), DerinArastirma(41L), KarsilastirModule(33L), CookbookModule(50L)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000042",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "STÜDYO: VerseLab(58L), LyricsLab(45L), TurkuArsivi(47L), StudyomModule(41L), SesAnaliz(39L), MixRoom(30L), KlipStudio(30L)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000043",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "İNSAN: InboxMail(44L), SozlesmelerModule(29L), FirsatlarModule(29L), KonserTur(29L)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000044",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MÜZİK: ChartmetricModule(29L), ReleaseRadar(29L)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000045",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "AJANLAR: AjanKonseyi(32L), Workforce(32L), PipelineModule(32L), OtomasyonlarModule(32L), UygulamaAtolyesi(31L)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000046",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SİSTEM: ErisimModule(32L), OnboardingModule(31L), AyarlarModule(33L), GuvenlikModule(32L)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000047",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MADEN: MadenModule(32L), VeriKazisi(29L), CeliskiMotoru(31L), KanitKuyrugu(31L), KapaliOda(31L)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "dd000001-0000-0000-0000-000000000050",
+            "text": {
+              "ops": [
+                {
+                  "insert": "AGENTS (2)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000051",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "01KMT63AYCHYKPGZNB12NPS9M4 — HayatOS Asistan (public). Connected via AssistantChat v1 SDK. Public URL: hayatos.taskade.site/a/01KMT63AZ8YZCHK8HDY2PYV4Y0. Has system prompt + project knowledge. Status: LIKELY WORKING (v1 bridge, needs re-test).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000052",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "01KVAMD3H5B2J3SQQ1DP0G188H — FABRİKA Zaruret Records Üretim Asistanı (public). Public URL: hayatos.taskade.site/a/01KVAMD3HE8RP0R5QR7CTY2550. Has detailed system prompt for all FABRİKA roles. NOT connected to FabrikaModule (still AGENT_BRIDGE_PENDING in code). 🔶 DISCONNECTED",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "dd000001-0000-0000-0000-000000000060",
+            "text": {
+              "ops": [
+                {
+                  "insert": "AUTOMATIONS (2)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000061",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "01KMT6422AST3VWNT3X9QRWD99 — Görev Tamamlandı → XP Güncelle. EMPTY STUB (no nodes in workflow). ❌ HİÇ ÇALIŞMAYAN",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000062",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "01KV8K6SZ40BA3BHNEXHTZSR3H — Nightly Export Backup. Schedule 03:00 Europe/Istanbul → Loop 9 projects → Markdown export → Write to paPGvkBbBZiw9763. ✅ TAM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "dd000001-0000-0000-0000-000000000070",
+            "text": {
+              "ops": [
+                {
+                  "insert": "PROJECTS (10)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000071",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "qujHhVX1pJpC2Jh4 — Projeler ve Görevler. @mhkid var. 31+ records. Active.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000072",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "w5EPpzmGJ3pnwZtS — Finans. 6 records @mhkid. Active.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000073",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Ba6qULrBj9iCmoBw — Notlar. @mhkid. Active.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000074",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CYeN3eSk4BASymrF — Kişiler CRM. 6 records. @mhkid. Active.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000075",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "yEjrmczcFwSrYQBn — Katalog Sanatçılar. 6 artists. @mhkid. Active.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000076",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "JYDvWUVTRtjtN9Hx — Katalog Albüm & Track. 4 albums + 4 tracks. @mhkid + @tartid. Active.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000077",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "FwJpuE4BjZoB7zif — Takvim. @mhkid. Active.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000078",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "dBt8bMYNG8aL41Fv — Wellness. @mhkid. Active.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000079",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "ZHw56T7Z3B4WymwS — Gamification State. Active.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-00000000007a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "paPGvkBbBZiw9763 — Nightly Backups. Active (automation writes here).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-00000000007b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "vRBUsv5XdkdYfB4q — Fikirler (in mihenk-data.ts but no .taskproj visible). Active.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "dd000001-0000-0000-0000-000000000080",
+            "text": {
+              "ops": [
+                {
+                  "insert": "NEXT 5 ACTIONS (P0 → P1)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000081",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "DONE ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "P0: FABRİKA Brand Kits readback fix. "
+                    },
+                    {
+                      "insert": "Used ",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "Option A"
+                    },
+                    {
+                      "insert": "+B+C combined",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": ": saveProductionOutput "
+                    },
+                    {
+                      "insert": "c",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ros"
+                    },
+                    {
+                      "insert": "s-",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "write"
+                    },
+                    {
+                      "insert": "s",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " ("
+                    },
+                    {
+                      "insert": "A",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": ")"
+                    },
+                    {
+                      "insert": ",",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " parseBrand"
+                    },
+                    {
+                      "insert": "K",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "it"
+                    },
+                    {
+                      "insert": "Fr",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "o"
+                    },
+                    {
+                      "insert": "mO",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "utput "
+                    },
+                    {
+                      "insert": "p",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "ar"
+                    },
+                    {
+                      "insert": "s",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "er ("
+                    },
+                    {
+                      "insert": "B",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": ")"
+                    },
+                    {
+                      "insert": ",",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " Üretim Geçmişi tab "
+                    },
+                    {
+                      "insert": "(C).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "Ch",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "rom"
+                    },
+                    {
+                      "insert": "e",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "sm",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "o"
+                    },
+                    {
+                      "insert": "k",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "e "
+                    },
+                    {
+                      "insert": "8/8",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " P"
+                    },
+                    {
+                      "insert": "ASS.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "So",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "u"
+                    },
+                    {
+                      "insert": "r",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "c"
+                    },
+                    {
+                      "insert": "e",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "e",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "xpor"
+                    },
+                    {
+                      "insert": "t:",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " "
+                    },
+                    {
+                      "insert": "tKEAbTaGP67K",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "x"
+                    },
+                    {
+                      "insert": "vUz",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000082",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "P1: FABRİKA Agent Bridge — connect 01KVAMD3H5B2J3SQQ1DP0G188H (already exists!) to FabrikaModule using v2 SDK. Replace mock step 3 'suggestions' with actual agent chat. Agent already has detailed system prompt for all roles.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000083",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "P1: AssistantChat v2 migration — currently uses legacy v1 SDK. v2 SDK exists at @/lib/agent-chat/v2/. Should migrate for reliability.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000084",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "P1: FABRİKA Design Rework — Codex Handoff #019 task cb967d09. Replace cramped table-heavy layout with creative studio layout. Quick action grid, active pipelines, team rail, compact source health.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000085",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "P2: Connect remaining 29 placeholder modules to real data sources where possible. Priority: İş Omurgası (Tekrarlayan, Şablonlar → qujHhVX1pJpC2Jh4), Stüdyo modules (VerseLab, LyricsLab → FABRİKA agent), İnsan modules (InboxMail, Sözleşmeler → Taskade projects).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "dd000001-0000-0000-0000-000000000090",
+            "text": {
+              "ops": [
+                {
+                  "insert": "STATS",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000091",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "TAM ÇALIŞAN (real API + CRUD): ~19 modules",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000092",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YARI ÇALIŞAN (partial/gatekept): ~8 modules",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000093",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "HİÇ ÇALIŞMAYAN / PLACEHOLDER: ~29 modules",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000094",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "10 Taskade projects, 9 data + 1 backup. All data projects have real records and @mhkid fields.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000095",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2 agents (both public, both have URLs), 2 automations (1 empty stub, 1 working backup).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000096",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Agent Chat SDK: v2 exists at @/lib/agent-chat/v2/ with useChat from @ai-sdk/react. AssistantChat uses v1. FabrikaModule uses NO agent SDK.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd000001-0000-0000-0000-000000000097",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Production READY: NO. Recommendation: do NOT say production READY. This is an honest audit.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "💪"
+    }
+  }
+}

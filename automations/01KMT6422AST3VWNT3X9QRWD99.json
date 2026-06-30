@@ -1,0 +1,99 @@
+{
+  "version": "2",
+  "flowTitle": "⚡ Görev Tamamlandı → XP Güncelle",
+  "trigger": {
+    "valid": false,
+    "displayName": "Görev tamamlandığında tetikle",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "1.0.0",
+      "triggerName": "task.completed",
+      "input": {
+        "projectId": {
+          "type": "flow-template-variable-input-type",
+          "id": "qujHhVX1pJpC2Jh4"
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "cbba0752-ac49-4479-9c2b-72282bf37ec4",
+      "valid": true,
+      "displayName": "Mevcut XP durumunu oku",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "ZHw56T7Z3B4WymwS"
+        }
+      }
+    },
+    {
+      "name": "d7440557-9da7-431a-b45a-7c0d80c20230",
+      "valid": true,
+      "displayName": "Yeni XP/Level/Rank hesapla",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "prompt": "Aşağıdaki Gamification proje verisi mevcut durumu gösteriyor:\n\n{{ cbba0752-ac49-4479-9c2b-72282bf37ec4[\"content\"] }}\n\nKullanıcı bir görev tamamladı ve +10 XP kazandı.\n\nKurallar:\n- Mevcut XP değerini bul ve +10 ekle\n- Her 100 XP = 1 Level (XP 0-99 = Level 1, XP 100-199 = Level 2, XP 200-299 = Level 3, vb.)\n- Rütbeler: Çırak (Level 1), Kalfa (Level 2), Usta (Level 3), Büyükusta (Level 4), Efsane (Level 5+)\n\nSADECE aşağıdaki JSON'ı döndür, başka hiçbir şey yazma:\n{\"xp\": SAYI, \"level\": SAYI, \"rank\": \"RUTBE\", \"streak\": MEVCUT_STREAK_DEGERI}"
+        }
+      }
+    },
+    {
+      "name": "44919f7d-0e71-4680-8135-a1b9bf2b7a76",
+      "valid": false,
+      "displayName": "Gamification XP güncelle",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "updateCustomFields",
+        "input": {
+          "fields": {
+            "@gxp": {
+              "data": {
+                "value": "{{ d7440557-9da7-431a-b45a-7c0d80c20230[\"result\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@gxp"
+            },
+            "@grank": {
+              "data": {
+                "value": "{{ d7440557-9da7-431a-b45a-7c0d80c20230[\"result\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@grank"
+            }
+          },
+          "nodeId": "e1000001-0001-4001-8001-000000000001",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "ZHw56T7Z3B4WymwS"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "qujHhVX1pJpC2Jh4": {
+      "id": "qujHhVX1pJpC2Jh4",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    },
+    "ZHw56T7Z3B4WymwS": {
+      "id": "ZHw56T7Z3B4WymwS",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# MİHENK → Zo Source Export Package
+# Generated: 2026-06-30T12:00:00+03:00
+# Purpose: Full source extraction for Zo-side development
+# Contains: FinanceTracker, CatalogModule, WellnessZone, mihenk-data, infra
+#
+# INSTRUCTIONS FOR CODEX/ZO:
+# 1. Each file is delimited by ═══ FILE: <path> ═══
+# 2. Copy each section to the corresponding file path
+# 3. Review the MIGRATION-PLAN section at the end
+# 4. Review the DIFF section for recent fixes applied
+#
+# NO SECRETS OR TOKENS IN THIS FILE.
