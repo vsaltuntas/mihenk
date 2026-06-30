@@ -1,0 +1,5 @@
+import { useState, useMemo, useCallback } from 'react';
+import { mihenkAPI, useMihenkData, ensureArray } from '@/lib/mihenk-data';
+import type { HayatFinanceRecord } from '@/lib/mihenk-data';
+import {
+  Wallet, TrendingUp, TrendingDown, PiggyBank, Plus,

@@ -1,0 +1,2775 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a0000001-0001-4001-8001-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "📋 Projeler & Görevler"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b2000001-0001-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Nikbinler EP — Yeni Single Mix",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@statu": {
+                "type": "Select",
+                "optionId": "stat-plan"
+              },
+              "@kanal": {
+                "type": "Select",
+                "optionId": "ch-nikbin"
+              },
+              "@prior": {
+                "type": "Select",
+                "optionId": "pr-acil"
+              },
+              "@mhkid": "mihenk_projeler_01JWNE5KP1NikEP"
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "b2000001-1001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Vokal kayıt",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b2000001-1002-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Mix & Master",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b2000001-1003-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Kapak görseli tasarla",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b2000002-0001-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "YouTube Kanal Rebrand",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@statu": {
+                "type": "Select",
+                "optionId": "stat-plan"
+              },
+              "@kanal": {
+                "type": "Select",
+                "optionId": "ch-person"
+              },
+              "@prior": {
+                "type": "Select",
+                "optionId": "pr-yuksek"
+              },
+              "@mhkid": "mihenk_projeler_01JWNE5KP2YTReb"
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "b2000002-1001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Yeni banner tasarımı",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b2000002-1002-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "İçerik takvimi oluştur",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b2000003-0001-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Anatolian Lab — Web Sitesi",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@statu": {
+                "type": "Select",
+                "optionId": "stat-fikir"
+              },
+              "@kanal": {
+                "type": "Select",
+                "optionId": "ch-analab"
+              },
+              "@prior": {
+                "type": "Select",
+                "optionId": "pr-normal"
+              },
+              "@mhkid": "mihenk_projeler_01JWNE5KP3AnaLb"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b2000004-0001-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Podcast Setup — Mikrofon Araştırma",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "attributes": {
+              "@statu": {
+                "type": "Select",
+                "optionId": "stat-yayin"
+              },
+              "@kanal": {
+                "type": "Select",
+                "optionId": "ch-person"
+              },
+              "@prior": {
+                "type": "Select",
+                "optionId": "pr-dusuk"
+              },
+              "@mhkid": "mihenk_projeler_01JWNE5KP4PodSt"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "243cea71-22d1-456d-9275-3ed6536b9659",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Deneme"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@statu": {
+                "type": "Select",
+                "optionId": "stat-plan"
+              },
+              "@prior": {
+                "type": "Select",
+                "optionId": "pr-normal"
+              },
+              "@notla": "",
+              "@kategori": "",
+              "@mhkid": "mihenk_gorev_MQH6L17L"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "70229bb8-1a5e-4933-9fa8-50a733982678",
+            "text": {
+              "ops": [
+                {
+                  "insert": "KARARGAH Import 2026-06-28T220426Z Kaynak: Zo "
+                },
+                {
+                  "insert": "/home/workspace/Sites/karargah/exports/mihenk/karargah_sqlite_json_20260628T220426Z"
+                },
+                {
+                  "insert": " Kapsam: projects=3, tasks=55. Rollback: bu parent altındaki import kayıtlarını sil."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "88935068-a833-49b4-add2-4171a23036ff",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Projects import batch Kaynak tablo: "
+                    },
+                    {
+                      "insert": "projects"
+                    },
+                    {
+                      "insert": "; satır: 3"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "dd481cd4-a2d5-4613-9b53-a83111a1636f",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "KARARGAH Project: KARARGAH Baseline Project 2026-06-02 source_id=project_mpx3abjw1lgc69; status=active; stage=execution; type=system; progress=1 desc=Idempotent baseline project created by KARARGAH phase 3 smoke. tags=karargah_bootstrap_20260602,phase3"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "abe77032-08a3-4803-bc25-46b8e2e1682e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "KARARGAH Project: 2025 Vergi Beyanı - GVK 18 source_id=proj_vergi_beyani; status=active; stage=active; type=business_legal; deadline=2026-04-21; progress=40 desc=GVK 18 telif istisnası stratejisi. 406K TL tasarruf potansiyeli. YMM bul, MESAM ara, VUK 371 pişmanlık beyannamesi ver. Her geçen gün aylık %3.7 zamm artıyor. tags=[\"vergi\",\"finans\",\"acil\",\"kritik\"]"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "97e0c254-24db-489b-ac17-26dffa9ced5e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "KARARGAH Project: Dünya Kupası Marşı - 2026 source_id=proj_dunya_kupasi_marsi; status=active; stage=writing; type=music_production; deadline=2026-06-01; progress=30 desc=Nikbinler Saygı1'de birinci seçildi. Denize Doğru adaptasyonu futbol marşına dönüşecek. Türkiye 24 yıl sonra Dünya Kupası'nda. İlk maç 13 Haziran Avustralya - Vancouver. tags=[\"nikbinler\",\"dünya_kupası\",\"acil\",\"müzik\"]"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "id": "355ce008-695a-4400-8687-ca1280763da7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Tasks import batch Kaynak tablo: "
+                    },
+                    {
+                      "insert": "tasks"
+                    },
+                    {
+                      "insert": "; satır: 55"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "e5a86822-ac41-4cb5-a8e9-854ba6cd52b2",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Karargah taşımayı bitir source_id=task_mplt95uuzz3v4n; status=todo; priority=urgent; area=İş; due=2026-05-26; source=manual; sync_status=local"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e033cc72-f693-4e60-8303-3c8b7cd19b06",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] SARMAL track v3 üretimi source_id=task_mplt95vcf6jm66; status=doing; priority=high; area=Müzik; source=manual; sync_status=local"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "3f4a6336-00a4-4c17-809a-a9bb78fec29e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Telegram archive temizlik source_id=task_mplt95vqltrp5e; status=todo; priority=low; area=Sistem; source=manual; sync_status=local"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e2ec2d15-22f1-4274-a00c-5b1b3be0000d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[x] KARARGAH Baseline Task 2026-06-02 source_id=task_mpx3cfeoh1uswe; status=done; priority=high; area=Karargah; source=manual; sync_status=local notes=karargah_bootstrap_20260602: phase 3 core smoke task subtasks=[\"readback\",\"graph\",\"smoke\"]"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": true,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "4d7ede1f-c163-4b53-806b-41495c853588",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] aaa source_id=task_mq74iftzx931ir; status=todo; priority=medium; area=Inbox; source=manual; sync_status=local subtasks=[]"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "9196f339-ebd3-441b-bf4c-dd712f25e857",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Business deneme sürene erişmek için web'de oturum aç source_id=task_ttb80rd3ra; status=todo; priority=low; area=Team Setup Guide; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e85d29dc-709a-4e23-a44c-2caeabee3a88",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] SEV Şarkısı - Serkan Selay source_id=task_f7w0ilzil4o; status=todo; priority=urgent; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "942d9bec-e135-420a-9110-ebde2ce55981",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Orkestranın altyapıyı hazır hale getirmesi source_id=task_xlpcuph8q68; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "464c56ea-b242-4303-b7ac-9e9029f21f1a",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Stüdyo kaydının alınması source_id=task_9cdgn3bj3zd; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "8fab86a4-30d3-4ae3-b7db-fc8ebcb61070",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Yayın tarihinin belirlenmesi source_id=task_crr19ro1a4g; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "90fbe728-eb6b-44ca-9768-3b483ef01c7e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Kapak tasarım görselinin hazırlanması source_id=task_mwktc4qnqna; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "5ff0f668-32f7-41d2-a44d-f27d2345056d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Mix & mastering işlerinin yapılması source_id=task_kulxu6ocfas; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "70fd6a5d-d4de-4f34-b657-bb36153b08da",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Dağıtıma gönderilmesi source_id=task_5bpuvkg6udj; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "5fa4e533-c1eb-4eb5-bef8-71c4f8be5094",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Pitching çalışmasının yapılması source_id=task_r0jc2bs5pad; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "cc6d378d-2856-44d8-a1ce-cc97dbd8159d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Şarkının yayına girmesi source_id=task_er6048hr0ft; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "3140ee6a-26bd-451a-b1f0-bcfeb17d444c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Sosyal medya & PR & reklam çalışmalarının yapılması source_id=task_9bej8oghccg; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "78961ed5-e265-4ffe-80a4-421225b615e0",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Dernek Kurulacak source_id=task_bpwr0bjjsdb; status=todo; priority=low; area=AI MÜZİK TÜRKİYE; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "015b1b5e-14dc-4b37-9fdc-41f55744c76b",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Avukat Pinar'a yaz (Mihriban davasi) source_id=task_xbftkvojr1s; status=todo; priority=urgent; area=VOLKAN ŞAHSİ; due=2026-04-24; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "08a8163d-e261-4cce-9071-7b387eb685a1",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 20-21-22 NİSAN source_id=task_05alookwzs35; status=todo; priority=low; area=Inbox; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "2d4fd738-037a-40d9-adbc-47792e85e6cb",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] MUHASEBECİYE WP'DEN MESAJ AT - GÜN BELİRLE source_id=task_fy848i5bald; status=todo; priority=low; area=VOLKAN ŞAHSİ; due=2026-04-30; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "25956802-5e04-49ff-b249-fa5f26ead568",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Görevler hakkında her şey ("
+                        },
+                        {
+                          "insert": "İzle",
+                          "attributes": {
+                            "link": "https://youtu.be/3VVTwfjs22w?t=239"
+                          }
+                        },
+                        {
+                          "insert": ") source_id=task_plf5nk5cizn; status=todo; priority=low; area=Team Setup Guide; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a07c779b-ce5c-46cf-af10-79905711c0e4",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] ZİYA AZBAZDAR Projesi source_id=task_w0b1tikxhkb; status=todo; priority=urgent; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "bed2f0a8-53b3-42cf-9b2e-57707128b237",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Şarkı Listesi source_id=task_082obnd4mrie; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "05940917-142b-4098-a79f-c48bf2c83464",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 1. source_id=task_u26bjdsacur; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "c130f3f2-061e-4188-8a31-91971a835691",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 2. source_id=task_fu5rt6qcmms; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b26346eb-fbe2-4ff0-b92a-cf4f1d002e32",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 3. source_id=task_0xstszoi2hgi; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "3f92e6e3-9e9b-4fba-80c6-ee328fc6f6df",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 4. source_id=task_iiqna2ag6j; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a452236d-42e1-46a2-863c-b76f03b03e17",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 5. source_id=task_gtwkb507dui; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "14d3c17a-134f-4596-8fbf-e4a0cde4a8a1",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 6. source_id=task_grtrx6mt2l; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "7a5defe5-9d0c-48df-9d42-400237059b8c",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 7. source_id=task_sc30ymfo0j; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "5ab9ab3b-a0b3-4a14-b43d-184568fb6eba",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 8. source_id=task_rmq1w6uyxoc; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ef35a385-e424-4fe3-947f-fddc0a36fdd4",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 9. source_id=task_lutzii2kyn9; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "227d3a91-4291-4ea3-8e26-93ca50b1637f",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 10. source_id=task_h7omq0u6lma; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ffb45072-869b-4ef7-af81-3ba7c6c5596d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 11. source_id=task_sfrgtkf35va; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "31d63f45-4dbf-4850-8bb1-29f48a856201",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] 12. source_id=task_8yh7kqppzlo; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "fc052c1e-30d9-45e0-8e5f-7db0768c773d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Ufuk Abi'ye Şarkıların Gönderilmesi source_id=task_o9yeij90gmb; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b5135a63-6a24-42d4-9257-d5a5ff021306",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Mix & Mastering Yapılması (Orkestra) source_id=task_fvlr2stlqx; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b9918fb6-6f6c-4916-9689-fd315edebd42",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Kapak Tasarımının Yapılması source_id=task_uu3pbezy1t; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "77176b77-485f-4c8c-9575-b3ba1be4b3c8",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Albüm Çıkış Şarkısının Belirlenmesi source_id=task_5yshemm56; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e9379faf-fc7c-4375-9fc4-e049fcf3335e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Yayın Tarihinin Belirlenmesi source_id=task_jw05py7uwb; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "93067409-bc22-48a5-b5e8-4c2e6ea75fa1",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Albümün Dağıtıma Gönderilmesi (OneRPM) source_id=task_k54h58wje39; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "84b1aed1-d6a8-438b-92f5-225cf5866970",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Pitching Çalışmasının Yapılması source_id=task_iygbtuwxoe; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "a55699f2-6fde-432c-96a4-fb35f66db804",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Tanıtım & PR Çalışmaları source_id=task_11yi0zzbig6; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "fa5c9523-b8c9-4d80-b34c-6022d6b1ac6d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Web Sitesi Yapılacak source_id=task_upm8bgiiic; status=todo; priority=low; area=AI MÜZİK TÜRKİYE; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "cfbc2da2-643c-4302-b61f-38b3d49c8e0d",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Kayseri muhasebeci randevusu — Hakan'a hatirlatma source_id=task_147rilvubvpq; status=todo; priority=urgent; area=VOLKAN ŞAHSİ; due=2026-04-24; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "7a48d536-f16f-40ca-bd1b-cc49c1f26c66",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Muhasebeciye WP den mesaj at source_id=task_ys5u8ww82dp; status=todo; priority=low; area=Inbox; due=2026-04-30; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "2b7cba7c-2cfc-40a2-ab58-4e2b5edb4f4e",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] MUHASEBECİYLE GÖRÜŞ - HAKAN'LA BİRLİKTE KAYSERİ'DE source_id=task_7h41zvesoad; status=todo; priority=low; area=VOLKAN ŞAHSİ; due=2026-04-30; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "c3675194-6a6f-4e25-814d-9b31a7cf03eb",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Masaüstü için Todoist’i ("
+                        },
+                        {
+                          "insert": "Yükle",
+                          "attributes": {
+                            "link": "https://www.todoist.com/downloads"
+                          }
+                        },
+                        {
+                          "insert": ") source_id=task_4gfwdzawdyo; status=todo; priority=low; area=Team Setup Guide; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "b4a53660-f78e-401b-a3c0-4b5d59089929",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] AI Muzik Turkiye web sitesini tamamla source_id=task_j5n3xnzsrp; status=todo; priority=high; area=VOLKAN ŞAHSİ; due=2026-04-30; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "ae2fd0da-b872-4dca-99c0-358f871cc450",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] MUHASEBECİYE WP'DEN MESAJ AT - GÜN BELİRLE source_id=task_32ft5b8khch; status=todo; priority=low; area=Inbox; due=2026-04-30; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "e6cf4f6b-58e8-431c-9f0a-a565c8adfb39",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] AİPA TOPLANTISI İÇİN MERDO VE MAHSUS MAHAL VİDEOLARI HAZIRLA - Cumartesi günü toplantı var, görmek isteyecekler! source_id=task_4ugs7cp0mr3; status=todo; priority=low; area=VOLKAN ŞAHSİ; due=2026-05-02; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "af463f68-2e8f-49da-8b41-3a5e2f0d6ee5",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Görevleri görüntülemek ([Klasör & Bugün("
+                        },
+                        {
+                          "insert": "https://youtu.be/3VVTwfjs22w?t=719",
+                          "attributes": {
+                            "link": "https://youtu.be/3VVTwfjs22w?t=719"
+                          }
+                        },
+                        {
+                          "insert": ")"
+                        },
+                        {
+                          "insert": " | "
+                        },
+                        {
+                          "insert": "Yaklaşan",
+                          "attributes": {
+                            "link": "https://youtu.be/3VVTwfjs22w?t=817"
+                          }
+                        },
+                        {
+                          "insert": ") source_id=task_7yys0s0nhqc; status=todo; priority=low; area=Team Setup Guide; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "da8335a4-f65a-4212-afff-1166dafa8b47",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Pasaportlar Geri Alınacak & Yahut Vize :))) source_id=task_950sg695ge5; status=todo; priority=high; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "f0597ce2-ddda-4099-935d-be994d8ba232",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] Acem Kızı - Neşet Ertaş (Telif Hakkının Alınması Gerekiyor) source_id=task_rh344ovbkj; status=todo; priority=low; area=MG TALENT; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "id": "13dbdd51-df27-4b57-8082-aa222efe41b6",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "[ ] MUHASEBECİYLE GÖRÜŞ - HAKAN'LA BİRLİKTE KAYSERİ'DE source_id=task_yclxosb0xlf; status=todo; priority=low; area=Inbox; due=2026-04-30; source=manual; sync=todoist; sync_status=synced"
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": "text"
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "z"
+          },
+          "/attributes/@kanal": {
+            "id": "/attributes/@kanal",
+            "fieldPath": "/attributes/@kanal",
+            "rank": "zV"
+          },
+          "/attributes/@prior": {
+            "id": "/attributes/@prior",
+            "fieldPath": "/attributes/@prior",
+            "rank": "zk"
+          },
+          "/attributes/@kategori": {
+            "id": "/attributes/@kategori",
+            "fieldPath": "/attributes/@kategori",
+            "rank": "zs"
+          },
+          "/attributes/@notla": {
+            "id": "/attributes/@notla",
+            "fieldPath": "/attributes/@notla",
+            "rank": "zw"
+          },
+          "545773dd-b998-4eae-95e8-147b8867f952": {
+            "id": "545773dd-b998-4eae-95e8-147b8867f952",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "z"
+          },
+          "/attributes/@kanal": {
+            "id": "/attributes/@kanal",
+            "fieldPath": "/attributes/@kanal",
+            "rank": "zV"
+          },
+          "/attributes/@prior": {
+            "id": "/attributes/@prior",
+            "fieldPath": "/attributes/@prior",
+            "rank": "zk"
+          },
+          "/attributes/@kategori": {
+            "id": "/attributes/@kategori",
+            "fieldPath": "/attributes/@kategori",
+            "rank": "zs"
+          },
+          "/attributes/@notla": {
+            "id": "/attributes/@notla",
+            "fieldPath": "/attributes/@notla",
+            "rank": "zw"
+          },
+          "0768f6fe-2183-42e1-b1dc-5d854f2bf4ee": {
+            "id": "0768f6fe-2183-42e1-b1dc-5d854f2bf4ee",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "z"
+          },
+          "/attributes/@kanal": {
+            "id": "/attributes/@kanal",
+            "fieldPath": "/attributes/@kanal",
+            "rank": "zV"
+          },
+          "/attributes/@prior": {
+            "id": "/attributes/@prior",
+            "fieldPath": "/attributes/@prior",
+            "rank": "zk"
+          },
+          "/attributes/@kategori": {
+            "id": "/attributes/@kategori",
+            "fieldPath": "/attributes/@kategori",
+            "rank": "zs"
+          },
+          "/attributes/@notla": {
+            "id": "/attributes/@notla",
+            "fieldPath": "/attributes/@notla",
+            "rank": "zw"
+          },
+          "60be89eb-ff29-4bc8-938e-5b4a1be45dd2": {
+            "id": "60be89eb-ff29-4bc8-938e-5b4a1be45dd2",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "z"
+          },
+          "/attributes/@kanal": {
+            "id": "/attributes/@kanal",
+            "fieldPath": "/attributes/@kanal",
+            "rank": "zV"
+          },
+          "/attributes/@prior": {
+            "id": "/attributes/@prior",
+            "fieldPath": "/attributes/@prior",
+            "rank": "zk"
+          },
+          "/attributes/@kategori": {
+            "id": "/attributes/@kategori",
+            "fieldPath": "/attributes/@kategori",
+            "rank": "zs"
+          },
+          "/attributes/@notla": {
+            "id": "/attributes/@notla",
+            "fieldPath": "/attributes/@notla",
+            "rank": "zw"
+          },
+          "b43ebcb4-e77d-4202-8780-7c73c49dce04": {
+            "id": "b43ebcb4-e77d-4202-8780-7c73c49dce04",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@kanal": {
+            "id": "/attributes/@kanal",
+            "fieldPath": "/attributes/@kanal",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@prior": {
+            "id": "/attributes/@prior",
+            "fieldPath": "/attributes/@prior",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@kategori": {
+            "id": "/attributes/@kategori",
+            "fieldPath": "/attributes/@kategori",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@notla": {
+            "id": "/attributes/@notla",
+            "fieldPath": "/attributes/@notla",
+            "rank": "zw",
+            "hidden": false
+          },
+          "21b501fd-f1d3-4320-b469-16f02456629a": {
+            "id": "21b501fd-f1d3-4320-b469-16f02456629a",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@statu": {
+            "id": "/attributes/@statu",
+            "fieldPath": "/attributes/@statu",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@kanal": {
+            "id": "/attributes/@kanal",
+            "fieldPath": "/attributes/@kanal",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@prior": {
+            "id": "/attributes/@prior",
+            "fieldPath": "/attributes/@prior",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@kategori": {
+            "id": "/attributes/@kategori",
+            "fieldPath": "/attributes/@kategori",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@notla": {
+            "id": "/attributes/@notla",
+            "fieldPath": "/attributes/@notla",
+            "rank": "zw",
+            "hidden": false
+          },
+          "49ce23db-338d-48a2-98ef-953e5a3ff0f5": {
+            "id": "49ce23db-338d-48a2-98ef-953e5a3ff0f5",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "5714efcc-9949-4058-9393-1cf7893bd3de": {
+            "id": "5714efcc-9949-4058-9393-1cf7893bd3de",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "z"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@statu": {
+        "type": "Select",
+        "displayName": "Durum",
+        "options": {
+          "stat-fikir": {
+            "id": "stat-fikir",
+            "name": "💡 Fikir",
+            "color": "#8B5CF6",
+            "rank": "0"
+          },
+          "stat-plan": {
+            "id": "stat-plan",
+            "name": "📋 Planlama",
+            "color": "#3B82F6",
+            "rank": "1"
+          },
+          "stat-uret": {
+            "id": "stat-uret",
+            "name": "🔨 Üretim",
+            "color": "#F59E0B",
+            "rank": "2"
+          },
+          "stat-yayin": {
+            "id": "stat-yayin",
+            "name": "🚀 Yayında",
+            "color": "#10B981",
+            "rank": "3"
+          },
+          "stat-arsiv": {
+            "id": "stat-arsiv",
+            "name": "📦 Arşiv",
+            "color": "#6B7280",
+            "rank": "4"
+          }
+        }
+      },
+      "@kanal": {
+        "type": "Select",
+        "displayName": "Kanal",
+        "options": {
+          "ch-nikbin": {
+            "id": "ch-nikbin",
+            "name": "Nikbinler",
+            "color": "#EC4899",
+            "rank": "0"
+          },
+          "ch-analab": {
+            "id": "ch-analab",
+            "name": "Anatolian Lab",
+            "color": "#8B5CF6",
+            "rank": "1"
+          },
+          "ch-person": {
+            "id": "ch-person",
+            "name": "Personal",
+            "color": "#3B82F6",
+            "rank": "2"
+          },
+          "ch-other": {
+            "id": "ch-other",
+            "name": "Other",
+            "color": "#6B7280",
+            "rank": "3"
+          }
+        }
+      },
+      "@prior": {
+        "type": "Select",
+        "displayName": "Öncelik",
+        "options": {
+          "pr-acil": {
+            "id": "pr-acil",
+            "name": "🔴 Acil",
+            "color": "#EF4444",
+            "rank": "0"
+          },
+          "pr-yuksek": {
+            "id": "pr-yuksek",
+            "name": "🟠 Yüksek",
+            "color": "#F97316",
+            "rank": "1"
+          },
+          "pr-normal": {
+            "id": "pr-normal",
+            "name": "🟡 Normal",
+            "color": "#EAB308",
+            "rank": "2"
+          },
+          "pr-dusuk": {
+            "id": "pr-dusuk",
+            "name": "🟢 Düşük",
+            "color": "#22C55E",
+            "rank": "3"
+          }
+        }
+      },
+      "@kategori": {
+        "type": "string",
+        "displayName": "Kategori"
+      },
+      "@notla": {
+        "type": "string",
+        "displayName": "Notlar"
+      },
+      "@mhkid": {
+        "type": "string",
+        "displayName": "MİHENK ID"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "board",
+    "avatar": {
+      "type": "emoji",
+      "value": "📉"
+    }
+  }
+}

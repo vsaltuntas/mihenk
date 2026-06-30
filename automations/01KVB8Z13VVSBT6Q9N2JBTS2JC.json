@@ -1,0 +1,29 @@
+{
+  "version": "2",
+  "flowTitle": "",
+  "trigger": {
+    "valid": true,
+    "displayName": "Task Due",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "BLANK",
+      "triggerName": "task.due",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "cd2de405-901b-4bb2-addd-0c143b46a109",
+      "valid": false,
+      "displayName": "Ask AI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "ai.ask",
+        "input": {}
+      }
+    }
+  ]
+}

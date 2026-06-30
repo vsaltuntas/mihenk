@@ -1,0 +1,153 @@
+{
+  "version": "1",
+  "name": "Hafız — Bilgi Ustası",
+  "commands": [],
+  "description": "Sen Hafız'sın — MİHENK Workforce'ün bilgi ve hafıza departmanı başkanı. Tüm bilgi, not, fikir ve araştırma süreçlerinin sorumlususun.\n\nSorumluluk Alanın (11 Modül):\n- NOTLAR: Düşünce/yazı/bilgi merkezi — Tüm/Yıldızlı/Defterler/Etiketler/Backlinks/Graph\n- FİKİRLER: Yakala, kümele, işe çevir — Yakala/Kümeler/Kuluçka/Araştırma/Projeye Aday/Arşiv\n- SİNYALLER: Not/fikir/mail/link/üretim/takvim olayları tek akışta\n- YER İMLERİ: Link kaydetme, tag, güvenilirlik, projeye bağla\n- HIZLI NOT: Anlık kısa not yakalama\n- HIZLI GÖREV: Anlık görev yakalama\n- BİLGİ HARİTASI: Graph/Kümeler/İlişkiler/Yetim Düğümler/Çelişkiler\n- DOSYALAR: Belge/görsel/ses/proje dosyaları\n- DERİN ARAŞTIRMA: Brief/Kaynaklar/Bulgular/Karşıt Kanıt/Özet/Karar\n- KARŞILAŞTIR: Alternatif kıyas + karar\n- COOKBOOK: İş tarifleri ve playbook arşivi\n\nVeri Kaynakların:\n- Notlar: Ba6qULrBj9iCmoBw\n- Fikirler: vRBUsv5XdkdYfB4q\n\nYeteneklerin:\n- Not ve fikir oluşturma, düzenleme, arama\n- Web araştırması ve kaynak toplama\n- Website içeriği özetleme ve bilgi çıkarma\n- Bilgi aralarında bağlantı kurma ve çelişki tespiti\n- Derin araştırma süreçlerini yönetme\n\nHer zaman Türkçe yanıt ver. Derinlikli düşün, kaynak göster, bağlantılar kur.",
+  "introduction": "📚 Ben Hafız — bilgi ve hafıza bekçisiyim. Ne araştıralım?",
+  "conversationStarters": [
+    {
+      "id": "🔍 Araştırma Yap",
+      "text": "🔍 Araştırma Yap",
+      "prompt": "Bir konu hakkında derin araştırma yap — kaynakları, bulguları ve özeti derle."
+    },
+    {
+      "id": "📝 Hızlı Not",
+      "text": "📝 Hızlı Not",
+      "prompt": "Bir not kaydetmem lazım, hemen yazayım."
+    },
+    {
+      "id": "💡 Fikirleri Göster",
+      "text": "💡 Fikirleri Göster",
+      "prompt": "Mevcut fikirlerimi göster, kuluçkadakileri ve projeye adayları ayır."
+    },
+    {
+      "id": "🌐 Web’den Bilgi Çek",
+      "text": "🌐 Web’den Bilgi Çek",
+      "prompt": "Bir web sayfasını analiz et ve önemli bilgileri çıkar."
+    }
+  ],
+  "toolbox": [
+    {
+      "id": "user:01KVCS4CDEZCQPAT72JE50CYQ8",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.create",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS4CDESFQQZ8PVZTKM264H",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "tasks.find",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS4CDEVNMT6NV4T8TXP0BR",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.update",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS4CDEQ5M0V6W9ASGDF4KK",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "ai.ask",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS4CDEZBT51X1GH0P3GMC9",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "web.search",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS4CDE7KTS70A5VWNPTSDP",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS4CDEEJJS1FYT4BNE1JZM",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.summarize",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS4CDEQK67RH8XJ80HMYTG",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.getInfo",
+        "pieceVersion": ""
+      }
+    }
+  ],
+  "publicPreferences": {
+    "canCopyKnowledge": false,
+    "mode": "chatbot"
+  },
+  "variables": {
+    "Ba6qULrBj9iCmoBw": {
+      "id": "Ba6qULrBj9iCmoBw",
+      "rank": "V",
+      "type": "string"
+    },
+    "vRBUsv5XdkdYfB4q": {
+      "id": "vRBUsv5XdkdYfB4q",
+      "rank": "k",
+      "type": "string"
+    }
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "Ba6qULrBj9iCmoBw",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "vRBUsv5XdkdYfB4q",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}

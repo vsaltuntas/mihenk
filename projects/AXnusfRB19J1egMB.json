@@ -1,0 +1,736 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "eb0bbcac-33ce-412d-9fec-9589ce0526fa",
+        "text": {
+          "ops": [
+            {
+              "insert": "MİHENK YouTube Videolar"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "271513c0-b46d-4e5c-8559-60307c3a7b10",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Schema"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d1365d99-1c60-42d2-b6b8-a7d9b2731d95",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "video_id"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2111f9a9-4481-45a4-8644-76fc3bd35714",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "channel_id"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "384fd289-043a-4108-8454-424cf7711594",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "title"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9450d02d-6580-4bef-8bdc-8716c9ede705",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "published_at"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "882e741a-e1e4-41f2-affd-0724fdb9fa23",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "duration_sec"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2c22c4d1-a903-47c6-9152-71f66e9e2c07",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "is_short"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f13eacbf-eeec-4635-a688-c3e705ed4354",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "views"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "6832bc3a-80f3-416d-9017-cf956bb22d12",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "likes"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "de064c8f-40cb-44be-a678-cf32986307ed",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "comments"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bb441670-44e4-46a1-83c4-aa1d676856bc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "thumbnail_url"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "81b22353-3407-442e-832e-202141578db5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "tag_count"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7debf46c-d208-4783-a492-54636a2f08fc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "privacy_status"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9ca154aa-f980-47f5-b616-c15e3675149d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "fetched_at"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "13da238d-b1ef-43b7-80d5-00601132454c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Records"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a0c84770-0870-47e5-8fe5-a4dd2294da42",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Videos Batch 001 — 100 records"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "841b729c-4202-4495-8647-be917f5635cd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"provider\":\"zo:youtube_channels.duckdb\",\"bridge_endpoint\":\"/api/mihenk/youtube/snapshot?video_limit=1000&daily=0\",\"payload_path\":\"videos[]\",\"batch\":1,\"record_count\":100,\"sha16\":\"51d13f6bf14cd730\",\"status\":\"MANIFEST_SEEDED\",\"note\":\"Full records are pulled from the auth-protected Zo bridge; do not mark READY until Taskade pull automation readback is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7e4d73a4-6659-4594-bbd1-45b80aabd709",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Videos Batch 002 — 100 records"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "02c45fe6-f421-42ff-9a4b-18eed8f62f6a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"provider\":\"zo:youtube_channels.duckdb\",\"bridge_endpoint\":\"/api/mihenk/youtube/snapshot?video_limit=1000&daily=0\",\"payload_path\":\"videos[]\",\"batch\":2,\"record_count\":100,\"sha16\":\"b636b54ec5211aff\",\"status\":\"MANIFEST_SEEDED\",\"note\":\"Full records are pulled from the auth-protected Zo bridge; do not mark READY until Taskade pull automation readback is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5c67f5d3-815c-4b83-96de-4383d565c7e2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Videos Batch 003 — 100 records"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "898fcb48-9037-4b1e-a217-8a7e07bbf18e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"provider\":\"zo:youtube_channels.duckdb\",\"bridge_endpoint\":\"/api/mihenk/youtube/snapshot?video_limit=1000&daily=0\",\"payload_path\":\"videos[]\",\"batch\":3,\"record_count\":100,\"sha16\":\"9d74a32c7fde4eab\",\"status\":\"MANIFEST_SEEDED\",\"note\":\"Full records are pulled from the auth-protected Zo bridge; do not mark READY until Taskade pull automation readback is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "fb07c794-5499-4145-9fa9-7584eabd7c7b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Videos Batch 004 — 100 records"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f767678f-4441-4575-bcfd-2dd0e7fd178a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"provider\":\"zo:youtube_channels.duckdb\",\"bridge_endpoint\":\"/api/mihenk/youtube/snapshot?video_limit=1000&daily=0\",\"payload_path\":\"videos[]\",\"batch\":4,\"record_count\":100,\"sha16\":\"dd85e49b1513ea91\",\"status\":\"MANIFEST_SEEDED\",\"note\":\"Full records are pulled from the auth-protected Zo bridge; do not mark READY until Taskade pull automation readback is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5c56bfb9-7a12-491d-9e95-8194c6e000bf",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Videos Batch 005 — 100 records"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f86c0db9-b053-4948-986b-10146a1b4066",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"provider\":\"zo:youtube_channels.duckdb\",\"bridge_endpoint\":\"/api/mihenk/youtube/snapshot?video_limit=1000&daily=0\",\"payload_path\":\"videos[]\",\"batch\":5,\"record_count\":100,\"sha16\":\"cc9746d16a6dfcba\",\"status\":\"MANIFEST_SEEDED\",\"note\":\"Full records are pulled from the auth-protected Zo bridge; do not mark READY until Taskade pull automation readback is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9552e5df-4220-4358-8669-3ec17c372cf8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Videos Batch 006 — 100 records"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "09a41b5f-22da-494d-91b3-51604b76cd66",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"provider\":\"zo:youtube_channels.duckdb\",\"bridge_endpoint\":\"/api/mihenk/youtube/snapshot?video_limit=1000&daily=0\",\"payload_path\":\"videos[]\",\"batch\":6,\"record_count\":100,\"sha16\":\"e67763b5ca9d6de8\",\"status\":\"MANIFEST_SEEDED\",\"note\":\"Full records are pulled from the auth-protected Zo bridge; do not mark READY until Taskade pull automation readback is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "6fcaad24-8fc6-44de-817b-ebc933f2552b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Videos Batch 007 — 54 records"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c231e2d4-19af-4fdd-8970-e8dd538b27aa",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"provider\":\"zo:youtube_channels.duckdb\",\"bridge_endpoint\":\"/api/mihenk/youtube/snapshot?video_limit=1000&daily=0\",\"payload_path\":\"videos[]\",\"batch\":7,\"record_count\":54,\"sha16\":\"31eb91f9ff7fb735\",\"status\":\"MANIFEST_SEEDED\",\"note\":\"Full records are pulled from the auth-protected Zo bridge; do not mark READY until Taskade pull automation readback is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "🎛️"
+    }
+  }
+}

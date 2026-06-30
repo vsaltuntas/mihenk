@@ -1,0 +1,568 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "07d4dea2-a33f-4c4a-aba3-54ad548a98da",
+        "text": {
+          "ops": [
+            {
+              "insert": "MİHENK Provider Inventory"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "f66f7ecb-a894-4ebe-9779-36af24ddd6da",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Schema"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "9361c0bd-e967-483d-bbbc-cd81da4c4b96",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "provider_id"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e208c6de-47eb-4928-a561-2233d6a302b4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "status"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "03557eef-a3c1-4d36-82ba-8c508cf2c04a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "source"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "aa1bc98f-2149-4e50-b9fc-86b7fc9169c4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "endpoints"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "624c07de-ab7b-4de6-b941-0d73e41a989c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "target_modules"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "aa6d9f7e-cfb6-4572-acf9-89e5bfe1bd03",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "counts_json"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "04042780-1576-4eae-be56-e28cb28f32e5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "last_checked_at"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "344dea5e-bfd1-4264-9b18-5ba69d21191b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "next_fix"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "68c893f8-552e-40c8-ae49-49fbb197d2b8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Records"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "c53219d3-a84b-422e-ab45-6f90ee83c072",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "youtube — available_stale"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dce220d7-60c4-40c5-b22c-993efbc26318",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"id\":\"youtube\",\"status\":\"available_stale\",\"source\":\"zo_duckdb_pipedream\",\"db\":\"youtube_channels.duckdb\",\"endpoints\":[\"/api/mihenk/youtube/snapshot\",\"/api/youtube/summary\",\"/api/youtube/channels\",\"/api/youtube/videos\",\"/api/youtube/daily\"],\"counts\":{\"channels\":16,\"videos\":654,\"daily_rows\":252,\"last_analytics_date\":\"2026-05-27\",\"last_video_fetch_at\":\"2026-05-30 14:14:34.642448\"},\"mihenkTargets\":[\"youtube\",\"sinyaller\",\"yasam_raporu\",\"analytics\"],\"nextFix\":\"Freshness/ingest trigger must be repaired before READY.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "58096afc-ec9f-44af-9003-ad1dfa42efb1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "zolinker — candidate"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "82fa301b-ca45-4dc4-9505-9198cc615bb2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"id\":\"zolinker\",\"status\":\"candidate\",\"source\":\"karargah_local_or_external_duckdb\",\"endpoints\":[\"/api/zolinker\",\"/api/zolinker-status\"],\"counts\":{\"bookmarks_local\":2},\"mihenkTargets\":[\"yer_imleri\",\"sinyaller\",\"maden\",\"veri_kazisi\"],\"nextFix\":\"Map exact read endpoint and freshness source before snapshot sync.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e74b25f3-b3e8-42ea-9e2f-bdcc8b6b5189",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "maestro_production — candidate_provider_pending"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d11f0dbd-17b3-452b-bfe2-a7c19efd07eb",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"id\":\"maestro_production\",\"status\":\"candidate_provider_pending\",\"source\":\"karargah_routes_and_taskade_candidates\",\"endpoints\":[\"/api/maestro\",\"/api/uretimler\",\"/api/klip\"],\"counts\":{\"generation_runs\":null,\"runtime_runs\":null,\"production_outputs\":null},\"mihenkTargets\":[\"maestro\",\"uretimler\",\"fabrika\",\"klip_studio\",\"katalog\"],\"nextFix\":\"Separate provider-ready records from placeholders and storage-pending artifacts.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "6e1861fa-e906-4951-902e-43244a4e7e69",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "lyrics_archive — candidate"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "4f0268cd-1a30-4394-b7ed-fa0dcbad665b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"id\":\"lyrics_archive\",\"status\":\"candidate\",\"source\":\"turku_arsivi_sqlite_and_verselab_routes\",\"endpoints\":[\"/api/turku-arsivi\",\"/api/verselab\"],\"counts\":{\"turku_archive_file\":\"data/turku_arsivi.sqlite\"},\"mihenkTargets\":[\"verselab\",\"lyrics_lab\",\"turku_arsivi\",\"derin_arastirma\"],\"nextFix\":\"Expose normalized read-only snapshot endpoint for lyrics/search records.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0005d702-e088-4f2c-a563-c79586fc9b70",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "system_governance — available_partial"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "42a02ed4-567c-4533-a01e-cb4a5c5a8f0f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"id\":\"system_governance\",\"status\":\"available_partial\",\"source\":\"karargah_local_sqlite_smoke_audit\",\"endpoints\":[\"/api/healthz\",\"/api/system/*\",\"/api/module-metadata/*\"],\"counts\":{\"system_probe_runs\":6,\"automation_runs\":27},\"mihenkTargets\":[\"sistem_nabzi\",\"backup\",\"analytics\",\"kanit_kuyrugu\"],\"nextFix\":\"Define MİHENK-facing health/audit schema and avoid raw secret/path leakage.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ef3bdab4-7657-4c0d-b8c1-ac46545a3454",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "core_business_enrichment — candidate_enrichment"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0cff9ff6-081d-4b05-a1ec-aeca7968140f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"id\":\"core_business_enrichment\",\"status\":\"candidate_enrichment\",\"source\":\"karargah_sqlite_plus_taskade_core\",\"endpoints\":[\"/api/finance\",\"/api/catalog\",\"/api/relationships\"],\"counts\":{\"finance_records\":1,\"catalog_artists_local\":8,\"contacts\":1},\"mihenkTargets\":[\"finans\",\"katalog\",\"kisiler\",\"yasam_raporu\"],\"nextFix\":\"Use for enrichment only; Taskade remains canonical for verified MİHENK CRUD core.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "📏"
+    }
+  }
+}

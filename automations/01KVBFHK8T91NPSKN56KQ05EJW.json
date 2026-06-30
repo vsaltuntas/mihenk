@@ -1,0 +1,41 @@
+{
+  "version": "2",
+  "flowTitle": "MİHENK — Zo Bridge YouTube Snapshot Pull",
+  "trigger": {
+    "valid": true,
+    "displayName": "Her gün 04:00'te çalış",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.daily",
+      "input": {
+        "timezone": "Europe/Istanbul",
+        "timeOfDay": "4:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "a3f2c91b-7d5e-4321-b8c4-e1f6a7890123",
+      "valid": true,
+      "displayName": "Zo Bridge /api/mihenk/youtube/snapshot çek",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-piece-http",
+        "pieceVersion": "1.0.0",
+        "actionName": "http.sendRequest",
+        "input": {
+          "url": "https://karargah.hayatos.com/api/mihenk/youtube/snapshot",
+          "method": "GET",
+          "headers": [
+            {
+              "Authorization": "Bearer MIHENK_BRIDGE_READ_TOKEN_PLACEHOLDER"
+            }
+          ],
+          "bodyType": "none"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1679 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "1c9c295c-d5ac-4256-85af-e9456cd1769b",
+        "text": {
+          "ops": [
+            {
+              "insert": "MİHENK YouTube Kanallar"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "f0399706-f767-4b63-be7b-223043104e45",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Schema"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "33c03d40-4b84-4e7f-b8d6-e28c915c442b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "channel_id"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "13bdd8b7-8b89-4d97-a204-39a31ba4874b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "title"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3b8a9e2c-0ca3-43b1-abd3-5dcd45e5f649",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "handle"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "53c5e643-59c3-47ff-8c05-fd2472bf6397",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "subscribers"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "dd7042ae-1746-44d2-8eb2-5ce70ee4d672",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "total_views"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "68e03b95-a7c7-42ac-92c5-4838f5577893",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "declared_video_count"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8565dccc-7c56-4246-a4ff-a1d602ad14c6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "in_data_api"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d95e58ac-f726-4a96-8b9a-0358cdc1cd54",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "in_analytics_api"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "fc59e2cd-e26d-4d8c-8cee-52c0790f28cb",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "snapshot_date"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "800139b5-ca24-4a3c-bbf7-e8c37b8d4918",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "views_window"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b78c5b84-6e1c-4ee8-a060-a366e5c75cd4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "revenue_window"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "db9aad6d-cf2b-4f60-b308-786df4f3477b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "net_subs_window"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "6d2b63bf-ede9-4e8b-9543-ecdc323eb115",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "avg_cpm"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5e310e56-4121-4191-a42a-bcda3f335c15",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "last_analytics_date"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "77f08782-5ac7-43ed-8a34-22d9d0ad0316",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "day_count"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "509a2567-d389-451d-a667-8ec771a3c348",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Records"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "2a8aa75f-79ae-4fd1-9cf1-b3a4467ab1c6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Anatolian Psych Rock Lab — @anatolianlab"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c9c478a3-7217-457c-9246-845a744ab02c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCRCIhtytR5ID-imwSIvHAOQ\",\"title\":\"Anatolian Psych Rock Lab\",\"handle\":\"@anatolianlab\",\"subscribers\":304000,\"total_views\":216270513,\"declared_video_count\":142,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":10247428,\"revenue_window\":4506.91,\"net_subs_window\":4599,\"avg_cpm\":1.296,\"last_analytics_date\":\"2026-05-27\",\"day_count\":28}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5348d746-f5e8-4834-ba00-6f1db9d0d601",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Zaruret Records — @zaruret"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e0fa466c-bc3f-440c-a891-fe5e40af88f0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCIE9zgCYFKd-GLQX5jwhceA\",\"title\":\"Zaruret Records\",\"handle\":\"@zaruret\",\"subscribers\":51100,\"total_views\":4949328,\"declared_video_count\":103,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":31602,\"revenue_window\":108.01,\"net_subs_window\":78,\"avg_cpm\":4.168,\"last_analytics_date\":\"2026-05-27\",\"day_count\":28}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "07f68a85-2e5c-4b0d-a22d-5370f26e2f51",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Psychedelic Dervish — @psydervish"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e53cb85c-bac0-4a7d-9607-ac3f18604fc4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCsIobqpu6473IV1IMLh17KA\",\"title\":\"Psychedelic Dervish\",\"handle\":\"@psydervish\",\"subscribers\":35000,\"total_views\":2689568,\"declared_video_count\":47,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":38454,\"revenue_window\":116.12,\"net_subs_window\":286,\"avg_cpm\":3.225,\"last_analytics_date\":\"2026-05-27\",\"day_count\":28}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "6ebf9502-7455-4264-91b2-b5a5f8ff596d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Cönk'n Roll — @conknroll"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "fb21f9e7-c419-427a-bc10-ad8732c8a666",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UC2qvzCUbvRte9GnC3W8gExQ\",\"title\":\"Cönk'n Roll\",\"handle\":\"@conknroll\",\"subscribers\":33000,\"total_views\":64225,\"declared_video_count\":5,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":3232,\"revenue_window\":0,\"net_subs_window\":57,\"avg_cpm\":null,\"last_analytics_date\":\"2026-05-27\",\"day_count\":28}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "fbb5693e-06a7-4fe1-9c4a-3a21675dc536",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Anatolyas Records — @anatolyas"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "56789822-582a-426a-bf00-9e8f65a36251",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCGgNiFs6DZ6ivDk4RxENDzQ\",\"title\":\"Anatolyas Records\",\"handle\":\"@anatolyas\",\"subscribers\":25600,\"total_views\":1739491,\"declared_video_count\":316,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":12339,\"revenue_window\":29.39,\"net_subs_window\":65,\"avg_cpm\":3.804,\"last_analytics_date\":\"2026-05-27\",\"day_count\":28}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "68467ef4-85e5-4b48-97f8-8e49d7eddd55",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sarmal — @sarmalband"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "139ad925-a463-4100-b18d-0d980e6957b7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCop_z_mtOeM7lRG84sk8Twg\",\"title\":\"Sarmal\",\"handle\":\"@sarmalband\",\"subscribers\":13900,\"total_views\":148,\"declared_video_count\":1,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":null,\"revenue_window\":null,\"net_subs_window\":null,\"avg_cpm\":null,\"last_analytics_date\":null,\"day_count\":null}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "284c1af7-1583-4c01-9a5e-ce8f3f2ae77e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Camelogia Music Lab — @camelogia"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "89cfb181-7dd9-4873-a57e-bce4dcf8339a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCukhXIInQsJrnQwwciw-zuQ\",\"title\":\"Camelogia Music Lab\",\"handle\":\"@camelogia\",\"subscribers\":10300,\"total_views\":503009,\"declared_video_count\":12,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":4187,\"revenue_window\":15.38,\"net_subs_window\":-4,\"avg_cpm\":3.891,\"last_analytics_date\":\"2026-05-27\",\"day_count\":28}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "afcdc827-4cbc-45ad-abb5-668f2e2dd134",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "şehir bezginleri — @sehirbezginleri"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "96d4ed60-369f-493a-873b-b77c2065818d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCC3pfQVmYZQm4Jw0bbcsnWw\",\"title\":\"şehir bezginleri\",\"handle\":\"@sehirbezginleri\",\"subscribers\":2310,\"total_views\":705,\"declared_video_count\":1,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":null,\"revenue_window\":null,\"net_subs_window\":null,\"avg_cpm\":null,\"last_analytics_date\":null,\"day_count\":null}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ffbce570-39f3-4a1f-a98a-f368bf6fa662",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "The Goa Galaxy — @thegoagalaxy"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e626179a-e008-4652-a051-0a74dc9d60a5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCQXF45ttLQyZ2yM-fpesdHQ\",\"title\":\"The Goa Galaxy\",\"handle\":\"@thegoagalaxy\",\"subscribers\":2010,\"total_views\":47897,\"declared_video_count\":7,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":1229,\"revenue_window\":0,\"net_subs_window\":1,\"avg_cpm\":null,\"last_analytics_date\":\"2026-05-27\",\"day_count\":28}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a2b962d1-0ea5-4ee0-a8fe-87165ba3b1fe",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Anatolian Star — @theanatolianstar"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "25c8fbc0-8428-433c-a88f-7782641ba939",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCHYFMAR9TytFfiBrs8ghlGg\",\"title\":\"Anatolian Star\",\"handle\":\"@theanatolianstar\",\"subscribers\":1530,\"total_views\":0,\"declared_video_count\":0,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":null,\"revenue_window\":null,\"net_subs_window\":null,\"avg_cpm\":null,\"last_analytics_date\":null,\"day_count\":null}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7fa7a79d-994a-4dcd-83fe-843bfe9977fa",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SABOR. — @saborsound"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1fa21d36-bd5f-47f1-a424-902cbd35f52e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCYhpgN9ZaorEtK3ReS_IaBA\",\"title\":\"SABOR.\",\"handle\":\"@saborsound\",\"subscribers\":1320,\"total_views\":26851,\"declared_video_count\":2,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":426,\"revenue_window\":0,\"net_subs_window\":3,\"avg_cpm\":null,\"last_analytics_date\":\"2026-05-27\",\"day_count\":28}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8d17f425-75ba-415d-b3e2-1fc3e6c6d7b1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Daily Music Discovery — @lihyani"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1c79b4b1-e427-48ab-9675-1f56252d558f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCdvxRIf5rN2NwUaADcHvjbw\",\"title\":\"Daily Music Discovery\",\"handle\":\"@lihyani\",\"subscribers\":519,\"total_views\":0,\"declared_video_count\":0,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":null,\"revenue_window\":null,\"net_subs_window\":null,\"avg_cpm\":null,\"last_analytics_date\":null,\"day_count\":null}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ee132593-81de-4a48-9122-705189981597",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Hot Hits Türkiye — @hothitsturkiye"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "5281db4a-298b-441e-8502-c0704aca04dc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCw9a1eOAOcr9suinGsMGnVg\",\"title\":\"Hot Hits Türkiye\",\"handle\":\"@hothitsturkiye\",\"subscribers\":417,\"total_views\":92447,\"declared_video_count\":7,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":679,\"revenue_window\":0,\"net_subs_window\":0,\"avg_cpm\":null,\"last_analytics_date\":\"2026-05-27\",\"day_count\":28}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "82b53215-28eb-43b9-8caf-6e0641183b61",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Smoke Jazz Sessions — @smokejazzsessions"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "753f3277-2164-43f2-b065-7c50076940af",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCixXfh9-Vou8eSfWprU8W0w\",\"title\":\"Smoke Jazz Sessions\",\"handle\":\"@smokejazzsessions\",\"subscribers\":369,\"total_views\":1051,\"declared_video_count\":6,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":null,\"revenue_window\":null,\"net_subs_window\":null,\"avg_cpm\":null,\"last_analytics_date\":null,\"day_count\":null}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d3158fd2-1af4-4f30-bbab-a04d3e210e34",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Lofi Dervish — @lofidervish"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ef2bf18b-eb0e-44db-9b54-42f47fd1b534",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCRTmma-d-NwiDR1slDy6E9A\",\"title\":\"Lofi Dervish\",\"handle\":\"@lofidervish\",\"subscribers\":52,\"total_views\":197,\"declared_video_count\":4,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":null,\"revenue_window\":null,\"net_subs_window\":null,\"avg_cpm\":null,\"last_analytics_date\":null,\"day_count\":null}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0d8f8aa3-a9c4-43f5-87f4-b43cf834c9cd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Heingart. — @heingart"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0f198455-8f9c-4c8a-ba9b-649bd462bbfb",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"channel_id\":\"UCHmWnuEJxBv9BI9hrb86Q5w\",\"title\":\"Heingart.\",\"handle\":\"@heingart\",\"subscribers\":3,\"total_views\":91,\"declared_video_count\":1,\"in_data_api\":true,\"in_analytics_api\":true,\"snapshot_date\":\"2026-05-30\",\"views_window\":null,\"revenue_window\":null,\"net_subs_window\":null,\"avg_cpm\":null,\"last_analytics_date\":null,\"day_count\":null}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "8733ee89-66c1-4ecd-9198-b81a54b9cd15",
+            "text": {
+              "ops": [
+                {
+                  "insert": "KARARGAH Import 2026-06-28T220426Z Kaynak tablo: "
+                },
+                {
+                  "insert": "youtube_analyses"
+                },
+                {
+                  "insert": "; satır: 16 Not: DuckDB canlı YouTube snapshot ayrı doğrulandı: channels=16, videos=654, daily_metric_rows=510. Rollback: bu parent altındaki import kayıtlarını sil."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "31048572-e022-4913-9cf2-0ccdd61f4d21",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube analyses batch 1 (1-8/16) Kaynak: tables/053_youtube_analyses.json"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9c5d5e67-3e08-44be-866f-3eea9f7891fd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCRCIhtytR5ID-imwSIvHAOQ | report=2026-05-31T22:01:02.069274 | v=5 | Kontrollü Diriliş"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "69d7c04c-6c4e-4578-a548-a8084b799dcd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCIE9zgCYFKd-GLQX5jwhceA | report=2026-06-01T03:16:31.671434 | v=5 | Uyuyan Dev"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "206b75c8-27e3-4289-bf0c-37ad87f6ddd7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCsIobqpu6473IV1IMLh17KA | report=2026-06-01T05:01:00.879470 | v=5 | Türün Sahibi"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2c9cd849-8dfd-4b61-bffe-f6f42d996607",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UC2qvzCUbvRte9GnC3W8gExQ | report=2026-06-01T05:14:56.671602 | v=5 | Kapalı Musluk"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "571355f2-b540-4476-9340-a50c0c721354",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCGgNiFs6DZ6ivDk4RxENDzQ | report=2026-06-01T05:21:52.405455 | v=5 | Uyuyan Altın Madeni"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1d9c13d6-bdd6-4311-b5ea-49157ed6ffa7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCop_z_mtOeM7lRG84sk8Twg | report=2026-06-01T05:27:20.525067 | v=5 | Boş Fırlatma Rampası"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "aac93c99-f46e-4216-a065-141d85b59fdb",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCukhXIInQsJrnQwwciw-zuQ | report=2026-06-01T05:35:07.418870 | v=5 | Kanıtlanmış Prototip"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "30ff4923-3f0f-44c5-94e0-28c80be3eced",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCC3pfQVmYZQm4Jw0bbcsnWw | report=2026-06-01T05:43:00.267275 | v=5 | Dolu Salon, Tek Şarkı"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9f9b9eac-76b6-415a-b6fc-1188cf9da2e3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube analyses batch 2 (9-16/16) Kaynak: tables/053_youtube_analyses.json"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "523c8180-22b4-4a78-98f4-fdc0d28d6cd7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCQXF45ttLQyZ2yM-fpesdHQ | report=2026-06-01T05:49:32.922348 | v=5 | Terk Edilmiş Damar"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "7c2ac0cb-16f0-4968-a8a1-ae518d10939b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCHYFMAR9TytFfiBrs8ghlGg | report=2026-06-01T05:57:42.300735 | v=5 | Beyaz Tuval"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e6d7fc67-9a99-4f00-ba42-07d5c9272f4f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCYhpgN9ZaorEtK3ReS_IaBA | report=2026-06-01T06:05:10.474505 | v=5 | Uyuyan Ateş"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "86184905-ae46-46c7-bd8b-69fcf9b71c8e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCw9a1eOAOcr9suinGsMGnVg | report=2026-06-01T07:23:54.804926 | v=5 | Uyuyan Hit Motoru"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e45ec231-871a-4a16-be92-7b3b0f70dc07",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCixXfh9-Vou8eSfWprU8W0w | report=2026-06-01T07:23:54.867278 | v=5 | Premium Niş Fidesi"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b0af4a20-8064-4437-9f79-98c02bbc8b87",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCRTmma-d-NwiDR1slDy6E9A | report=2026-06-01T07:23:54.943183 | v=5 | Dağınık Tohum"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "61befe80-b0dc-4453-8f1e-a6cb4aadb734",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCHmWnuEJxBv9BI9hrb86Q5w | report=2026-06-01T07:23:55.002960 | v=5 | Kimlik Arayışı"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "37ad5315-e356-47ed-9269-cf8b610473a9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UCdvxRIf5rN2NwUaADcHvjbw | report=2026-06-01T07:23:55.066174 | v=5 | Uyuyan Tohum"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "💪"
+    }
+  }
+}

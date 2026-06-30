@@ -1,0 +1,118 @@
+{
+  "version": "2",
+  "flowTitle": "MİHENK — Nightly Export / Backup",
+  "trigger": {
+    "valid": true,
+    "displayName": "Her gece 03:00'da çalış",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.daily",
+      "input": {
+        "timezone": "Europe/Istanbul",
+        "timeOfDay": "3:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "328e9807-fc37-4606-af92-91cbe7e99f04-outer",
+      "valid": true,
+      "displayName": "Her proje için export",
+      "type": "LOOP",
+      "settings": {},
+      "iteration": {
+        "name": "328e9807-fc37-4606-af92-91cbe7e99f04",
+        "valid": true,
+        "displayName": "Her proje için export Iteration",
+        "type": "LOOP_ITERATION",
+        "loopVariable": {
+          "type": "manual",
+          "items": [
+            {
+              "id": "2a1e2dcc-1d65-45b0-b083-bd60f45dea36",
+              "value": "w5EPpzmGJ3pnwZtS"
+            },
+            {
+              "id": "270e59ab-6dd9-496e-a66a-dcf756791f75",
+              "value": "ZHw56T7Z3B4WymwS"
+            },
+            {
+              "id": "968ea6aa-3f12-4f85-b84f-a9b987122bb3",
+              "value": "Ba6qULrBj9iCmoBw"
+            },
+            {
+              "id": "4dbc2fac-6fa3-401e-a1d7-e4d8a146cd6e",
+              "value": "qujHhVX1pJpC2Jh4"
+            },
+            {
+              "id": "477a3f18-ccbc-460d-b208-7542c75e7aad",
+              "value": "dBt8bMYNG8aL41Fv"
+            },
+            {
+              "id": "00205cc1-e50e-4e27-9324-9b132f4cbe30",
+              "value": "JYDvWUVTRtjtN9Hx"
+            },
+            {
+              "id": "b3ed62f1-31e2-4b91-8de2-3afbd215a3e8",
+              "value": "CYeN3eSk4BASymrF"
+            },
+            {
+              "id": "7432994b-07f6-443e-a469-a94de12c6a54",
+              "value": "yEjrmczcFwSrYQBn"
+            },
+            {
+              "id": "91cbad09-587b-4838-8bbf-6e98435e179d",
+              "value": "FwJpuE4BjZoB7zif"
+            }
+          ]
+        },
+        "actions": [
+          {
+            "name": "f2c3ba79-d4a1-48f5-ac57-8f65912193b0",
+            "valid": true,
+            "displayName": "Projeyi Markdown olarak export et",
+            "type": "PIECE",
+            "settings": {
+              "pieceName": "@taskade/automade-internalpiece-taskade",
+              "pieceVersion": "1.0.0",
+              "actionName": "project.export",
+              "input": {
+                "format": "markdown",
+                "projectId": "{{ 328e9807-fc37-4606-af92-91cbe7e99f04-loop[\"currentElement\"] }}"
+              }
+            }
+          },
+          {
+            "name": "55b6a1e8-02d9-4bf4-98a2-643e79077643",
+            "valid": false,
+            "displayName": "Backup kaydını oluştur",
+            "type": "PIECE",
+            "settings": {
+              "pieceName": "@taskade/automade-internalpiece-taskade",
+              "pieceVersion": "1.0.0",
+              "actionName": "task.create",
+              "input": {
+                "content": "📦 {{ f2c3ba79-d4a1-48f5-ac57-8f65912193b0[\"title\"] }} — Backup\n\n{{ f2c3ba79-d4a1-48f5-ac57-8f65912193b0[\"content\"] }}",
+                "position": "afterbegin",
+                "projectId": {
+                  "type": "flow-template-variable-input-type",
+                  "id": "paPGvkBbBZiw9763"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "variables": {
+    "paPGvkBbBZiw9763": {
+      "id": "paPGvkBbBZiw9763",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

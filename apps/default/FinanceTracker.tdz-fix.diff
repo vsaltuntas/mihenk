@@ -1,0 +1,24 @@
+diff --git a/apps/default/src/components/FinanceTracker.tsx b/apps/default/src/components/FinanceTracker.tsx
+index cf320d0..9160ea9 100644
+--- a/apps/default/src/components/FinanceTracker.tsx
++++ b/apps/default/src/components/FinanceTracker.tsx
+@@ -77,6 +77,9 @@ export default function FinanceTracker() {
+   const [addSaving, setAddSaving] = useState(false);
+   const [showDuplicates, setShowDuplicates] = useState(false);
+ 
++  const records = ensureArray(rawRecords);
++  const accounts = ensureArray(rawAccounts);
++
+   // Duplicate detection
+   const duplicates = useMemo(() => {
+     const seen = new Map<string, HayatFinanceRecord[]>();
+@@ -90,9 +93,6 @@ export default function FinanceTracker() {
+     return dups;
+   }, [records]);
+ 
+-  const records = ensureArray(rawRecords);
+-  const accounts = ensureArray(rawAccounts);
+-
+   const stats = useMemo(() => {
+     const gelir = records.filter(r => r.type === 'income').reduce((s, r) => s + Number(r.amount || 0), 0);
+     const gider = records.filter(r => r.type === 'expense').reduce((s, r) => s + Number(r.amount || 0), 0);

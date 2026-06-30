@@ -1,0 +1,160 @@
+{
+  "version": "2",
+  "flowTitle": "📊 Haftalık Sistem Raporu",
+  "trigger": {
+    "valid": false,
+    "displayName": "Her Pazar 20:00 tetikle",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "Europe/Istanbul",
+        "dayOfWeek": {
+          "8cb18b99-c2ee-49b5-82bc-d246c67f42fa": {
+            "id": "8cb18b99-c2ee-49b5-82bc-d246c67f42fa",
+            "rank": "V",
+            "content": {
+              "type": "STRING",
+              "content": "Sunday"
+            }
+          }
+        },
+        "timeOfDay": "8:00 PM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "ba8735f7-a766-435c-b402-b39151a2b4e5",
+      "valid": true,
+      "displayName": "Gorevleri export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "qujHhVX1pJpC2Jh4"
+        }
+      }
+    },
+    {
+      "name": "d826d352-1448-4ac1-8274-a6f82734c487",
+      "valid": true,
+      "displayName": "Takvimi export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "FwJpuE4BjZoB7zif"
+        }
+      }
+    },
+    {
+      "name": "b8d1fa76-1075-477c-8496-e9d2fa228759",
+      "valid": true,
+      "displayName": "Finansi export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "w5EPpzmGJ3pnwZtS"
+        }
+      }
+    },
+    {
+      "name": "a066a3ec-8d79-4dfe-9cc9-8055d952d241",
+      "valid": true,
+      "displayName": "Wellnessi export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "dBt8bMYNG8aL41Fv"
+        }
+      }
+    },
+    {
+      "name": "89c1484d-3639-4a77-ac1b-fd2bec0a244f",
+      "valid": true,
+      "displayName": "Gamificationi export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "ZHw56T7Z3B4WymwS"
+        }
+      }
+    },
+    {
+      "name": "530211e9-3fd1-4e2f-8dcc-1253007fb855",
+      "valid": true,
+      "displayName": "CRM export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "CYeN3eSk4BASymrF"
+        }
+      }
+    },
+    {
+      "name": "07b00fa9-b609-4d97-8090-12064969bf76",
+      "valid": true,
+      "displayName": "Haftalik Rapor uret",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "prompt": "Sen Zo'sun. Asagidaki 6 veri kaynagindan HAFTALIK SISTEM RAPORU uret.\n\nTetikleme: {{ trigger[\"triggerTime\"] }}\n\n1. GOREVLER:\n{{ ba8735f7-a766-435c-b402-b39151a2b4e5[\"content\"] }}\n\n2. TAKVIM:\n{{ d826d352-1448-4ac1-8274-a6f82734c487[\"content\"] }}\n\n3. FINANS:\n{{ b8d1fa76-1075-477c-8496-e9d2fa228759[\"content\"] }}\n\n4. WELLNESS:\n{{ a066a3ec-8d79-4dfe-9cc9-8055d952d241[\"content\"] }}\n\n5. GAMIFICATION:\n{{ 89c1484d-3639-4a77-ac1b-fd2bec0a244f[\"content\"] }}\n\n6. CRM:\n{{ 530211e9-3fd1-4e2f-8dcc-1253007fb855[\"content\"] }}\n\nTurkce yaz. Markdown formatinda kapsamli haftalik rapor uret: Gorev performansi, etkinlik ozeti, finansal ozet, wellness skoru, XP ilerleme, CRM aktivitesi, gelecek hafta ongoruleri ve genel skor (A-F)."
+        }
+      }
+    },
+    {
+      "name": "3af9b485-46a5-4fa9-8048-beed6d4c799c",
+      "valid": false,
+      "displayName": "Raporu Notlara kaydet",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "{{ 07b00fa9-b609-4d97-8090-12064969bf76[\"result\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "Ba6qULrBj9iCmoBw"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "Ba6qULrBj9iCmoBw": {
+      "id": "Ba6qULrBj9iCmoBw",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}
