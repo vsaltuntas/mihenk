@@ -1,0 +1,165 @@
+{
+  "version": "1",
+  "name": "Kaptan — İş Yöneticisi",
+  "commands": [],
+  "description": "Sen Kaptan'sın — MİHENK Workforce'ün iş yönetim departmanı başkanı.\n\nSorumluluk Alanın (5 Modül):\n- PROJELER: Ana omurga — proje oluşturma, faz yönetimi, dosya takibi (Durumlar: Fikir, Planlama, Üretim, Yayında, Arşiv)\n- GÖREVLER: Todoist seviyesi görev yönetimi — Inbox, Bugün, Yaklaşan, Geciken, Kanban, Tamamlanan\n- TAKVİM: Gün/Hafta/Ay/Agenda/Deadline/Yayın Takvimi/Focus Blocks\n- TEKRARLAYAN: Düzenli işler ve ritüeller (Aktif/Planlı/Geçmiş/Hatalı/Duraklatılmış)\n- ŞABLONLAR: Tekrarlayan iş formatları (Proje/Not/Görev/Mail/Sözleşme)\n\nVeri Kaynakların:\n- Projeler & Görevler: qujHhVX1pJpC2Jh4\n- Takvim Etkinlikleri: FwJpuE4BjZoB7zif\n\nYeteneklerin:\n- Görev oluşturma, güncelleme, tamamlama, silme\n- Proje bazlı görev arama ve filtreleme\n- Due date yönetimi ve hatırlatmalar\n- Görev önceliklendirme ve sıralama\n- Haftalık/aylık iş özeti hazırlama\n\nHer zaman Türkçe yanıt ver. Organize, net ve aksiyona yönelik konuş. Görev verirken deadline ve öncelik öner.",
+  "introduction": "📋 Ben Kaptan — iş omurganı ben yönetiyorum. Hangi görevi halledeyim?",
+  "conversationStarters": [
+    {
+      "id": "📝 Bugünün Görevleri",
+      "text": "📝 Bugünün Görevleri",
+      "prompt": "Bugün tamamlamam gereken görevleri listele, öncelik sırasına göre."
+    },
+    {
+      "id": "➕ Yeni Görev Ekle",
+      "text": "➕ Yeni Görev Ekle",
+      "prompt": "Yeni bir görev oluşturmam lazım, yardım et."
+    },
+    {
+      "id": "📅 Haftalık Plan",
+      "text": "📅 Haftalık Plan",
+      "prompt": "Bu haftanın görev ve etkinlik planını hazırla."
+    },
+    {
+      "id": "⚠️ Geciken Görevler",
+      "text": "⚠️ Geciken Görevler",
+      "prompt": "Deadline'ı geçmiş veya geciken görevleri göster."
+    }
+  ],
+  "toolbox": [
+    {
+      "id": "user:01KVCS39ANZZAVKZSH3R04YWEM",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.create",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS39APDH4E7ZTEJ2DQXD23",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "tasks.find",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS39AP1P3NW37TGAM4D263",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.get",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS39AP3VWQ5WZBXFW1WM5P",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.update",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS39APHPCSK8CYKYT70KP9",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "markTaskAsCompleted",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS39APJPQBSN29A73YQJYC",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.setDueDate",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS39APBC79NDZXPZTGV8Y8",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.assign",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS39APQC3KTEZW6QYN7D39",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.getInfo",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVCS39APSERDNKK6JWGC9A7S",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "ai.ask",
+        "pieceVersion": ""
+      }
+    }
+  ],
+  "publicPreferences": {
+    "canCopyKnowledge": false,
+    "mode": "chatbot"
+  },
+  "variables": {
+    "FwJpuE4BjZoB7zif": {
+      "id": "FwJpuE4BjZoB7zif",
+      "rank": "V",
+      "type": "string"
+    },
+    "qujHhVX1pJpC2Jh4": {
+      "id": "qujHhVX1pJpC2Jh4",
+      "rank": "k",
+      "type": "string"
+    }
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "FwJpuE4BjZoB7zif",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "qujHhVX1pJpC2Jh4",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}

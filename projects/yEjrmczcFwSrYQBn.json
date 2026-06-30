@@ -1,0 +1,1393 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a0000006-0001-4001-8001-000000000006",
+        "text": {
+          "ops": [
+            {
+              "insert": "🎵 Katalog — Sanatçılar"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "d1000001-0001-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Fly Me",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@atype": {
+                "type": "Select",
+                "optionId": "at-grup"
+              },
+              "@aorigj": {
+                "type": "Select",
+                "optionId": "ao-kurgusal"
+              },
+              "@agenr": "Indie Pop / Dream Pop",
+              "@asonc": "BPM: 120-135, Key: C Major, Ethereal synths",
+              "@mhkid": "mihenk_katalog_01JWNE5KA1FlyMe"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1000002-0001-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Concubanas",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@atype": {
+                "type": "Select",
+                "optionId": "at-grup"
+              },
+              "@aorigj": {
+                "type": "Select",
+                "optionId": "ao-kurgusal"
+              },
+              "@agenr": "Latin Pop / Tropical",
+              "@asonc": "BPM: 100-120, Key: A Minor, Bossa nova guitar",
+              "@mhkid": "mihenk_katalog_01JWNE5KA2Concu"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1000003-0001-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "K.Tangözess",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@atype": {
+                "type": "Select",
+                "optionId": "at-solo"
+              },
+              "@aorigj": {
+                "type": "Select",
+                "optionId": "ao-kurgusal"
+              },
+              "@agenr": "Anatolian Rock / Psychedelic",
+              "@asonc": "BPM: 110-140, Key: D Minor, Bağlama + Electric guitar",
+              "@mhkid": "mihenk_katalog_01JWNE5KA3KTang"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1000004-0001-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Zülfü Livaneli",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@atype": {
+                "type": "Select",
+                "optionId": "at-solo"
+              },
+              "@aorigj": {
+                "type": "Select",
+                "optionId": "ao-gercek"
+              },
+              "@agenr": "Turkish Folk / Classical",
+              "@asonc": "BPM: 80-100, Key: E Minor, Saz + Orchestra",
+              "@mhkid": "mihenk_katalog_01JWNE5KA4Zulfu"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d1000005-0001-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Ahmet Kaya",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@atype": {
+                "type": "Select",
+                "optionId": "at-solo"
+              },
+              "@aorigj": {
+                "type": "Select",
+                "optionId": "ao-gercek"
+              },
+              "@agenr": "Protest / Turkish Folk Rock",
+              "@asonc": "BPM: 90-120, Key: A Minor, Raw vocals + Bağlama",
+              "@mhkid": "mihenk_katalog_01JWNE5KA5Ahmet"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d33045a1-c880-421e-af05-a4b8b923718b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Tarkan"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@atype": {
+                "type": "Select",
+                "optionId": "at-solo"
+              },
+              "@agenr": "Türkçe Pop",
+              "@aorigj": {
+                "type": "Select",
+                "optionId": "ao-kurgusal"
+              },
+              "@asonc": "türkçe pop",
+              "@mhkid": "mihenk_katalog_01JWNE5KA6Tarkn"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "eb28a260-77db-4a11-b36b-469f28887cbf",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Deneme"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@atype": {
+                "type": "Select",
+                "optionId": "at-solo"
+              },
+              "@aorigj": {
+                "type": "Select",
+                "optionId": "ao-gercek"
+              },
+              "@agenr": "Rock",
+              "@abio": "denememeleelee not",
+              "@mhkid": "mihenk_katalog_MQHUTECM"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "01f79093-cfb2-40e3-89bc-0ff6dbb2628a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "KARARGAH Import 2026-06-28T220426Z Kaynak tablo: "
+                },
+                {
+                  "insert": "catalog_artists_local"
+                },
+                {
+                  "insert": "; satır: 8 Rollback: bu parent altındaki import kayıtlarını sil."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "96657472-1b2a-4549-811e-a978fb2031fd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Artist: Nikbinler id=artist_nikbinler; origin=real; color=#E63946; created_at=2026-03-28 20:01:32; updated_at=2026-04-17 14:17:35"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "8f31d926-e768-427b-a313-4f583999f6d5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Artist: Anatolian Psych Rock Lab id=artist_aprl; alias=APRL; origin=real; color=#8B5CF6; link_youtube="
+                    },
+                    {
+                      "insert": "https://youtube.com/@AnatolianPsychRockLab",
+                      "attributes": {
+                        "link": "https://youtube.com/@AnatolianPsychRockLab"
+                      }
+                    },
+                    {
+                      "insert": "; created_at=2026-03-28 20:02:31"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "fbac9d59-d918-4253-b491-b3fa37fcd297",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Artist: Psychedelic Dervish id=artist_psychdervish; alias=PD; origin=real; color=#7B68EE; link_youtube="
+                    },
+                    {
+                      "insert": "https://youtube.com/@PsychedelicDervish",
+                      "attributes": {
+                        "link": "https://youtube.com/@PsychedelicDervish"
+                      }
+                    },
+                    {
+                      "insert": "; created_at=2026-03-28 20:02:37"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "40c92c25-1f02-45a2-8421-4d1faa4c731f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Artist: Şehir Bezginleri id=artist_sehirbezginleri; origin=fictional; color=#1A1A2E; created_at=2026-03-28 20:05:00"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "20c1bcc6-b86f-4d9c-98e6-698bc7e6f5cc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Artist: MARKUT id=artist_markut; origin=fictional; color=#DC2626; created_at=2026-03-28 20:05:06"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "51b664db-0bd6-4422-a53c-d14d6323d995",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Artist: Velvet Parish id=artist_velvetparish; origin=fictional; color=#C084FC; created_at=2026-03-28 20:05:11"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "12d828df-6e10-4dca-9e21-15085a52d588",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Artist: Concubanas id=artist_concubanas; origin=fictional; color=#F59E0B; created_at=2026-03-28 20:05:15"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c7d3f3de-6741-41b7-84ef-dce2b283cdca",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Artist: SARMAL id=c6bf753e72b14ba99ebb3d73d7b71e35; alias=SARMAL; origin=fictional; color=#9a7a3a; created_at=2026-04-06 23:07:34; updated_at=2026-04-06 23:08:35"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@atype": {
+            "id": "/attributes/@atype",
+            "fieldPath": "/attributes/@atype",
+            "rank": "z"
+          },
+          "/attributes/@aorigj": {
+            "id": "/attributes/@aorigj",
+            "fieldPath": "/attributes/@aorigj",
+            "rank": "zV"
+          },
+          "/attributes/@agenr": {
+            "id": "/attributes/@agenr",
+            "fieldPath": "/attributes/@agenr",
+            "rank": "zk"
+          },
+          "/attributes/@abio": {
+            "id": "/attributes/@abio",
+            "fieldPath": "/attributes/@abio",
+            "rank": "zs"
+          },
+          "/attributes/@asonc": {
+            "id": "/attributes/@asonc",
+            "fieldPath": "/attributes/@asonc",
+            "rank": "zw"
+          },
+          "d99cbf9e-c359-4686-94a4-adc35f42b55a": {
+            "id": "d99cbf9e-c359-4686-94a4-adc35f42b55a",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@atype": {
+            "id": "/attributes/@atype",
+            "fieldPath": "/attributes/@atype",
+            "rank": "z"
+          },
+          "/attributes/@aorigj": {
+            "id": "/attributes/@aorigj",
+            "fieldPath": "/attributes/@aorigj",
+            "rank": "zV"
+          },
+          "/attributes/@agenr": {
+            "id": "/attributes/@agenr",
+            "fieldPath": "/attributes/@agenr",
+            "rank": "zk"
+          },
+          "/attributes/@abio": {
+            "id": "/attributes/@abio",
+            "fieldPath": "/attributes/@abio",
+            "rank": "zs"
+          },
+          "/attributes/@asonc": {
+            "id": "/attributes/@asonc",
+            "fieldPath": "/attributes/@asonc",
+            "rank": "zw"
+          },
+          "d8a9e9a3-f410-49fd-8163-bc764daae856": {
+            "id": "d8a9e9a3-f410-49fd-8163-bc764daae856",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@atype": {
+            "id": "/attributes/@atype",
+            "fieldPath": "/attributes/@atype",
+            "rank": "z"
+          },
+          "/attributes/@aorigj": {
+            "id": "/attributes/@aorigj",
+            "fieldPath": "/attributes/@aorigj",
+            "rank": "zV"
+          },
+          "/attributes/@agenr": {
+            "id": "/attributes/@agenr",
+            "fieldPath": "/attributes/@agenr",
+            "rank": "zk"
+          },
+          "/attributes/@abio": {
+            "id": "/attributes/@abio",
+            "fieldPath": "/attributes/@abio",
+            "rank": "zs"
+          },
+          "/attributes/@asonc": {
+            "id": "/attributes/@asonc",
+            "fieldPath": "/attributes/@asonc",
+            "rank": "zw"
+          },
+          "89fab823-d2c5-4843-88fb-5d25b1993a2d": {
+            "id": "89fab823-d2c5-4843-88fb-5d25b1993a2d",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@atype": {
+            "id": "/attributes/@atype",
+            "fieldPath": "/attributes/@atype",
+            "rank": "z"
+          },
+          "/attributes/@aorigj": {
+            "id": "/attributes/@aorigj",
+            "fieldPath": "/attributes/@aorigj",
+            "rank": "zV"
+          },
+          "/attributes/@agenr": {
+            "id": "/attributes/@agenr",
+            "fieldPath": "/attributes/@agenr",
+            "rank": "zk"
+          },
+          "/attributes/@abio": {
+            "id": "/attributes/@abio",
+            "fieldPath": "/attributes/@abio",
+            "rank": "zs"
+          },
+          "/attributes/@asonc": {
+            "id": "/attributes/@asonc",
+            "fieldPath": "/attributes/@asonc",
+            "rank": "zw"
+          },
+          "c40dcbea-5163-4ecf-ab03-82d9914f54ba": {
+            "id": "c40dcbea-5163-4ecf-ab03-82d9914f54ba",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@atype": {
+            "id": "/attributes/@atype",
+            "fieldPath": "/attributes/@atype",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@aorigj": {
+            "id": "/attributes/@aorigj",
+            "fieldPath": "/attributes/@aorigj",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@agenr": {
+            "id": "/attributes/@agenr",
+            "fieldPath": "/attributes/@agenr",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@abio": {
+            "id": "/attributes/@abio",
+            "fieldPath": "/attributes/@abio",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@asonc": {
+            "id": "/attributes/@asonc",
+            "fieldPath": "/attributes/@asonc",
+            "rank": "zw",
+            "hidden": false
+          },
+          "df976225-3ea2-4a25-981a-4bdfb953173a": {
+            "id": "df976225-3ea2-4a25-981a-4bdfb953173a",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@atype": {
+            "id": "/attributes/@atype",
+            "fieldPath": "/attributes/@atype",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@aorigj": {
+            "id": "/attributes/@aorigj",
+            "fieldPath": "/attributes/@aorigj",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@agenr": {
+            "id": "/attributes/@agenr",
+            "fieldPath": "/attributes/@agenr",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@abio": {
+            "id": "/attributes/@abio",
+            "fieldPath": "/attributes/@abio",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@asonc": {
+            "id": "/attributes/@asonc",
+            "fieldPath": "/attributes/@asonc",
+            "rank": "zw",
+            "hidden": false
+          },
+          "369111f0-9ffd-4226-a11e-6aad7ad4edc3": {
+            "id": "369111f0-9ffd-4226-a11e-6aad7ad4edc3",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zy"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "da552516-fbd4-4625-ab86-065d33e7b0e9": {
+            "id": "da552516-fbd4-4625-ab86-065d33e7b0e9",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "z"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@atype": {
+        "type": "Select",
+        "displayName": "Tip",
+        "options": {
+          "at-solo": {
+            "id": "at-solo",
+            "name": "🎤 Solist",
+            "color": "#EC4899",
+            "rank": "0"
+          },
+          "at-grup": {
+            "id": "at-grup",
+            "name": "🎸 Grup",
+            "color": "#8B5CF6",
+            "rank": "1"
+          },
+          "at-ikili": {
+            "id": "at-ikili",
+            "name": "👥 İkili",
+            "color": "#3B82F6",
+            "rank": "2"
+          },
+          "at-topluluk": {
+            "id": "at-topluluk",
+            "name": "🎭 Topluluk",
+            "color": "#F59E0B",
+            "rank": "3"
+          },
+          "at-orkestra": {
+            "id": "at-orkestra",
+            "name": "🎻 Orkestra",
+            "color": "#10B981",
+            "rank": "4"
+          }
+        }
+      },
+      "@aorigj": {
+        "type": "Select",
+        "displayName": "Köken",
+        "options": {
+          "ao-gercek": {
+            "id": "ao-gercek",
+            "name": "🌍 Gerçek",
+            "color": "#10B981",
+            "rank": "0"
+          },
+          "ao-kurgusal": {
+            "id": "ao-kurgusal",
+            "name": "✨ Kurgusal",
+            "color": "#8B5CF6",
+            "rank": "1"
+          }
+        }
+      },
+      "@agenr": {
+        "type": "string",
+        "displayName": "Tür/Genre"
+      },
+      "@abio": {
+        "type": "string",
+        "displayName": "Biyografi"
+      },
+      "@asonc": {
+        "type": "string",
+        "displayName": "Sonic DNA"
+      },
+      "@mhkid": {
+        "type": "string",
+        "displayName": "MİHENK ID"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "💾"
+    }
+  }
+}

@@ -1,0 +1,1766 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a0000001-0001-4001-8001-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "MİHENK Module Inventory — Handoff #012"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "a0000001-0002-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TIER 1 — FULL_CRUD (10 Taskade-backed projects)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a1100001-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "NotesModule — FULL_CRUD ✅ C/R/U/D all wired, user confirmed",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1100002-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "GorevlerModule — FULL_CRUD ✅ C/R/U/D gorevler project",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1100003-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "FinanceTracker — FULL_CRUD ✅ C/R/U/D finans project",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1100004-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CalendarModule — PARTIAL_CRUD: C/R OK (Handoff#011), U/D missing in UI",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1100005-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "IdeasModule — PARTIAL_CRUD: C/R OK (Handoff#011), U/D missing in UI",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1100006-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "ProjectHub — PARTIAL_CRUD: C/R OK (Handoff#011), U/D missing in UI",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1100007-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CatalogModule — PARTIAL_CRUD: C/R artists+tracks, U/D artist only, track U/D missing",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1100008-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CrmModule — PARTIAL_CRUD: C/R contacts, U/D missing in UI",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1100009-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "WellnessZone — PARTIAL_CRUD: C/R moods, U/D missing in UI",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a0000002-0002-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TIER 2 — READ_ONLY dashboards (read live Taskade data, no create)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a2200001-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Dashboard (gun_masasi) — READ_ONLY: reads 7 data sources, updateTask only",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a2200002-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SabahBrifingi — READ_ONLY: reads tasks, finance, ideas, moods",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a2200003-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "AnalyticsHub — READ_ONLY: reads 14 data sources, computes stats",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a2200004-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "BilgiHaritasi — READ_ONLY: reads projects, notes, ideas",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a2200005-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SinyallerModule — READ_ONLY: reads tasks, events, notes, ideas, maestro",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a2200006-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YasamRaporu — READ_ONLY: reads moods, tasks",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a2200007-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "HizliGorev — WRITE_ONLY shortcut: createTask, no read",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a2200008-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "HizliNot — WRITE_ONLY shortcut: createNote, no read",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a0000003-0002-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TIER 3 — STUB_BACKEND (mihenkAPI stubs return [], no Taskade project)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a3300001-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTubeModule — STORAGE_PENDING: getYouTubeChannels/Videos → [] stub",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a3300002-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MaestroModule — STORAGE_PENDING: 5 Maestro stubs → [] / {}",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a3300003-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UretimlerModule — STORAGE_PENDING: getMaestroGenerations → [] stub",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a0000004-0002-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "TIER 4 — UI_ONLY (no mihenkAPI, hardcoded/static/placeholder)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a4400001-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "AjanKonseyi — UI_ONLY: hardcoded agent cards",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400002-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "AssistantChat (mihenk_asistani) — UI_ONLY: agent chat UI",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400003-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "AyarlarModule — UI_ONLY: settings UI, localStorage",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400004-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "BackupModule — UI_ONLY: no actual backup logic",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400005-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "BildirimMerkezi — UI_ONLY: hardcoded notifications",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400006-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CeliskiMotoru — UI_ONLY: placeholder",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400007-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "ChartmetricModule — PROVIDER_PENDING: needs Chartmetric API key",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400008-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CookbookModule — UI_ONLY: static recipes/patterns",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400009-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "DerinArastirma — UI_ONLY: placeholder research UI",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400010-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "DosyalarModule — STORAGE_PENDING: needs file storage backend",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400011-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "EnerjiModu — UI_ONLY: energy mode toggle, localStorage",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400012-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "ErisimModule — UI_ONLY: placeholder access control",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400013-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "FirsatlarModule — UI_ONLY: placeholder opportunities",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400014-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "GuvenlikModule — UI_ONLY: placeholder security",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400015-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "InboxMail — PROVIDER_PENDING: needs email provider",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400016-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KanitKuyrugu — UI_ONLY: placeholder evidence queue",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400017-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KapaliOda — UI_ONLY: placeholder private room",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400018-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KarsilastirModule — UI_ONLY: placeholder comparison",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400019-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KlipStudio — UI_ONLY: placeholder video studio",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400020-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KonserTur — UI_ONLY: placeholder concerts",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400021-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "LyricsLab — UI_ONLY: placeholder lyrics editor",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400022-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MadenModule — UI_ONLY: placeholder data mining",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400023-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MixRoom — UI_ONLY: placeholder mixing console",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400024-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "OnboardingModule — UI_ONLY: static onboarding wizard",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400025-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "OtomasyonlarModule — UI_ONLY: placeholder automations",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400026-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "PipelineModule — UI_ONLY: placeholder pipeline view",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400027-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "ReleaseRadar — UI_ONLY: placeholder release tracker",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400028-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SablonlarModule — UI_ONLY: static templates",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400029-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SesAnaliz — PROVIDER_PENDING: needs audio analysis API",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400030-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SistemNabzi — UI_ONLY: static system health",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400031-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SozlesmelerModule — UI_ONLY: placeholder contracts",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400032-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "StudyomModule — UI_ONLY: placeholder studio",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400033-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "TekrarlayanModule — UI_ONLY: placeholder recurring tasks",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400034-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "TurkuArsivi — UI_ONLY: placeholder folk archive",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400035-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "UygulamaAtolyesi — UI_ONLY: placeholder app workshop",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400036-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "VeriKazisi — UI_ONLY: placeholder data mining",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400037-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "VerseLab — UI_ONLY: placeholder verse builder",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400038-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Workforce — UI_ONLY: placeholder workforce management",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4400039-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YerImleri — UI_ONLY: placeholder bookmarks",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a0000005-0002-4001-8001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "BLOCKERS for production READY",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a5500001-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "AUTH/RBAC: No GenesisAuth, no per-user data isolation",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a5500002-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "FILE UPLOAD: DosyalarModule needs storage backend, no file upload infra",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a5500003-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "EXTERNAL PROVIDERS: Chartmetric, YouTube Data API, email provider need API keys",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a5500004-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MEDIA STORAGE: Audio/video assets need CDN or Taskade file hosting",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a5500005-0001-4001-8001-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "GRAPH VIZ: BilgiHaritasi needs real graph rendering, currently flat list",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "💚"
+    }
+  }
+}

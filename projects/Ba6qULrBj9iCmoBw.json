@@ -1,0 +1,1136 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a0000004-0001-4001-8001-000000000004",
+        "text": {
+          "ops": [
+            {
+              "insert": "📝 Notlar"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "e5d900e6-4114-4494-9bb1-df9d0d64e58f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "adsaa"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ndeft": {
+                "type": "Select",
+                "optionId": "nb-fikir"
+              },
+              "@ntype": {
+                "type": "Select",
+                "optionId": "nt-toplanti"
+              },
+              "@ncont": "asdadsad ",
+              "@ntags": "adadsd, sadad ,asdsad  ",
+              "@mhkid": "mihenk_notlar_01JWNE5KN1First"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "af650f79-fa27-44b2-b8f4-fd7d7ca9ce7f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ASDAD"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ncont": "SDAD",
+              "@ndeft": {
+                "type": "Select",
+                "optionId": "nb-kisisel"
+              },
+              "@ntype": {
+                "type": "Select",
+                "optionId": "nt-taslak"
+              },
+              "@ntags": "",
+              "@mhkid": "mihenk_not_MQH4P0TN"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "55d15153-a6ce-41c9-8cfe-9571f3946b51",
+            "text": {
+              "ops": [
+                {
+                  "insert": "KARARGAH Import 2026-06-28T220426Z Kaynak tablo: "
+                },
+                {
+                  "insert": "notes"
+                },
+                {
+                  "insert": "; satır: 6 Rollback: bu parent altındaki import kayıtlarını sil."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "9c200937-061d-410a-9c49-f1322249ff09",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Note: xsne eddk id=note_1774941099322_66viru; type=note; is_starred=0; created_at=2026-03-31T07:11:39.322Z; updated_at=2026-03-31 07:11:43"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c8120c76-b7f2-4ffa-8705-a1e893848326",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Note: SARMAL — Brand Identity Master Doc id=4d7f77bf-738f-4a7a-8bc2-63207e6b5686; type=note; is_starred=0; created_at=2026-04-06T22:42:19.889Z excerpt=SARMAL kimlik, biyografi, sonik kimlik ve press kit metinleri. Full içerik: Zo export "
+                    },
+                    {
+                      "insert": "tables/037_notes.json"
+                    },
+                    {
+                      "insert": "."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "eb3792f2-29a5-4367-b012-a36a611d1487",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Note: Karargah test id=note_mplt1rtruxjvkf; type=note; notebook=Test; tags=test,api; created_at=2026-05-25 22:55:49 excerpt=# Test "
+                    },
+                    {
+                      "insert": "Yeni notes API",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": " çalışıyor"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "876cf8cd-8682-4907-b4b8-e94b2673ae39",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Note: KARARGAH Baseline Note 2026-06-02 id=note_mpx3cfercrqjm6; type=system; notebook=Karargah; tags=karargah_bootstrap_20260602,phase3; is_starred=1; created_at=2026-06-02 20:29:31 excerpt=karargah_bootstrap_20260602: phase 3 core smoke note"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "817d0ffe-7e9a-41fd-bd02-83faf22e1fb1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Note: karargah-m9-object-graph-2026-06-03T03-02-03-431Z source id=note_mpxhd9eusdwhmu; type=note; notebook=M9 Object Graph; tags=karargah-m9-object-graph-2026-06-03T03-02-03-431Z; created_at=2026-06-03 03:02:04"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0c04cd82-cc82-4f68-832e-78ceeb1278c1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Note: karargah-m9-object-graph-2026-06-03T03-02-03-431Z target id=note_mpxhda17qvrgu7; type=note; notebook=M9 Object Graph; tags=karargah-m9-object-graph-2026-06-03T03-02-03-431Z; created_at=2026-06-03 03:02:05"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ndeft": {
+            "id": "/attributes/@ndeft",
+            "fieldPath": "/attributes/@ndeft",
+            "rank": "z"
+          },
+          "/attributes/@ntype": {
+            "id": "/attributes/@ntype",
+            "fieldPath": "/attributes/@ntype",
+            "rank": "zV"
+          },
+          "/attributes/@ntags": {
+            "id": "/attributes/@ntags",
+            "fieldPath": "/attributes/@ntags",
+            "rank": "zk"
+          },
+          "/attributes/@ncont": {
+            "id": "/attributes/@ncont",
+            "fieldPath": "/attributes/@ncont",
+            "rank": "zs"
+          },
+          "a2fd1763-70cf-4399-b3b5-ef94f13c4738": {
+            "id": "a2fd1763-70cf-4399-b3b5-ef94f13c4738",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zw"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ndeft": {
+            "id": "/attributes/@ndeft",
+            "fieldPath": "/attributes/@ndeft",
+            "rank": "z"
+          },
+          "/attributes/@ntype": {
+            "id": "/attributes/@ntype",
+            "fieldPath": "/attributes/@ntype",
+            "rank": "zV"
+          },
+          "/attributes/@ntags": {
+            "id": "/attributes/@ntags",
+            "fieldPath": "/attributes/@ntags",
+            "rank": "zk"
+          },
+          "/attributes/@ncont": {
+            "id": "/attributes/@ncont",
+            "fieldPath": "/attributes/@ncont",
+            "rank": "zs"
+          },
+          "a143765c-6082-452e-bc18-64b82dd44272": {
+            "id": "a143765c-6082-452e-bc18-64b82dd44272",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zw"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ndeft": {
+            "id": "/attributes/@ndeft",
+            "fieldPath": "/attributes/@ndeft",
+            "rank": "z"
+          },
+          "/attributes/@ntype": {
+            "id": "/attributes/@ntype",
+            "fieldPath": "/attributes/@ntype",
+            "rank": "zV"
+          },
+          "/attributes/@ntags": {
+            "id": "/attributes/@ntags",
+            "fieldPath": "/attributes/@ntags",
+            "rank": "zk"
+          },
+          "/attributes/@ncont": {
+            "id": "/attributes/@ncont",
+            "fieldPath": "/attributes/@ncont",
+            "rank": "zs"
+          },
+          "73b23261-723a-4c50-9496-e21a69ada15f": {
+            "id": "73b23261-723a-4c50-9496-e21a69ada15f",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zw"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ndeft": {
+            "id": "/attributes/@ndeft",
+            "fieldPath": "/attributes/@ndeft",
+            "rank": "z"
+          },
+          "/attributes/@ntype": {
+            "id": "/attributes/@ntype",
+            "fieldPath": "/attributes/@ntype",
+            "rank": "zV"
+          },
+          "/attributes/@ntags": {
+            "id": "/attributes/@ntags",
+            "fieldPath": "/attributes/@ntags",
+            "rank": "zk"
+          },
+          "/attributes/@ncont": {
+            "id": "/attributes/@ncont",
+            "fieldPath": "/attributes/@ncont",
+            "rank": "zs"
+          },
+          "395d85a6-a9fd-464b-9c88-dbe7666ebf54": {
+            "id": "395d85a6-a9fd-464b-9c88-dbe7666ebf54",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zw"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@ndeft": {
+            "id": "/attributes/@ndeft",
+            "fieldPath": "/attributes/@ndeft",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@ntype": {
+            "id": "/attributes/@ntype",
+            "fieldPath": "/attributes/@ntype",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@ntags": {
+            "id": "/attributes/@ntags",
+            "fieldPath": "/attributes/@ntags",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@ncont": {
+            "id": "/attributes/@ncont",
+            "fieldPath": "/attributes/@ncont",
+            "rank": "zs",
+            "hidden": false
+          },
+          "34f5dfab-c46f-42fe-9145-fb777384f396": {
+            "id": "34f5dfab-c46f-42fe-9145-fb777384f396",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zw"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@ndeft": {
+            "id": "/attributes/@ndeft",
+            "fieldPath": "/attributes/@ndeft",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@ntype": {
+            "id": "/attributes/@ntype",
+            "fieldPath": "/attributes/@ntype",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@ntags": {
+            "id": "/attributes/@ntags",
+            "fieldPath": "/attributes/@ntags",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@ncont": {
+            "id": "/attributes/@ncont",
+            "fieldPath": "/attributes/@ncont",
+            "rank": "zs",
+            "hidden": false
+          },
+          "9d2c322c-267b-4c7c-9735-c8da68437f0a": {
+            "id": "9d2c322c-267b-4c7c-9735-c8da68437f0a",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zw"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "a6e77b6c-f8c0-45ac-ab30-9888b407be05": {
+            "id": "a6e77b6c-f8c0-45ac-ab30-9888b407be05",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "z"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@ndeft": {
+        "type": "Select",
+        "displayName": "Defter",
+        "options": {
+          "nb-kisisel": {
+            "id": "nb-kisisel",
+            "name": "📔 Kişisel",
+            "color": "#3B82F6",
+            "rank": "0"
+          },
+          "nb-is": {
+            "id": "nb-is",
+            "name": "💼 İş",
+            "color": "#8B5CF6",
+            "rank": "1"
+          },
+          "nb-fikir": {
+            "id": "nb-fikir",
+            "name": "💡 Fikirler",
+            "color": "#F59E0B",
+            "rank": "2"
+          },
+          "nb-muzik": {
+            "id": "nb-muzik",
+            "name": "🎵 Müzik",
+            "color": "#EC4899",
+            "rank": "3"
+          },
+          "nb-toplanti": {
+            "id": "nb-toplanti",
+            "name": "📋 Toplantı",
+            "color": "#10B981",
+            "rank": "4"
+          },
+          "nb-yildiz": {
+            "id": "nb-yildiz",
+            "name": "⭐ Yıldızlı",
+            "color": "#EAB308",
+            "rank": "5"
+          }
+        }
+      },
+      "@ntype": {
+        "type": "Select",
+        "displayName": "Tür",
+        "options": {
+          "nt-taslak": {
+            "id": "nt-taslak",
+            "name": "📝 Taslak",
+            "color": "#6B7280",
+            "rank": "0"
+          },
+          "nt-gunluk": {
+            "id": "nt-gunluk",
+            "name": "📖 Günlük",
+            "color": "#3B82F6",
+            "rank": "1"
+          },
+          "nt-toplanti": {
+            "id": "nt-toplanti",
+            "name": "🤝 Toplantı",
+            "color": "#10B981",
+            "rank": "2"
+          },
+          "nt-fikir": {
+            "id": "nt-fikir",
+            "name": "💡 Fikir",
+            "color": "#F59E0B",
+            "rank": "3"
+          },
+          "nt-referans": {
+            "id": "nt-referans",
+            "name": "📚 Referans",
+            "color": "#8B5CF6",
+            "rank": "4"
+          },
+          "nt-sozlesme": {
+            "id": "nt-sozlesme",
+            "name": "📄 Sözleşme",
+            "color": "#EF4444",
+            "rank": "5"
+          }
+        }
+      },
+      "@ntags": {
+        "type": "string",
+        "displayName": "Etiketler"
+      },
+      "@ncont": {
+        "type": "string",
+        "displayName": "İçerik"
+      },
+      "@mhkid": {
+        "type": "string",
+        "displayName": "MİHENK ID"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🖊️"
+    }
+  }
+}

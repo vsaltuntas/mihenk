@@ -1,0 +1,335 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "ac973006-62a4-42ad-b589-741273f453f6",
+        "text": {
+          "ops": [
+            {
+              "insert": "MİHENK - Taskade Bağlantı Kontrol Merkezi"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "081df49e-99ca-4bec-89c2-3034ed2dadbc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "REST API v1 / Public API: READ smoke PASS; task CRUD icin ana yazma yolu."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "ed025e1a-0f55-4bad-8aa3-f0881cf769e3",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Action API v2: READ smoke PASS; agent prompt ve bundle islemleri icin."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "563594f4-895c-4592-948a-27899db4e7f4",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Developer API / Developer Hub: v1+v2+webhook+HTTP mimari referans."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "4715e652-3921-41e4-b371-49774e033e87",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Taskade MCP Server local stdio: @taskade/mcp-server smoke PASS; secret config'e gomulmeyecek."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "8869a98e-f562-4c9c-9c54-3d2fb3def360",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Hosted MCP Server OAuth: PENDING_USER_AUTH; "
+                },
+                {
+                  "insert": "https://www.taskade.com/mcp",
+                  "attributes": {
+                    "link": "https://www.taskade.com/mcp"
+                  }
+                },
+                {
+                  "insert": " OAuth gerekir."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f89b670d-ab85-4e5b-827c-c95e757eae7d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "MCP Client / External MCP Connector: PENDING_TASKADE_UI; Zo/Karargah MCP URL workspace connector olarak eklenecek."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "d32a2c32-1683-4e81-91c3-0bfda61de5ea",
+            "text": {
+              "ops": [
+                {
+                  "insert": "HTTP Request Action: PENDING_SECRET_BINDING; MIHENK_BRIDGE_READ_TOKEN secret baglanmadan automation acilmayacak."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0a5ddb73-4e06-45a3-8540-bf3708379e03",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Webhook Received Trigger: PENDING_AUTOMATION_SETUP; inbound URL olusunca Karargah/Zo tarafina kaydedilecek."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "5642c9a9-6e9c-4b96-a812-6226a65b3571",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Taskade GPT: PENDING_CHATGPT_SIGNIN; ChatGPT UI sign-in gerekir."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c9a34b78-76f1-4b00-a1cc-f1b159709fc0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "OAuth 2.0 + PKCE: DESIGN_READY; cok kullanicili app icin, servis isleri icin PAT yeterli."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "00b53a6a-0692-4810-9714-cc6820820dd3",
+            "text": {
+              "ops": [
+                {
+                  "insert": "MİHENK YouTube Bridge: YARI CALISAN; secure token + fresh sync olmadan READY degil."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c648764a-b3ec-4fcd-bb5d-944d8042448b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Secret Hygiene: P0; eski raporlardaki PAT rotate/scrub edilmeli."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": "bullet"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "💾"
+    }
+  }
+}

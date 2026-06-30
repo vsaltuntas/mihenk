@@ -1,0 +1,592 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "e1132d83-8a9b-489c-b698-fa71d80af172",
+        "text": {
+          "ops": [
+            {
+              "insert": "MİHENK YouTube Günlük Metrikler"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": {
+          "node": "h1",
+          "children": "text"
+        },
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "860c2bae-cc91-49db-bb05-178a997f3795",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Schema"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "ad5e95d2-1099-4715-9a6e-6e0dc1f9225e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "channel_id"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2468d92c-9016-4013-a2ff-5994840a1bc6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "date"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "4b9d19bd-78d4-4d0d-8403-8241a09441c5",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "views"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "30be332e-ee7a-4563-b0b5-f6bf3cc1bb33",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "estimated_minutes_watched"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f3509a79-b383-4537-8157-81c7c4e962f6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "subscribers_gained"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "2ed0d92c-1203-4fad-95e0-cc1667782c3e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "subscribers_lost"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "18a1dbfc-e1ad-421a-a6f5-775cc77cad08",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "likes"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1acba36c-b896-43fe-b589-6edc72a9869a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "comments"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a81af2fe-30ed-4a20-96fd-f28b5053c634",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "shares"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9bd653c2-d4f4-4ee5-a2a0-969e67a4a498",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "estimated_revenue"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "93501038-c71b-4678-bad9-4df792aaac52",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "estimated_ad_revenue"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "48a0705b-8137-409c-8cc0-f8f13eec9e37",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "cpm"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "6455c308-c3e6-49bf-9918-bf5eaf5fdb9c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "playback_cpm"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bb76924d-109b-413e-9f55-8ffbb70fb93e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "monetized_playbacks"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "660c1bc5-33f8-41cb-a8ed-19b50495ec66",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "fetched_at"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": "bullet"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "50db2221-f163-48a9-96b1-876e6d3621fa",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Records"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "6a317565-3718-4a40-8f77-7b3a04263f05",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Daily Metrics Batch 001 — 100 records"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "37cd2462-ddb7-4e20-8228-ba66794c7602",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"provider\":\"zo:youtube_channels.duckdb\",\"bridge_endpoint\":\"/api/mihenk/youtube/snapshot?video_limit=0&daily=1\",\"payload_path\":\"daily[]\",\"batch\":1,\"record_count\":100,\"sha16\":\"f16773cbbe00ea2c\",\"includes_revenue\":true,\"status\":\"MANIFEST_SEEDED\",\"note\":\"Full daily records include estimated revenue fields in the auth-protected Zo bridge; do not mark READY until Taskade pull automation readback is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e76e0bee-ff68-464d-8845-b9478554dbac",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Daily Metrics Batch 002 — 100 records"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "051782db-a087-4a84-9ec7-a0d14afff9fa",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"provider\":\"zo:youtube_channels.duckdb\",\"bridge_endpoint\":\"/api/mihenk/youtube/snapshot?video_limit=0&daily=1\",\"payload_path\":\"daily[]\",\"batch\":2,\"record_count\":100,\"sha16\":\"76706038b1c8d7d8\",\"includes_revenue\":true,\"status\":\"MANIFEST_SEEDED\",\"note\":\"Full daily records include estimated revenue fields in the auth-protected Zo bridge; do not mark READY until Taskade pull automation readback is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9e8f7441-3753-4113-9d8e-ee27674607fa",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Daily Metrics Batch 003 — 52 records"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "76dd0bb6-4af2-41e2-975b-946cbc76b641",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "{\"provider\":\"zo:youtube_channels.duckdb\",\"bridge_endpoint\":\"/api/mihenk/youtube/snapshot?video_limit=0&daily=1\",\"payload_path\":\"daily[]\",\"batch\":3,\"record_count\":52,\"sha16\":\"c7b1dbfddbce8d7b\",\"includes_revenue\":true,\"status\":\"MANIFEST_SEEDED\",\"note\":\"Full daily records include estimated revenue fields in the auth-protected Zo bridge; do not mark READY until Taskade pull automation readback is verified.\"}"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "avatar": {
+      "type": "emoji",
+      "value": "⏰"
+    }
+  }
+}

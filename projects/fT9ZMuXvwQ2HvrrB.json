@@ -1,0 +1,1029 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "b0000001-0000-0000-0000-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "MİHENK — 11 Grup × 56 Modül Haritası"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b0000001-0000-0000-0000-000000000010",
+            "text": {
+              "ops": [
+                {
+                  "insert": "GRUP 1: BUGÜN",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "b1010000-0000-0000-0000-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "gun_masasi — Gün Masası: Günün komuta ekranı (Bugün, Öncelikler, Riskler, Bekleyen Onaylar, Ajan Önerileri, Gün Sonu)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b1010000-0000-0000-0000-000000000002",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "sabah_brifingi — Sabah Brifingi: Sistem her sabah kısa brifing verir",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b1010000-0000-0000-0000-000000000003",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "bildirim_merkezi — Bildirim Merkezi: Tüm uyarılar tek yerde",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b1010000-0000-0000-0000-000000000004",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "enerji_modu — Enerji Modu: Yaratıcı/Operasyonel/Düşünsel/Sessiz/Dinlenme",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b1010000-0000-0000-0000-000000000005",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "sistem_nabzi_ozet — Sistem Nabzı Özeti: Kısa sağlık durumu",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b0000001-0000-0000-0000-000000000020",
+            "text": {
+              "ops": [
+                {
+                  "insert": "GRUP 2: YAKALAMA",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "b2010000-0000-0000-0000-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "fikirler — Fikirler: Yakala, kümele, işe çevir (Yakala/Kümeler/Kuluçka/Araştırma/Projeye Aday/Arşiv)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b2010000-0000-0000-0000-000000000002",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "sinyaller — Sinyaller: Not, fikir, mail, link, üretim, takvim olayları tek akışta",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b2010000-0000-0000-0000-000000000003",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "yer_imleri — Yer İmleri: Link kaydetme, tag, güvenilirlik, projeye bağla (ZOLinker dahil)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b2010000-0000-0000-0000-000000000004",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "hizli_not — Hızlı Not: Anlık kısa not yakalama",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b2010000-0000-0000-0000-000000000005",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "hizli_gorev — Hızlı Görev: Anlık görev yakalama",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b0000001-0000-0000-0000-000000000030",
+            "text": {
+              "ops": [
+                {
+                  "insert": "GRUP 3: İŞ OMURGASI",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "b3010000-0000-0000-0000-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "projeler — Projeler: Ana omurga (Genel/Görevler/Spec/Fazlar/Zaman Çizelgesi/Dosyalar/Finans/İnsanlar/Ajanlar/Graph)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b3010000-0000-0000-0000-000000000002",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "gorevler — Görevler: Todoist seviyesi (Inbox/Bugün/Yaklaşan/Geciken/Kanban/Tamamlanan)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b3010000-0000-0000-0000-000000000003",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "takvim — Takvim: Gün/Hafta/Ay/Agenda/Deadline/Yayın Takvimi/Focus Blocks",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b3010000-0000-0000-0000-000000000004",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "tekrarlayan — Tekrarlayan: Düzenli işler ve ritüeller (Aktif/Planlanan/Geçmiş/Hatalı/Duraklatılmış)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b3010000-0000-0000-0000-000000000005",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "sablonlar — Şablonlar: Tekrarlayan iş formatları (Proje/Not/Görev/Mail/Sözleşme/Maestro/Yayın/Rapor)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b0000001-0000-0000-0000-000000000040",
+            "text": {
+              "ops": [
+                {
+                  "insert": "GRUP 4: BİLGİ VE HAFIZA",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "b4010000-0000-0000-0000-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "notlar — Notlar: Düşünce/yazı/bilgi/bağlantı merkezi (Tüm/Yıldızlı/Defterler/Etiketler/Backlinks/Graph/Taslaklar)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b4010000-0000-0000-0000-000000000002",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "bilgi_haritasi — Bilgi Haritası: Graph (Graph/Kümeler/İlişkiler/Yetim Düğümler/Çelişkiler/Kanıt Kuyruğu)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b4010000-0000-0000-0000-000000000003",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "dosyalar — Dosyalar: Belge/görsel/ses/proje dosyaları",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b4010000-0000-0000-0000-000000000004",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "derin_arastirma — Derin Araştırma: Uzun kaynaklı araştırma (Brief/Kaynaklar/Bulgular/Karşıt Kanıt/Özet/Karar)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b4010000-0000-0000-0000-000000000005",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "karsilastir — Karşılaştır: Alternatif kıyas + karar (Alternatifler/Kriterler/Puanlama/Risk/Sonuç)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b4010000-0000-0000-0000-000000000006",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "cookbook — Cookbook: İş tarifleri ve playbook arşivi",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b0000001-0000-0000-0000-000000000050",
+            "text": {
+              "ops": [
+                {
+                  "insert": "GRUP 5: MÜZİK VE YAYIN",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "b5010000-0000-0000-0000-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "katalog — Katalog: Sanatçılar/Albümler/Track'ler/Release/Galeri/Dağıtım/Haklar/Analytics/Timeline",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b5010000-0000-0000-0000-000000000002",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "maestro — Maestro: AI müzik üretimi (Prompt Builder/Stil/Üretimler/Varyasyonlar/Analiz/ELO/Provider/Katalog Bağı)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b5010000-0000-0000-0000-000000000003",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "uretimler — Üretimler: Audio çıktı arşivi (Tüm/Favoriler/Rating/Provider/Projeye Göre/Katalog Bağlı)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b5010000-0000-0000-0000-000000000004",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "youtube — YouTube: Kanal/Video/Analytics/Gelir/İçerik Takvimi/Yorumlar/Fırsatlar",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b5010000-0000-0000-0000-000000000005",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "chartmetric — Chartmetric: Müzik pazar sinyalleri (Radar/Artist Search/Track Signals/Charts/Karşılaştırma)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b5010000-0000-0000-0000-000000000006",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "release_radar — Release Radar: Yayına yaklaşan track/albüm takibi",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b0000001-0000-0000-0000-000000000060",
+            "text": {
+              "ops": [
+                {
+                  "insert": "GRUP 6-11: STÜDYO / İNSAN&İŞ / YAŞAM / AJANLAR / SİSTEM / MADEN",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "b6010000-0000-0000-0000-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "STÜDYO: verselab, lyrics_lab, turku_arsivi, studyom, ses_analiz, mix_room, klip_studio",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b6010000-0000-0000-0000-000000000002",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "İNSAN&İŞ: kisiler, inbox_mail, sozlesmeler, firsatlar, konser_tur",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b6010000-0000-0000-0000-000000000003",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YAŞAM: finans, zenzone, wellness, yasam_raporu",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b6010000-0000-0000-0000-000000000004",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "AJANLAR&OTOMASYON: mihenk_asistani, ajan_konseyi, workforce, pipeline, otomasyonlar, uygulama_atolyesi",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b6010000-0000-0000-0000-000000000005",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SİSTEM&GÜVEN: erisim, sistem_nabzi, backup, onboarding, ayarlar, guvenlik_mahremiyet",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b6010000-0000-0000-0000-000000000006",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MADEN: maden, veri_kazisi, celiski_motoru, kanit_kuyrugu, kapali_oda",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "⌨️"
+    }
+  }
+}

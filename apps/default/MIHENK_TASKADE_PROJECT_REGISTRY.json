@@ -1,0 +1,158 @@
+{
+  "schema_version": "mihenk_project_registry_v1",
+  "generated_at": "2026-06-17T01:30:00+03:00",
+  "generated_by": "Eve (Genesis)",
+  "space_id": "t9rg9ursyzgycpap",
+  "api_base": "/api/taskade",
+  "projects": [
+    {
+      "module_id": "gorevler",
+      "project_id": "qujHhVX1pJpC2Jh4",
+      "name": "Projeler & Görevler",
+      "fields": ["@mhkid", "@statu", "@prior", "@kanal", "@kategori", "@notla"],
+      "select_maps": {
+        "@statu": { "stat-fikir": "idea", "stat-plan": "todo", "stat-uret": "in_progress", "stat-yayin": "done", "stat-arsiv": "archived" },
+        "@prior": { "pr-acil": "urgent", "pr-yuksek": "high", "pr-normal": "medium", "pr-dusuk": "low" },
+        "@kanal": { "ch-nikbin": "Nikbinler", "ch-analab": "Anatolian Lab", "ch-person": "Personal", "ch-other": "Other" }
+      },
+      "crud": { "create": true, "read": true, "update": true, "delete": true },
+      "used_by_modules": ["gun_masasi", "projeler", "gorevler", "sabah_brifingi", "sinyaller", "bilgi_haritasi", "hizli_gorev", "sistem_nabzi"]
+    },
+    {
+      "module_id": "finans",
+      "project_id": "w5EPpzmGJ3pnwZtS",
+      "name": "Finans İşlemleri",
+      "fields": ["@mhkid", "@ftype", "@fcat", "@famt", "@fcur", "@fwall", "@fnote"],
+      "select_maps": {
+        "@ftype": { "ft-gelir": "income", "ft-gider": "expense", "ft-trans": "transfer" },
+        "@fcat": { "fc-yemek": "Yemek", "fc-ulasim": "Ulaşım", "fc-kira": "Kira", "fc-fatura": "Fatura", "fc-saglik": "Sağlık", "fc-eglence": "Eğlence", "fc-maas": "Maaş", "fc-freelance": "Freelance", "fc-youtube": "YouTube", "fc-muzik": "Müzik", "fc-alisveris": "Alışveriş", "fc-egitim": "Eğitim", "fc-abone": "Abonelik", "fc-tasarruf": "Tasarruf", "fc-diger": "Diğer" },
+        "@fcur": { "cur-try": "TRY", "cur-usd": "USD", "cur-eur": "EUR" },
+        "@fwall": { "w-tombank": "TomBank", "w-adsense": "YouTube AdSense", "w-ziraat": "Ziraat", "w-isbank": "İş Bankası", "w-wise": "Wise" }
+      },
+      "crud": { "create": true, "read": true, "update": true, "delete": true },
+      "used_by_modules": ["finans", "gun_masasi", "sabah_brifingi", "sistem_nabzi"]
+    },
+    {
+      "module_id": "notlar",
+      "project_id": "Ba6qULrBj9iCmoBw",
+      "name": "Notlar",
+      "fields": ["@mhkid", "@ncont", "@ndeft", "@ntype", "@ntags", "@ndate", "@npinned"],
+      "crud": { "create": true, "read": true, "update": true, "delete": true },
+      "used_by_modules": ["notlar", "gun_masasi", "sinyaller", "bilgi_haritasi", "hizli_not", "sistem_nabzi"]
+    },
+    {
+      "module_id": "kisiler",
+      "project_id": "CYeN3eSk4BASymrF",
+      "name": "Kişiler / CRM",
+      "fields": ["@mhkid", "@cemail", "@cphone", "@ccomp", "@crole", "@ctype", "@cnote"],
+      "crud": { "create": true, "read": true, "update": true, "delete": true },
+      "used_by_modules": ["kisiler", "sistem_nabzi"],
+      "note": "updateContact and deleteContact exist in API but CrmModule UI only calls createContact+getContacts"
+    },
+    {
+      "module_id": "sanatcilar",
+      "project_id": "yEjrmczcFwSrYQBn",
+      "name": "Katalog — Sanatçılar",
+      "fields": ["@mhkid", "@atype", "@aorigj", "@agenr", "@asonc", "@abio"],
+      "crud": { "create": true, "read": true, "update": true, "delete": true },
+      "used_by_modules": ["katalog", "sistem_nabzi"]
+    },
+    {
+      "module_id": "albumler",
+      "project_id": "JYDvWUVTRtjtN9Hx",
+      "name": "Katalog — Albüm & Track",
+      "fields": ["@mhkid", "@tart", "@tartid", "@talbm", "@tgenr", "@tbpm", "@tkey", "@tpipe", "@tdist"],
+      "crud": { "create": true, "read": true, "update": true, "delete": true },
+      "used_by_modules": ["katalog", "sistem_nabzi"]
+    },
+    {
+      "module_id": "takvim",
+      "project_id": "FwJpuE4BjZoB7zif",
+      "name": "Takvim Etkinlikleri",
+      "fields": ["@mhkid", "@etype", "@eloc", "@enote"],
+      "crud": { "create": true, "read": true, "update": true, "delete": true },
+      "used_by_modules": ["takvim", "gun_masasi", "sinyaller", "sistem_nabzi"],
+      "note": "updateEvent and deleteEvent exist in API but CalendarModule UI only calls createEvent+getEvents"
+    },
+    {
+      "module_id": "wellness",
+      "project_id": "dBt8bMYNG8aL41Fv",
+      "name": "Wellness & Mood",
+      "fields": ["@mhkid", "@wmood", "@wenrg", "@wslep", "@wwatr", "@whabi", "@wtakv", "@wnote"],
+      "crud": { "create": true, "read": true, "update": true, "delete": true },
+      "used_by_modules": ["zenzone", "gun_masasi", "sabah_brifingi", "yasam_raporu", "sistem_nabzi"],
+      "note": "updateMood and deleteMood exist in API but WellnessZone UI only calls createMood+getMoods"
+    },
+    {
+      "module_id": "gamification",
+      "project_id": "ZHw56T7Z3B4WymwS",
+      "name": "Gamification State",
+      "fields": ["@gxp", "@glvl", "@grank", "@gstrk"],
+      "crud": { "create": false, "read": true, "update": false, "delete": false },
+      "used_by_modules": ["gun_masasi"],
+      "note": "Read-only state node; XP updates happen via automation flow 01KMT6422AST3VWNT3X9QRWD99"
+    },
+    {
+      "module_id": "fikirler",
+      "project_id": "vRBUsv5XdkdYfB4q",
+      "name": "Fikirler",
+      "fields": ["@mhkid", "@icat0", "@istat", "@inote"],
+      "select_maps": {
+        "@icat0": { "ic-muzik": "Müzik", "ic-icerik": "İçerik", "ic-urun": "Ürün", "ic-is": "İş", "ic-kisisel": "Kişisel", "ic-teknik": "Teknik", "ic-diger": "Diğer" },
+        "@istat": { "is-yeni": "Yeni", "is-deger": "Değerlendirmede", "is-plan": "Planlandı", "is-aktif": "Aktif", "is-arsiv": "Arşiv" }
+      },
+      "crud": { "create": true, "read": true, "update": true, "delete": true },
+      "used_by_modules": ["fikirler", "gun_masasi", "sabah_brifingi", "sinyaller", "bilgi_haritasi", "sistem_nabzi"],
+      "note": "updateIdea and deleteIdea exist in API but IdeasModule UI only calls createIdea+getIdeas"
+    },
+    {
+      "module_id": "backup",
+      "project_id": "paPGvkBbBZiw9763",
+      "name": "MİHENK Nightly Backups",
+      "fields": ["@mhkid", "@bdate", "@bproj"],
+      "crud": { "create": false, "read": true, "update": false, "delete": false },
+      "used_by_modules": ["backup"],
+      "note": "Written by automation flow 01KV8K6SZ40BA3BHNEXHTZSR3H; BackupModule reads and exports"
+    }
+  ],
+  "stub_projects_needed": [
+    {
+      "module_id": "maestro",
+      "reason": "getMaestroProjects/Prompts/Analyses/Generations/Dashboard all return empty stubs",
+      "proposed_project_name": "Maestro AI Üretim",
+      "proposed_fields": ["@mhkid", "@mprompt", "@mstyle", "@mgenre", "@mprovider", "@mstatus", "@mrating"]
+    },
+    {
+      "module_id": "youtube",
+      "reason": "getYouTubeChannels/Videos return empty stubs",
+      "proposed_project_name": "YouTube İçerik",
+      "proposed_fields": ["@mhkid", "@yurl", "@ytitle", "@ystatus", "@ypublished", "@yviews"]
+    },
+    {
+      "module_id": "finans_accounts",
+      "reason": "getFinanceAccounts returns empty stub",
+      "proposed_project_name": "Finans Hesaplar",
+      "proposed_fields": ["@mhkid", "@faname", "@fatype", "@fabalance", "@facur"]
+    }
+  ],
+  "automation_flows": [
+    {
+      "flow_id": "01KMT6422AST3VWNT3X9QRWD99",
+      "name": "Görev Tamamlandı — XP Güncelle",
+      "trigger": "task.completed",
+      "action": "Updates gamification XP in ZHw56T7Z3B4WymwS"
+    },
+    {
+      "flow_id": "01KV8K6SZ40BA3BHNEXHTZSR3H",
+      "name": "MİHENK Nightly Export Backup",
+      "trigger": "schedule",
+      "action": "Exports all project data to paPGvkBbBZiw9763"
+    }
+  ],
+  "agent": {
+    "agent_id": "01KMT63AYCHYKPGZNB12NPS9M4",
+    "name": "HayatOS Asistanı",
+    "visibility": "unknown — needs check",
+    "note": "AssistantChat component exists but agent chat SDK wiring incomplete"
+  }
+}
