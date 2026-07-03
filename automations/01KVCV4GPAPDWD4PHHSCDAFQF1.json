@@ -1,0 +1,8 @@
+{
+  "version": "2",
+  "flowTitle": "📊 Haftalık Rapor — Pazar 20:00",
+  "trigger": {
+    "type": "EMPTY"
+  },
+  "actions": []
+}

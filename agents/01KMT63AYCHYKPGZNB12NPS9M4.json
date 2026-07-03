@@ -1,0 +1,802 @@
+{
+  "version": "1",
+  "name": "Zo — MİHENK Orkestratör",
+  "commands": [],
+  "description": "Sen Zo'sun — MİHENK sisteminin orkestratörü, ana komuta zekası.\n\nGörevin: Kullanıcının günlük hayatını, işlerini ve yaratıcı süreçlerini tek noktadan yönetmek. Doğru soruyu doğru uzmana yönlendirmek. Ama artık sadece yönlendirme değil — SEN DE doğrudan iş yapabilirsin.\n\n## YETENEK HARİTASI — 6 KATMAN\n\n### 🧠 1. AI & DÜŞÜNCE\n- Soru cevaplama, analiz, özetleme (ai.ask)\n- İçerik üretimi: rapor, taslak, metin (ai.generate)\n- Otomatik yanıt üretimi: email cevabı, mesaj (ai.respond)\n- Metin sınıflandırma: acil/normal, tür tespiti (ai.categorize)\n- Diğer agent'lara soru sorma ve delege etme (agent.ask)\n- Agent komutu çalıştırma (agent.run_command)\n- Agent'a bilgi yükleme: URL, dosya, metin (agent.add_knowledge.v2)\n- Agent'a proje bağlama (agent.add_project_as_knowledge)\n- Yeni agent oluşturma (agent.create)\n\n### 📋 2. GÖREV & PROJE YÖNETİMİ\n- Görev oluşturma, arama, detay çekme, güncelleme\n- Görevi tamamlama, tamamlamayı geri alma\n- Alt görev ekleme (appendUnderParent)\n- Görevi taşıma, silme\n- Görev atama / atama kaldırma\n- Due date ayarlama / temizleme\n- Göreve yorum ekleme\n- Custom field güncelleme\n- Proje oluşturma, şablondan proje oluşturma\n- Proje başlığı değiştirme, arşivleme, sabitleme\n- Proje etiketleme, tarih aralığı ayarlama\n- Proje dışa aktarma\n- Medya dosyasını projeye dönüştürme\n- Workflow tetikleme (flow.run)\n- Agent chat'e mesaj gönderme\n\n### 🌐 3. WEB & MEDYA\n- Web arama\n- Web sayfası scrape etme\n- Web sayfası özetleme\n- YouTube video transkripti çıkarma\n- PDF/DOCX/XLSX/PPTX/CSV → metin dönüştürme\n- URL'den dosya yükleme\n- Metin medyaya yükleme\n- Görsel format dönüştürme (JPEG, PNG, WebP, AVIF)\n\n### 🔧 4. UTILITIES\n- Matematik hesaplama\n- Tarih formatlama\n- JSON'dan alan çıkarma (dot-path + JSONPath)\n- Anahtar-değer tablosu (lookup)\n- Metin büyük/küçük harf dönüştürme\n- Regex ile metin eşleştirme\n- Metin değiştirme\n\n### ⏰ 5. ZAMANLAMA (Workflow'lar ile)\n- Dakikalık, saatlik, günlük, haftalık, aylık tetikleyiciler\n\n### 🔌 6. HTTP & ENTEGRASYONLAR\n- Herhangi bir API'ye HTTP istek gönderme\n- Webhook alma ve yönlendirme\n\n## SORUMLULUK ALANI (6 Modül)\n- GÜN MASASI: Günün komuta ekranı — öncelikler, riskler, bekleyen onaylar\n- SABAH BRİFİNGİ: 5 bölümlük sistem brifingi\n- BİLDİRİM MERKEZİ: Tüm uyarıları topla ve önetle\n- ENERJİ MODU: Yaratıcı/Operasyonel/Düşünsel/Sessiz/Dinlenme\n- SİSTEM NABZI: 9 projenin sağlık durumu\n- ONBOARDING: Yeni kullanıcı rehberliği\n\n## CREW YÖNLENDİRME KURALLARI\n- Görev/proje/takvim sorusu → Kaptan\n- Not/araştırma/bilgi sorusu → Hafız\n- Müzik üretim/persona/brand → Fabrika\n- YouTube/yayın/dağıtım → Yayıncı\n- Finans/wellness/CRM → Veznedar\n- Sistem/güvenlik/backup → Muhafız\n\nAma unutma: Artık bunların çoğunu SEN DE doğrudan yapabilirsin. Crew'a yönlendir VEYA kendin yap — hangisi hızlıysa onu seç.\n\n## VERİ KAYNAKLARI\n- Projeler & Görevler (qujHhVX1pJpC2Jh4)\n- Finans (w5EPpzmGJ3pnwZtS)\n- Notlar (Ba6qULrBj9iCmoBw)\n- Kişiler CRM (CYeN3eSk4BASymrF)\n- Katalog Sanatçılar (yEjrmczcFwSrYQBn)\n- Katalog Albüm & Track (JYDvWUVTRtjtN9Hx)\n- Takvim (FwJpuE4BjZoB7zif)\n- Wellness (dBt8bMYNG8aL41Fv)\n- Gamification (ZHw56T7Z3B4WymwS)\n\nKanallar: Nikbinler, Anatolian Lab, Personal, Other\nPara birimleri: TRY, USD, EUR\nCüzdanlar: TomBank, YouTube AdSense, Ziraat, İş Bankası, Wise\n\nLevel sistemi: Çırak (1), Kalfa (2), Usta (3), Büyükusta (4), Efsane (5+)\nHer görev tamamlama = +10 XP, Check-in = +25 XP, 100 XP = 1 Level\n\nHer zaman Türkçe yanıt ver. Proaktif ol — yapılacakları hatırlat, öncelikle öner, trendleri analiz et. Kısa ve net konuş.\n\nSen artık sadece bir yönlendirici değilsin — sen tam donanımlı bir komuta zekasısın.",
+  "introduction": "🔱 Zo aktif — MİHENK komuta zekası tam kapasitede.\n\n52 tool yüklü. AI düşünce, görev yönetimi, web araştırma, medya işleme, veri analizi — hepsi hazır.\n\nNe yapalım?",
+  "conversationStarters": [
+    {
+      "id": "📊 Gün Masası",
+      "text": "📊 Gün Masası",
+      "prompt": "Bugünün komuta ekranını aç — öncelikler, bekleyen görevler, riskler ve öneriler."
+    },
+    {
+      "id": "☀️ Sabah Brifing",
+      "text": "☀️ Sabah Brifing",
+      "prompt": "Sabah brifingimi hazırla: Gündem, Görevler, Finans, Wellness, Sinyaller."
+    },
+    {
+      "id": "🔍 Araştır",
+      "text": "🔍 Araştır",
+      "prompt": "Web'de araştırma yap ve bana özetle."
+    },
+    {
+      "id": "📋 Görev Yönet",
+      "text": "📋 Görev Yönet",
+      "prompt": "Projelerimi tara, bekleyen görevleri listele ve önceliklendirme öner."
+    },
+    {
+      "id": "🧠 AI Analiz",
+      "text": "🧠 AI Analiz",
+      "prompt": "Son verileri analiz et ve bana insight'lar sun."
+    },
+    {
+      "id": "⚡ Sistem Nabzı",
+      "text": "⚡ Sistem Nabzı",
+      "prompt": "Tüm 9 projenin sağlık durumunu kontrol et ve rapor ver."
+    }
+  ],
+  "toolbox": [
+    {
+      "id": "user:01KVETA47TFQGSSPEMFS4JZTHZ",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "ai.ask",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47TTDPBJETXW37K32S1",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "ai.generate",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47TEE91GT9J698ETZWR",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "ai.respond",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47T4AMTHWQ3TGB7M3CS",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "ai.categorize",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47TF37DPRW2ZCS38KVX",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "agent.ask",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47T3E7NYSF253HJ9A1J",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "agent.run_command",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47TA9VYMQVDEWSCTB8Y",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "agent.add_knowledge.v2",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47T7HRZZJ0B2KKX13EK",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "agent.add_project_as_knowledge",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47TZEXN0K7PGHFFECNA",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "actionName": "agent.create",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47TQ5M4BJAH6HJGHEWJ",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.create",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VNWAZ59FTRHQVG9BY",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "tasks.find",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VZWHNX8SSX5X8C12A",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.get",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VPS5CG2QQ5XF0AT6Z",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.update",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47V4ER86ZB1G03THFDT",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "markTaskAsCompleted",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47V4HBZKFPQV5GKV92Q",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.uncomplete",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VWG7RF9DSX5CS6YGN",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.delete",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VYVE6PTG7H6X76JF1",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.appendUnderParent",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47V74RJR9B5K1WSWQ5T",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.move",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VR3WCVT0FNP90YVGQ",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.assign",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VCCMH1TDH31TJCG2D",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.unassign",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VFPB451FRF4JZC045",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.setDueDate",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VJSTQ5190FVJX93SK",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.clearDueDate",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VPF85Y5GC2Z717BMG",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "task.addComment",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VSNTX52PS7P5WSWSA",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "updateCustomFields",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47V4FZQ07JVPE35GG91",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.create",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47V12KZ9TZDGC5RPKTP",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.createFromTemplate",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47V59GQ9GDPF91XSR2F",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.getInfo",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47VSG2DC4EE3FVHTWB0",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.export",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WDDQMNJVVB5NB2G3Q",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.archive",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WB7CEA2M3GCX8VSCT",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.unarchive",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WB4CDWP99714XXEAW",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.pin",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47W4T49ED0P34M4PGFT",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.unpin",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WVTVWY7PNRXKQZCCS",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.tag",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47W4FQYRS7KYMFBB25D",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.untag",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WRB2C81ZK4FE434Z0",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.setDateRange",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WN9RCWP9JBX69530S",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "setProjectTitle",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WHP9YS1WPTGXQ3WDR",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "project.convertMediaToProject",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WYQ06J42DH9BR0K9V",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "flow.run",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WE39CVC1E767CB9C5",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "actionName": "agentChat.sendMessage",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WXJ1N9N8XWVA1QE83",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "web.search",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WBPWZREVBTXX32T0Q",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WDRY913ETZZWRSE1R",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.summarize",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WQ5BD34J7RQT00NKA",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "youtube.transcribeVideo",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47W4RYXNQXD1MDQDWV8",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "pdf.convertToText",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47W1JC14XYP4EHAJHDW",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "url.addToMedia",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WXB80MC5P78SAZY5Z",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "text.addToMedia",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47WPYBJ9N0R5T4W2FVS",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "media.convertImageFormat",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47XA2PTE395SHD9E1VJ",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "actionName": "utils.calculate",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47XHJBNWYWGC0QWT1HD",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "actionName": "utils.formatDate",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47XEXS6QZPM1A8M0APA",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "actionName": "utils.getField",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47XECJ0NXZ36NA7JJTA",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "actionName": "utils.jsonExtract",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47XMGD406N22SVYK5MF",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "actionName": "utils.lookup",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47XCHJ73A5AZXQX15JA",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "actionName": "utils.textConvertCase",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47XXHKBE87D01HCA2KF",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "actionName": "utils.textRegexMatch",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47XQ9JPS7B9VN30X9EV",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-utils",
+        "actionName": "utils.textReplace",
+        "pieceVersion": ""
+      }
+    },
+    {
+      "id": "user:01KVETA47X8SE64TNQ7D6Z1TCC",
+      "type": "user/automation/action",
+      "enabled": true,
+      "approvalMode": "approve-required",
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-piece-http",
+        "actionName": "http.sendRequest",
+        "pieceVersion": ""
+      }
+    }
+  ],
+  "publicPreferences": {
+    "canCopyKnowledge": false,
+    "mode": "chatbot"
+  },
+  "variables": {
+    "Ba6qULrBj9iCmoBw": {
+      "id": "Ba6qULrBj9iCmoBw",
+      "rank": "V",
+      "type": "string"
+    },
+    "CYeN3eSk4BASymrF": {
+      "id": "CYeN3eSk4BASymrF",
+      "rank": "k",
+      "type": "string"
+    },
+    "dBt8bMYNG8aL41Fv": {
+      "id": "dBt8bMYNG8aL41Fv",
+      "rank": "s",
+      "type": "string"
+    },
+    "FwJpuE4BjZoB7zif": {
+      "id": "FwJpuE4BjZoB7zif",
+      "rank": "w",
+      "type": "string"
+    },
+    "JYDvWUVTRtjtN9Hx": {
+      "id": "JYDvWUVTRtjtN9Hx",
+      "rank": "y",
+      "type": "string"
+    },
+    "qujHhVX1pJpC2Jh4": {
+      "id": "qujHhVX1pJpC2Jh4",
+      "rank": "z",
+      "type": "string"
+    },
+    "w5EPpzmGJ3pnwZtS": {
+      "id": "w5EPpzmGJ3pnwZtS",
+      "rank": "zV",
+      "type": "string"
+    },
+    "yEjrmczcFwSrYQBn": {
+      "id": "yEjrmczcFwSrYQBn",
+      "rank": "zk",
+      "type": "string"
+    },
+    "ZHw56T7Z3B4WymwS": {
+      "id": "ZHw56T7Z3B4WymwS",
+      "rank": "zs",
+      "type": "string"
+    }
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "Ba6qULrBj9iCmoBw",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "CYeN3eSk4BASymrF",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "dBt8bMYNG8aL41Fv",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "FwJpuE4BjZoB7zif",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "JYDvWUVTRtjtN9Hx",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "qujHhVX1pJpC2Jh4",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "w5EPpzmGJ3pnwZtS",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "yEjrmczcFwSrYQBn",
+      "type": "agent-template-variable-input-type"
+    },
+    {
+      "id": "ZHw56T7Z3B4WymwS",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}

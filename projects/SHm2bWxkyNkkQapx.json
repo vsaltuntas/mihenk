@@ -1,0 +1,214 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "9c4edcdd-1652-4d09-ab40-053082c132a0",
+        "text": {
+          "ops": [
+            {
+              "insert": "MIHENK-Handoff-016-YouTube-Checkpoint"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "4d4ffe31-a18c-4fe1-a579-7a4567f5564c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Handoff #016 — YouTube Module PROVIDER_PENDING Fix",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a1b2c3d4-e5f6-7890-abcd-000000000001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube audit: API stubs return [], no API key, no Taskade project",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1b2c3d4-e5f6-7890-abcd-000000000002",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Replaced fake empty state with PROVIDER_PENDING badge + SourceHealthPanel",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1b2c3d4-e5f6-7890-abcd-000000000003",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "3 source checks: API key (pending), Taskade project (pending), getter stubs (pending)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1b2c3d4-e5f6-7890-abcd-000000000004",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Activation requirements panel: 1) YOUTUBE_DATA_API_KEY 2) Taskade project 3) Automation flow",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1b2c3d4-e5f6-7890-abcd-000000000005",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Data view preserved but gated behind hasData check — no fake content shown",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1b2c3d4-e5f6-7890-abcd-000000000006",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "STOPPED: Awaiting user/codex verification before proceeding to next module",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "📱"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "katalog_export": {
+    "mihenk_version": "1.0",
+    "exported_at": "2026-06-16T12:00:00.000Z",
+    "source": "taskade",
+    "module": "katalog",
+    "record_count": 1,
+    "records": [
+      {
+        "mihenk_id": "mihenk_katalog_01JWNE5KA1FlyMe",
+        "platform_ids": {
+          "taskade_task_id": "d1000001-0001-4001-8001-000000000001",
+          "taskade_project_id": "yEjrmczcFwSrYQBn"
+        },
+        "module": "katalog",
+        "data": {
+          "title": "Fly Me",
+          "entity_type": "artist",
+          "artist_type": "grup",
+          "origin": "kurgusal",
+          "genre": "Indie Pop / Dream Pop",
+          "sonic_dna": "BPM: 120-135, Key: C Major, Ethereal synths"
+        },
+        "created_at": "2026-06-16T12:00:00.000Z",
+        "updated_at": "2026-06-16T12:00:00.000Z"
+      }
+    ],
+    "relations": [],
+    "audit_trail": [
+      {
+        "event_id": "01JWNE6AUD1T0001",
+        "timestamp": "2026-06-16T12:00:00.000Z",
+        "module": "katalog",
+        "action": "created",
+        "mihenk_id": "mihenk_katalog_01JWNE5KA1FlyMe",
+        "actor": "user",
+        "summary": "Yeni sanatçı eklendi: Fly Me",
+        "platform": "taskade"
+      }
+    ]
+  },
+  "projeler_export": {
+    "mihenk_version": "1.0",
+    "exported_at": "2026-06-16T12:00:00.000Z",
+    "source": "taskade",
+    "module": "projeler",
+    "record_count": 1,
+    "records": [
+      {
+        "mihenk_id": "mihenk_projeler_01JWNE5KP1NikEP",
+        "platform_ids": {
+          "taskade_task_id": "b2000001-0001-4001-8001-000000000001",
+          "taskade_project_id": "qujHhVX1pJpC2Jh4"
+        },
+        "module": "projeler",
+        "data": {
+          "title": "Nikbinler EP — Yeni Single Mix",
+          "status": "planlama",
+          "channel": "nikbinler",
+          "priority": "acil"
+        },
+        "created_at": "2026-06-16T12:00:00.000Z",
+        "updated_at": "2026-06-16T12:00:00.000Z"
+      }
+    ],
+    "relations": [],
+    "audit_trail": [
+      {
+        "event_id": "01JWNE6AUD2T0001",
+        "timestamp": "2026-06-16T12:00:00.000Z",
+        "module": "projeler",
+        "action": "created",
+        "mihenk_id": "mihenk_projeler_01JWNE5KP1NikEP",
+        "actor": "user",
+        "summary": "Yeni proje oluşturuldu: Nikbinler EP — Yeni Single Mix",
+        "platform": "taskade"
+      },
+      {
+        "event_id": "01JWNE6AUD2T0002",
+        "timestamp": "2026-06-16T12:01:00.000Z",
+        "module": "projeler",
+        "action": "status_changed",
+        "mihenk_id": "mihenk_projeler_01JWNE5KP1NikEP",
+        "actor": "user",
+        "summary": "Durum değişti: fikir → planlama",
+        "diff": [{"field": "status", "old": "fikir", "new": "planlama"}],
+        "platform": "taskade"
+      }
+    ]
+  },
+  "notlar_export": {
+    "mihenk_version": "1.0",
+    "exported_at": "2026-06-16T12:00:00.000Z",
+    "source": "taskade",
+    "module": "notlar",
+    "record_count": 1,
+    "records": [
+      {
+        "mihenk_id": "mihenk_notlar_01JWNE5KN1First",
+        "platform_ids": {
+          "taskade_task_id": "e5d900e6-4114-4494-9bb1-df9d0d64e58f",
+          "taskade_project_id": "Ba6qULrBj9iCmoBw"
+        },
+        "module": "notlar",
+        "data": {
+          "title": "adsaa",
+          "content": "asdadsad",
+          "notebook": "fikir",
+          "note_type": "toplanti",
+          "tags": ["adadsd", "sadad", "asdsad"]
+        },
+        "created_at": "2026-06-16T12:00:00.000Z",
+        "updated_at": "2026-06-16T12:00:00.000Z"
+      }
+    ],
+    "relations": [],
+    "audit_trail": [
+      {
+        "event_id": "01JWNE6AUD3T0001",
+        "timestamp": "2026-06-16T12:00:00.000Z",
+        "module": "notlar",
+        "action": "created",
+        "mihenk_id": "mihenk_notlar_01JWNE5KN1First",
+        "actor": "user",
+        "summary": "Yeni not oluşturuldu: adsaa",
+        "platform": "taskade"
+      }
+    ]
+  },
+  "example_audit_events": {
+    "created": {
+      "event_id": "01JWNE6AUD4T0001",
+      "timestamp": "2026-06-16T12:00:00.000Z",
+      "module": "katalog",
+      "action": "created",
+      "mihenk_id": "mihenk_katalog_01JWNE5KA1FlyMe",
+      "actor": "user",
+      "summary": "Yeni sanatçı eklendi: Fly Me",
+      "platform": "taskade"
+    },
+    "updated": {
+      "event_id": "01JWNE6AUD4T0002",
+      "timestamp": "2026-06-16T12:05:00.000Z",
+      "module": "katalog",
+      "action": "updated",
+      "mihenk_id": "mihenk_katalog_01JWNE5KA1FlyMe",
+      "actor": "user",
+      "summary": "Sanatçı güncellendi: genre değişti",
+      "diff": [{"field": "genre", "old": "Indie Pop", "new": "Indie Pop / Dream Pop"}],
+      "platform": "taskade"
+    },
+    "linked": {
+      "event_id": "01JWNE6AUD4T0003",
+      "timestamp": "2026-06-16T12:10:00.000Z",
+      "module": "projeler",
+      "action": "linked",
+      "mihenk_id": "mihenk_projeler_01JWNE5KP1NikEP",
+      "actor": "agent",
+      "summary": "Proje → Sanatçı bağlantısı: Fly Me",
+      "platform": "taskade"
+    }
+  }
+}

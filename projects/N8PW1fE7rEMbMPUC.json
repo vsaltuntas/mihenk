@@ -1,0 +1,706 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "f1fd5adf-c8e1-4a52-9249-526760e2fdaa",
+        "text": {
+          "ops": [
+            {
+              "insert": "MİHENK Workforce Architecture — Handoff #021"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "a1000001-0001-0001-0001-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Workforce Mimarisi — 7 Agent × 3 Ekip (2026-06-18)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000010",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Tarih: 2026-06-18. Faz 1 tamamlandı. 7 agent aktif, knowledge bağlı, XP flow çalışıyor.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a1000001-0001-0001-0001-000000000002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "AGENT REGISTRY",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000020",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Zo (Orkestratör) — ID: 01KMT63AYCHYKPGZNB12NPS9M4 — public — 6 modül — Knowledge: Projeler, Gamification, Finans, Wellness, Takvim",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000021",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Fabrika (Yaratıcı Usta) — ID: 01KVAMD3H5B2J3SQQ1DP0G188H — public — 7 modül — Knowledge: Katalog Sanatçılar, Albüm&Track",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000022",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Kaptan (İş Yöneticisi) — ID: 01KVCS39APBBC8HRDQYVK9E7T4 — public — 5 modül — Knowledge: Projeler&Görevler, Takvim",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000023",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Hafız (Bilgi Ustası) — ID: 01KVCS4CDE2MDZ65GV0B4CW9EZ — public — 11 modül — Knowledge: Notlar, Fikirler",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000024",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Yayıncı (Medya) — ID: 01KVCS5DHSQJFWV9HEF91PYKJ6 — public — 6 modül — Knowledge: YouTube Kanallar, Videolar, Katalog Sanatçılar, Albüm&Track",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000025",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Veznedar (Hayat Yöneticisi) — ID: 01KVCS6D2S5BQQA9WRVZDC5GQA — public — 9 modül — Knowledge: Finans, Wellness, Kişiler CRM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000026",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Muhafız (Sistem&Güven) — ID: 01KVCS7GA5PX8YPASTRYNTKRNM — public — 14 modül — Knowledge: Backups, Gamification, Provider Sync Log",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a1000001-0001-0001-0001-000000000003",
+            "text": {
+              "ops": [
+                {
+                  "insert": "EKİPLER (Faz 2'de kurulacak)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000030",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "EKİP 1 OPERASYON: Zo + Kaptan + Veznedar",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000031",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "EKİP 2 YARATICI: Zo + Fabrika + Yayıncı",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000032",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "EKİP 3 ANALİTİK: Zo + Hafız + Muhafız",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a1000001-0001-0001-0001-000000000004",
+            "text": {
+              "ops": [
+                {
+                  "insert": "OTOMASYONLAR",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000040",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "XP Güncelle (01KMT6422AST3VWNT3X9QRWD99) — ✅ "
+                    },
+                    {
+                      "insert": "DÜZE",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "L"
+                    },
+                    {
+                      "insert": "T",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "I"
+                    },
+                    {
+                      "insert": "LD",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "I — task.completed"
+                    },
+                    {
+                      "insert": " → project.export (gerçek XP oku)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": " → AI hesapla → updateCustomFields"
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000041",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Nightly Backup (01KV8K6SZ40BA3BHNEXHTZSR3H) — ✅ ÇALIŞIYOR — 03:00 daily",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000042",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "YouTube Snapshot (01KVBFHK8T91NPSKN56KQ05EJW) — 🔶 TOKEN BEKLİYOR",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000043",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Haftalik Rapor (01KVDXH5V7707005ZM71PJPH61) - YENI, LINT TEMIZ, schedule.daily 20:00",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "a1000001-0001-0001-0001-000000000044",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "schedule.weekly calismadi. schedule.daily ile her gun 20:00'de kuruldu. 4 duplicate + 1 test DISABLED.",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "text",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a1000001-0001-0001-0001-000000000005",
+            "text": {
+              "ops": [
+                {
+                  "insert": "SONRAKI ADIMLAR",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000050",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Faz 2: 3 agent ekibini oluştur (Taskade Agent Teams)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000051",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Faz 2: Agent workflow'ları oluştur (sabah brifingi, haftalık rapor, release pipeline)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000052",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Faz 3: App UI'da Workforce modülünü canlı yap",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a1000001-0001-0001-0001-000000000053",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Faz 3: AssistantChat'i v2 SDK'ya geçir + tüm agent'ları app'e bağla",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "📱"
+    }
+  }
+}

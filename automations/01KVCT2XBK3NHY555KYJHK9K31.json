@@ -1,0 +1,135 @@
+{
+  "version": "2",
+  "flowTitle": "☀️ Sabah Brifingi — Günlük Sistem Raporu",
+  "trigger": {
+    "valid": true,
+    "displayName": "Her sabah 07:00'de tetikle",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.daily",
+      "input": {
+        "timezone": "Europe/Istanbul",
+        "timeOfDay": "7:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "c6994468-08db-4316-bb26-ce46d1af6566",
+      "valid": true,
+      "displayName": "Görevleri oku",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "qujHhVX1pJpC2Jh4"
+        }
+      }
+    },
+    {
+      "name": "2cbdef3d-785e-4edd-a068-95a2310a220f",
+      "valid": true,
+      "displayName": "Takvimi oku",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "FwJpuE4BjZoB7zif"
+        }
+      }
+    },
+    {
+      "name": "0b885ce2-ee8b-4633-ab24-725556307ab2",
+      "valid": true,
+      "displayName": "Finansı oku",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "w5EPpzmGJ3pnwZtS"
+        }
+      }
+    },
+    {
+      "name": "5967cc92-9ed2-4602-bdcf-d146e5f91796",
+      "valid": true,
+      "displayName": "Wellness'i oku",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "dBt8bMYNG8aL41Fv"
+        }
+      }
+    },
+    {
+      "name": "6a569650-0865-4094-90b7-db3d59d83238",
+      "valid": true,
+      "displayName": "Gamification'ı oku",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "ZHw56T7Z3B4WymwS"
+        }
+      }
+    },
+    {
+      "name": "a79dd175-dab1-4950-ac97-821b5ade517d",
+      "valid": true,
+      "displayName": "Sabah Brifingi üret",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "prompt": "Sen Zo'sun — MİHENK sisteminin orkestratörü. Aşağıdaki 5 veri kaynağından bugünkü SABAH BRİFİNGİ'ni üret.\n\nTetikleme zamanı: {{ trigger[\"triggerTime\"] }}\n\n═══ 1. GÖREVLER ═══\n{{ c6994468-08db-4316-bb26-ce46d1af6566[\"content\"] }}\n\n═══ 2. TAKVİM ═══\n{{ 2cbdef3d-785e-4edd-a068-95a2310a220f[\"content\"] }}\n\n═══ 3. FİNANS ═══\n{{ 0b885ce2-ee8b-4633-ab24-725556307ab2[\"content\"] }}\n\n═══ 4. WELLNESS ═══\n{{ 5967cc92-9ed2-4602-bdcf-d146e5f91796[\"content\"] }}\n\n═══ 5. GAMİFİCATION ═══\n{{ 6a569650-0865-4094-90b7-db3d59d83238[\"content\"] }}\n\n═══ BRİFİNG FORMAT ═══\nTürkçe yaz. Markdown formatında 5 bölüm üret:\n\n## ☀️ Günaydın Brifingi — [TARİH]\n\n### 1. 🎯 Gündem & Öncelikler\n- Bugünkü en acil 3 görev\n- Yaklaşan deadline'lar\n\n### 2. 📋 Görev Durumu\n- Toplam aktif / tamamlanan / geciken görev sayısı\n- Bugün için önerilen görev sırası\n\n### 3. 💰 Finans Özeti\n- Son 7 gün gelir/gider\n- Dikkat gerektiren kalemler\n\n### 4. ❤️ Wellness Nabzı\n- Son check-in özeti\n- Öneri (uyku, egzersiz, ruh hali)\n\n### 5. 🎮 XP & Level\n- Mevcut XP, Level, Rütbe\n- Son kazanlan XP\n\n### 🔔 Sinyaller\n- Önemli uyarılar veya fırsatlar\n\nKısa, net ve aksiyona yönelik yaz."
+        }
+      }
+    },
+    {
+      "name": "671e4da1-cea7-4209-b7d6-03355572d5de",
+      "valid": false,
+      "displayName": "Brifingi Notlara kaydet",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "{{ a79dd175-dab1-4950-ac97-821b5ade517d[\"result\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "Ba6qULrBj9iCmoBw"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "Ba6qULrBj9iCmoBw": {
+      "id": "Ba6qULrBj9iCmoBw",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

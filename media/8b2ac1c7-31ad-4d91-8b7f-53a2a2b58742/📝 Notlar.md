@@ -1,0 +1,4 @@
+# 📝 Notlar
+
+- [ ] adsaa
+- [ ] ASDAD

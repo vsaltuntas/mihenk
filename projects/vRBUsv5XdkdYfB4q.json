@@ -1,0 +1,1107 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "dd1c279f-ae19-4466-9202-7594dc552635",
+        "text": {
+          "ops": [
+            {
+              "insert": "Fikirler"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "38d285d9-2b60-4d15-ab77-ed3dd309c010",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Anatolian Lo-Fi serisi — ambient Anadolu soundscapes",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@icat0": {
+                "type": "Select",
+                "optionId": "ic-muzik"
+              },
+              "@istat": {
+                "type": "Select",
+                "optionId": "is-yeni"
+              },
+              "@inote": "Bağlama + synth pad + field recordings",
+              "@mhkid": "mihenk_fikir_SEED001"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "27d2c913-89eb-4d3a-bdd7-c8340fa4d62c",
+            "text": {
+              "ops": [
+                {
+                  "insert": "YouTube kısa belgesel formatı — müzik prodüksiyon behind the scenes",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@icat0": {
+                "type": "Select",
+                "optionId": "ic-icerik"
+              },
+              "@istat": {
+                "type": "Select",
+                "optionId": "is-deger"
+              },
+              "@inote": "5-10 dk, vertical format",
+              "@mhkid": "mihenk_fikir_SEED002"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3b240204-f15b-4df8-958c-a452b1134eb5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Freelance müzik prodüksiyon paketi — beat lease sistemi",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@icat0": {
+                "type": "Select",
+                "optionId": "ic-is"
+              },
+              "@istat": {
+                "type": "Select",
+                "optionId": "is-yeni"
+              },
+              "@inote": "BeatStars + kendi site entegrasyonu",
+              "@mhkid": "mihenk_fikir_SEED003"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "c8259fba-d75e-43e0-94e1-8a1580d17be4",
+            "text": {
+              "ops": [
+                {
+                  "insert": "deneme"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": null,
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@icat0": {
+                "type": "Select",
+                "optionId": "ic-diger"
+              },
+              "@istat": {
+                "type": "Select",
+                "optionId": "is-yeni"
+              },
+              "@iprio": {
+                "type": "Select",
+                "optionId": "ip-medium"
+              },
+              "@inote": "",
+              "@mhkid": "mihenk_fikir_MQH7QF49"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "0b6b7281-f26e-4d72-8f7a-15ff7510d207",
+            "text": {
+              "ops": [
+                {
+                  "insert": "KARARGAH Import 2026-06-28T220426Z Kaynak tablo: "
+                },
+                {
+                  "insert": "ideas"
+                },
+                {
+                  "insert": "; satır: 1 Rollback: bu parent altındaki import kayıtlarını sil."
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "text",
+              "children": "text"
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "8fcb09a9-8e78-42af-ae6a-74c642995985",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH Idea: Suno API ile arayüzde olmayan yaratıcı imkanlar (kie.ai) id=idea_suno_api_mps7hp25; type=müzik; status=kesif; tags=suno, api, kie, maestro, studyom, uretim; created_at=2026-05-30 10:26:44 excerpt=Suno API zincirleme üretim, varyant fabrikası, webhook ve persona/custom voice olanakları. Full içerik: Zo export "
+                    },
+                    {
+                      "insert": "tables/013_ideas.json"
+                    },
+                    {
+                      "insert": "."
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": "text"
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@icat0": {
+            "id": "/attributes/@icat0",
+            "fieldPath": "/attributes/@icat0",
+            "rank": "z"
+          },
+          "/attributes/@istat": {
+            "id": "/attributes/@istat",
+            "fieldPath": "/attributes/@istat",
+            "rank": "zV"
+          },
+          "/attributes/@inote": {
+            "id": "/attributes/@inote",
+            "fieldPath": "/attributes/@inote",
+            "rank": "zk"
+          },
+          "/attributes/@mhkid": {
+            "id": "/attributes/@mhkid",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zs"
+          },
+          "79f8b108-9231-42b5-81f4-1ba2ad995a34": {
+            "id": "79f8b108-9231-42b5-81f4-1ba2ad995a34",
+            "fieldPath": "/attributes/@iprio",
+            "rank": "zw"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@icat0": {
+            "id": "/attributes/@icat0",
+            "fieldPath": "/attributes/@icat0",
+            "rank": "z"
+          },
+          "/attributes/@istat": {
+            "id": "/attributes/@istat",
+            "fieldPath": "/attributes/@istat",
+            "rank": "zV"
+          },
+          "/attributes/@inote": {
+            "id": "/attributes/@inote",
+            "fieldPath": "/attributes/@inote",
+            "rank": "zk"
+          },
+          "/attributes/@mhkid": {
+            "id": "/attributes/@mhkid",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zs"
+          },
+          "69e53b3b-2bd6-4a11-b204-d65a2a66a0f3": {
+            "id": "69e53b3b-2bd6-4a11-b204-d65a2a66a0f3",
+            "fieldPath": "/attributes/@iprio",
+            "rank": "zw"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@icat0": {
+            "id": "/attributes/@icat0",
+            "fieldPath": "/attributes/@icat0",
+            "rank": "z"
+          },
+          "/attributes/@istat": {
+            "id": "/attributes/@istat",
+            "fieldPath": "/attributes/@istat",
+            "rank": "zV"
+          },
+          "/attributes/@inote": {
+            "id": "/attributes/@inote",
+            "fieldPath": "/attributes/@inote",
+            "rank": "zk"
+          },
+          "/attributes/@mhkid": {
+            "id": "/attributes/@mhkid",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zs"
+          },
+          "ff239fdb-827e-4272-bba9-22a91488254b": {
+            "id": "ff239fdb-827e-4272-bba9-22a91488254b",
+            "fieldPath": "/attributes/@iprio",
+            "rank": "zw"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@icat0": {
+            "id": "/attributes/@icat0",
+            "fieldPath": "/attributes/@icat0",
+            "rank": "z"
+          },
+          "/attributes/@istat": {
+            "id": "/attributes/@istat",
+            "fieldPath": "/attributes/@istat",
+            "rank": "zV"
+          },
+          "/attributes/@inote": {
+            "id": "/attributes/@inote",
+            "fieldPath": "/attributes/@inote",
+            "rank": "zk"
+          },
+          "/attributes/@mhkid": {
+            "id": "/attributes/@mhkid",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zs"
+          },
+          "b109c6a0-8a03-4c8a-ac8f-178c0f45d736": {
+            "id": "b109c6a0-8a03-4c8a-ac8f-178c0f45d736",
+            "fieldPath": "/attributes/@iprio",
+            "rank": "zw"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@icat0": {
+            "id": "/attributes/@icat0",
+            "fieldPath": "/attributes/@icat0",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@istat": {
+            "id": "/attributes/@istat",
+            "fieldPath": "/attributes/@istat",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@inote": {
+            "id": "/attributes/@inote",
+            "fieldPath": "/attributes/@inote",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@mhkid": {
+            "id": "/attributes/@mhkid",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zs",
+            "hidden": false
+          },
+          "e2d77b3e-e359-4cfa-ae04-6da3bb522d80": {
+            "id": "e2d77b3e-e359-4cfa-ae04-6da3bb522d80",
+            "fieldPath": "/attributes/@iprio",
+            "rank": "zw"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@icat0": {
+            "id": "/attributes/@icat0",
+            "fieldPath": "/attributes/@icat0",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@istat": {
+            "id": "/attributes/@istat",
+            "fieldPath": "/attributes/@istat",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@inote": {
+            "id": "/attributes/@inote",
+            "fieldPath": "/attributes/@inote",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@mhkid": {
+            "id": "/attributes/@mhkid",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zs",
+            "hidden": false
+          },
+          "652bb1e3-8964-4baf-b94f-91f848cfdbcd": {
+            "id": "652bb1e3-8964-4baf-b94f-91f848cfdbcd",
+            "fieldPath": "/attributes/@iprio",
+            "rank": "zw"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "07ac2b8c-f0ef-42e9-910f-3b1f13abbad6": {
+            "id": "07ac2b8c-f0ef-42e9-910f-3b1f13abbad6",
+            "fieldPath": "/attributes/@iprio",
+            "rank": "z"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@icat0": {
+        "type": "Select",
+        "displayName": "Kategori",
+        "options": {
+          "ic-muzik": {
+            "id": "ic-muzik",
+            "name": "Müzik",
+            "color": "#A855F7",
+            "rank": "0"
+          },
+          "ic-icerik": {
+            "id": "ic-icerik",
+            "name": "İçerik",
+            "color": "#3B82F6",
+            "rank": "1"
+          },
+          "ic-urun": {
+            "id": "ic-urun",
+            "name": "Ürün",
+            "color": "#10B981",
+            "rank": "2"
+          },
+          "ic-is": {
+            "id": "ic-is",
+            "name": "İş",
+            "color": "#F59E0B",
+            "rank": "3"
+          },
+          "ic-kisisel": {
+            "id": "ic-kisisel",
+            "name": "Kişisel",
+            "color": "#EC4899",
+            "rank": "4"
+          },
+          "ic-teknik": {
+            "id": "ic-teknik",
+            "name": "Teknik",
+            "color": "#6366F1",
+            "rank": "5"
+          },
+          "ic-diger": {
+            "id": "ic-diger",
+            "name": "Diğer",
+            "color": "#6B7280",
+            "rank": "6"
+          }
+        }
+      },
+      "@istat": {
+        "type": "Select",
+        "displayName": "Durum",
+        "options": {
+          "is-yeni": {
+            "id": "is-yeni",
+            "name": "Yeni",
+            "color": "#3B82F6",
+            "rank": "0"
+          },
+          "is-deger": {
+            "id": "is-deger",
+            "name": "Değerlendirmede",
+            "color": "#F59E0B",
+            "rank": "1"
+          },
+          "is-plan": {
+            "id": "is-plan",
+            "name": "Planlandı",
+            "color": "#8B5CF6",
+            "rank": "2"
+          },
+          "is-aktif": {
+            "id": "is-aktif",
+            "name": "Aktif",
+            "color": "#10B981",
+            "rank": "3"
+          },
+          "is-arsiv": {
+            "id": "is-arsiv",
+            "name": "Arşiv",
+            "color": "#6B7280",
+            "rank": "4"
+          }
+        }
+      },
+      "@inote": {
+        "type": "string",
+        "displayName": "Açıklama"
+      },
+      "@mhkid": {
+        "type": "string",
+        "displayName": "MİHENK ID"
+      },
+      "@iprio": {
+        "type": "Select",
+        "displayName": "Öncelik",
+        "options": {
+          "ip-high": {
+            "id": "ip-high",
+            "name": "Yüksek",
+            "color": "#EF4444",
+            "rank": "0"
+          },
+          "ip-medium": {
+            "id": "ip-medium",
+            "name": "Orta",
+            "color": "#F59E0B",
+            "rank": "1"
+          },
+          "ip-low": {
+            "id": "ip-low",
+            "name": "Düşük",
+            "color": "#10B981",
+            "rank": "2"
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "board",
+    "avatar": {
+      "type": "emoji",
+      "value": "🎖️"
+    }
+  }
+}

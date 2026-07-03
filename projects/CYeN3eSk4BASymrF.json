@@ -1,0 +1,1125 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a0000003-0001-4001-8001-000000000003",
+        "text": {
+          "ops": [
+            {
+              "insert": "👥 Kişiler / CRM"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "04981883-7237-4aa5-9d62-442b8fbaba50",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Emre Yılmazs"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ctype": {
+                "type": "Select",
+                "optionId": "ct-kisi"
+              },
+              "@cemail": "emre@anatolianlab.com",
+              "@cphone": "+90 532 111 2233",
+              "@ccomp": "Anatolian Lab",
+              "@crole": "Prodüktör / Ortak",
+              "@cnote": "Müzik prodüksiyonu, mix/master işleri. Nikbinler EP ortak çalışması.",
+              "@mhkid": "mihenk_kisiler_01JX6C01EMRE"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "291399dc-2d09-4e03-9c79-38d1dc15e35b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Selin Koç",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ctype": {
+                "type": "Select",
+                "optionId": "ct-kisi"
+              },
+              "@cemail": "selin.koc@distrokid.com",
+              "@cphone": "",
+              "@ccomp": "DistroKid",
+              "@crole": "Dağıtım Hesap Yöneticisi",
+              "@cnote": "Dijital dağıtım kanalı. Concubanas single dağıtımı.",
+              "@mhkid": "mihenk_kisiler_01JX6C02SELN"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "be56e845-e205-45e4-9a43-9b51b89c6a5b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Ozan Stüdyo",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ctype": {
+                "type": "Select",
+                "optionId": "ct-sirket"
+              },
+              "@cemail": "info@ozanstudyo.com",
+              "@cphone": "+90 212 444 5566",
+              "@ccomp": "Ozan Stüdyo",
+              "@crole": "Kayıt Stüdyosu",
+              "@cnote": "İstanbul Kadıköy. Vokal ve bağlama kayıtları.",
+              "@mhkid": "mihenk_kisiler_01JX6C03OZAN"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "3c7f722e-a1d6-4028-a962-5077e62bb666",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Deniz Akar",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ctype": {
+                "type": "Select",
+                "optionId": "ct-kisi"
+              },
+              "@cemail": "deniz@freelance.dev",
+              "@cphone": "+90 541 777 8899",
+              "@ccomp": "Freelance",
+              "@crole": "Grafik Tasarımcı",
+              "@cnote": "Kapak görselleri, YouTube banner tasarımı. Logo projesi tamamlandı.",
+              "@mhkid": "mihenk_kisiler_01JX6C04DENZ"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2a3987f1-b60e-4f50-a82a-0e3a4d3201f8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Kaan Ertürk",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ctype": {
+                "type": "Select",
+                "optionId": "ct-kisi"
+              },
+              "@cemail": "kaan@soundeng.co",
+              "@cphone": "+90 555 333 4455",
+              "@ccomp": "Bağımsız",
+              "@crole": "Ses Mühendisi / Mix Engineer",
+              "@cnote": "Fly Me EP mix/master. K.Tangözess demo mixing.",
+              "@mhkid": "mihenk_kisiler_01JX6C05KAAN"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "54b63ab7-87c4-44bc-9433-100ba001fd22",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Ada Müzik Yayıncılık",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@ctype": {
+                "type": "Select",
+                "optionId": "ct-sirket"
+              },
+              "@cemail": "lisans@adamuzik.com.tr",
+              "@cphone": "+90 216 999 0011",
+              "@ccomp": "Ada Müzik",
+              "@crole": "Yayıncı / Lisans Yönetimi",
+              "@cnote": "Müzik yayın hakları. Potansiyel lisans anlaşması görüşülüyor.",
+              "@mhkid": "mihenk_kisiler_01JX6C06ADAM"
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "z"
+          },
+          "/attributes/@cemail": {
+            "id": "/attributes/@cemail",
+            "fieldPath": "/attributes/@cemail",
+            "rank": "zV"
+          },
+          "/attributes/@cphone": {
+            "id": "/attributes/@cphone",
+            "fieldPath": "/attributes/@cphone",
+            "rank": "zk"
+          },
+          "/attributes/@ccomp": {
+            "id": "/attributes/@ccomp",
+            "fieldPath": "/attributes/@ccomp",
+            "rank": "zs"
+          },
+          "/attributes/@crole": {
+            "id": "/attributes/@crole",
+            "fieldPath": "/attributes/@crole",
+            "rank": "zw"
+          },
+          "/attributes/@cnote": {
+            "id": "/attributes/@cnote",
+            "fieldPath": "/attributes/@cnote",
+            "rank": "zy"
+          },
+          "871c3ee3-8a83-43e6-ba4e-1142bbb4f33f": {
+            "id": "871c3ee3-8a83-43e6-ba4e-1142bbb4f33f",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zz"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "z"
+          },
+          "/attributes/@cemail": {
+            "id": "/attributes/@cemail",
+            "fieldPath": "/attributes/@cemail",
+            "rank": "zV"
+          },
+          "/attributes/@cphone": {
+            "id": "/attributes/@cphone",
+            "fieldPath": "/attributes/@cphone",
+            "rank": "zk"
+          },
+          "/attributes/@ccomp": {
+            "id": "/attributes/@ccomp",
+            "fieldPath": "/attributes/@ccomp",
+            "rank": "zs"
+          },
+          "/attributes/@crole": {
+            "id": "/attributes/@crole",
+            "fieldPath": "/attributes/@crole",
+            "rank": "zw"
+          },
+          "/attributes/@cnote": {
+            "id": "/attributes/@cnote",
+            "fieldPath": "/attributes/@cnote",
+            "rank": "zy"
+          },
+          "3db85589-169d-49fa-a19c-1c430177d947": {
+            "id": "3db85589-169d-49fa-a19c-1c430177d947",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zz"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "z"
+          },
+          "/attributes/@cemail": {
+            "id": "/attributes/@cemail",
+            "fieldPath": "/attributes/@cemail",
+            "rank": "zV"
+          },
+          "/attributes/@cphone": {
+            "id": "/attributes/@cphone",
+            "fieldPath": "/attributes/@cphone",
+            "rank": "zk"
+          },
+          "/attributes/@ccomp": {
+            "id": "/attributes/@ccomp",
+            "fieldPath": "/attributes/@ccomp",
+            "rank": "zs"
+          },
+          "/attributes/@crole": {
+            "id": "/attributes/@crole",
+            "fieldPath": "/attributes/@crole",
+            "rank": "zw"
+          },
+          "/attributes/@cnote": {
+            "id": "/attributes/@cnote",
+            "fieldPath": "/attributes/@cnote",
+            "rank": "zy"
+          },
+          "aa9c954d-1444-4e35-9ebc-60de57278763": {
+            "id": "aa9c954d-1444-4e35-9ebc-60de57278763",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zz"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "z"
+          },
+          "/attributes/@cemail": {
+            "id": "/attributes/@cemail",
+            "fieldPath": "/attributes/@cemail",
+            "rank": "zV"
+          },
+          "/attributes/@cphone": {
+            "id": "/attributes/@cphone",
+            "fieldPath": "/attributes/@cphone",
+            "rank": "zk"
+          },
+          "/attributes/@ccomp": {
+            "id": "/attributes/@ccomp",
+            "fieldPath": "/attributes/@ccomp",
+            "rank": "zs"
+          },
+          "/attributes/@crole": {
+            "id": "/attributes/@crole",
+            "fieldPath": "/attributes/@crole",
+            "rank": "zw"
+          },
+          "/attributes/@cnote": {
+            "id": "/attributes/@cnote",
+            "fieldPath": "/attributes/@cnote",
+            "rank": "zy"
+          },
+          "ed130438-63fd-408a-b242-498a0ef3d0b8": {
+            "id": "ed130438-63fd-408a-b242-498a0ef3d0b8",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zz"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cemail": {
+            "id": "/attributes/@cemail",
+            "fieldPath": "/attributes/@cemail",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cphone": {
+            "id": "/attributes/@cphone",
+            "fieldPath": "/attributes/@cphone",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@ccomp": {
+            "id": "/attributes/@ccomp",
+            "fieldPath": "/attributes/@ccomp",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@crole": {
+            "id": "/attributes/@crole",
+            "fieldPath": "/attributes/@crole",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cnote": {
+            "id": "/attributes/@cnote",
+            "fieldPath": "/attributes/@cnote",
+            "rank": "zy",
+            "hidden": false
+          },
+          "66e6b650-11c7-4d86-8811-3583a9b5297e": {
+            "id": "66e6b650-11c7-4d86-8811-3583a9b5297e",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zz"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@ctype": {
+            "id": "/attributes/@ctype",
+            "fieldPath": "/attributes/@ctype",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cemail": {
+            "id": "/attributes/@cemail",
+            "fieldPath": "/attributes/@cemail",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cphone": {
+            "id": "/attributes/@cphone",
+            "fieldPath": "/attributes/@cphone",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@ccomp": {
+            "id": "/attributes/@ccomp",
+            "fieldPath": "/attributes/@ccomp",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@crole": {
+            "id": "/attributes/@crole",
+            "fieldPath": "/attributes/@crole",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cnote": {
+            "id": "/attributes/@cnote",
+            "fieldPath": "/attributes/@cnote",
+            "rank": "zy",
+            "hidden": false
+          },
+          "2d06662e-440b-4de3-965f-c36720449b97": {
+            "id": "2d06662e-440b-4de3-965f-c36720449b97",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "zz"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "44d34d91-7db3-4f29-8f2a-236d895b327b": {
+            "id": "44d34d91-7db3-4f29-8f2a-236d895b327b",
+            "fieldPath": "/attributes/@mhkid",
+            "rank": "z"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@ctype": {
+        "type": "Select",
+        "displayName": "Tür",
+        "options": {
+          "ct-kisi": {
+            "id": "ct-kisi",
+            "name": "👤 Kişi",
+            "color": "#3B82F6",
+            "rank": "0"
+          },
+          "ct-sirket": {
+            "id": "ct-sirket",
+            "name": "🏢 Şirket",
+            "color": "#8B5CF6",
+            "rank": "1"
+          },
+          "ct-sanatci": {
+            "id": "ct-sanatci",
+            "name": "🎵 Sanatçı",
+            "color": "#EC4899",
+            "rank": "2"
+          }
+        }
+      },
+      "@cemail": {
+        "type": "string",
+        "displayName": "Email"
+      },
+      "@cphone": {
+        "type": "string",
+        "displayName": "Telefon"
+      },
+      "@ccomp": {
+        "type": "string",
+        "displayName": "Şirket"
+      },
+      "@crole": {
+        "type": "string",
+        "displayName": "Rol"
+      },
+      "@cnote": {
+        "type": "string",
+        "displayName": "Notlar"
+      },
+      "@mhkid": {
+        "type": "string",
+        "displayName": "MİHENK ID"
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "☎️"
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "version": "2",
+  "flowTitle": "📊 Haftalık Rapor — Sistem Özeti",
+  "trigger": {
+    "valid": false,
+    "displayName": "Her Pazar 20:00'de tetikle",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "Europe/Istanbul",
+        "dayOfWeek": {
+          "cc9460d8-8729-4374-adb8-f1407ba824fc": {
+            "id": "cc9460d8-8729-4374-adb8-f1407ba824fc",
+            "rank": "V",
+            "content": {
+              "type": "STRING",
+              "content": "Sunday"
+            }
+          }
+        },
+        "timeOfDay": "8:00 PM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "aca4db1b-0cbe-4e8d-a437-ee0d6a1dc256",
+      "valid": true,
+      "displayName": "Görevleri export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "qujHhVX1pJpC2Jh4"
+        }
+      }
+    },
+    {
+      "name": "4e28379c-4c18-4940-9921-b87d2f8e65eb",
+      "valid": true,
+      "displayName": "Takvimi export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "FwJpuE4BjZoB7zif"
+        }
+      }
+    },
+    {
+      "name": "06558d2b-1e05-444f-9df9-3d5d8e9b6ba8",
+      "valid": true,
+      "displayName": "Finansı export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "w5EPpzmGJ3pnwZtS"
+        }
+      }
+    },
+    {
+      "name": "ac0102de-4f00-423b-91ab-0eaf88f982e0",
+      "valid": true,
+      "displayName": "Wellness'i export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "dBt8bMYNG8aL41Fv"
+        }
+      }
+    },
+    {
+      "name": "4bd03cbe-5717-490d-9b8a-3f7bfa2b94fd",
+      "valid": true,
+      "displayName": "Gamification'ı export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "ZHw56T7Z3B4WymwS"
+        }
+      }
+    },
+    {
+      "name": "ee649253-728b-4549-acaf-b538c9cf781a",
+      "valid": true,
+      "displayName": "CRM'i export et",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.export",
+        "input": {
+          "format": "text",
+          "projectId": "CYeN3eSk4BASymrF"
+        }
+      }
+    },
+    {
+      "name": "c80ae379-d734-4e94-8586-82d74faa6d01",
+      "valid": true,
+      "displayName": "Haftalık Rapor üret",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "prompt": "Sen Zo'sun — MİHENK sisteminin analitik zekası. Aşağıdaki 6 veri kaynağından HAFTALIK SİSTEM RAPORU üret.\n\nTetikleme: {{ trigger[\"triggerTime\"] }}\n\n══ 1. GÖREVLER ══\n{{ aca4db1b-0cbe-4e8d-a437-ee0d6a1dc256[\"content\"] }}\n\n══ 2. TAKVİM ══\n{{ 4e28379c-4c18-4940-9921-b87d2f8e65eb[\"content\"] }}\n\n══ 3. FİNANS ══\n{{ 06558d2b-1e05-444f-9df9-3d5d8e9b6ba8[\"content\"] }}\n\n══ 4. WELLNESS ══\n{{ ac0102de-4f00-423b-91ab-0eaf88f982e0[\"content\"] }}\n\n══ 5. GAMİFİCATION ══\n{{ 4bd03cbe-5717-490d-9b8a-3f7bfa2b94fd[\"content\"] }}\n\n══ 6. CRM / KİŞİLER ══\n{{ ee649253-728b-4549-acaf-b538c9cf781a[\"content\"] }}\n\n══ RAPOR FORMATI ══\nTürkçe yaz. Markdown formatında kapsamlı haftalık rapor üret:\n\n## 📊 Haftalık Sistem Raporu — [TARİH ARALIĞI]\n\n### 1. 📋 Haftalık Görev Performansı\n- Toplam tamamlanan / eklenen / geciken görev\n- Tamamlanma oranı (%)\n- En verimli günler\n- Gelecek hafta için öneriler\n\n### 2. 📅 Etkinlik Özeti\n- Bu hafta gerçekleşen/kaçırılan etkinlikler\n- Gelecek haftanın önemli tarihleri\n\n### 3. 💰 Finansal Haftalık Özet\n- Toplam gelir vs gider\n- Kategori bazında harcama dağılımı\n- Trend analizi (geçen haftaya kıyasla)\n\n### 4. ❤️ Wellness Haftalık Skoru\n- Ortalama mood, enerji, uyku\n- Haftalık trend (iyileşme/kötüleşme)\n- Wellness önerileri\n\n### 5. 🎮 XP & İlerleme\n- Haftalık kazanılan XP\n- Level değişimi\n- Aktif streak durumu\n\n### 6. 👥 CRM Aktivitesi\n- Yeni eklenen kişiler\n- İletişim frekansı\n- Takip gerektiren kontaklar\n\n### 🔮 Gelecek Hafta Öngörüleri\n- Kritik deadline'lar\n- Önerilen öncelikler\n- Risk sinyalleri\n\n### 📈 Genel Skor: [A-F]\nKısa genel değerlendirme.\n\nKapsamlı, veri odaklı ve aksiyona yönelik yaz."
+        }
+      }
+    },
+    {
+      "name": "30a69f24-7257-4407-a9e6-80fb5d78c9ed",
+      "valid": false,
+      "displayName": "Raporu Notlara kaydet",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "content": "{{ c80ae379-d734-4e94-8586-82d74faa6d01[\"result\"] }}",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "Ba6qULrBj9iCmoBw"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "Ba6qULrBj9iCmoBw": {
+      "id": "Ba6qULrBj9iCmoBw",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

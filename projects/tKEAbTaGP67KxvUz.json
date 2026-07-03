@@ -1,0 +1,1162 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "f19c3a44-3e80-4744-912c-40d58a58a99e",
+        "text": {
+          "ops": [
+            {
+              "insert": "Handoff-020-Source-Export-and-Core9-Smoke"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "f7353a5c-30f9-4261-965e-315f0894dd93",
+            "text": {
+              "ops": [
+                {
+                  "insert": "HANDOFF #020 — Durable Source Export",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "67905a42-b292-4ca8-a796-e2e824266372",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Date: 2026-06-17. Version: v0.3.0 → v0.4.0. Author: EVE.",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bd42db09-9792-467d-8269-d1614f918420",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "FABRİKA Brand Kits readback fix: saveProductionOutput now cross-writes to brand_kits when role=brand_architect + Üretim Geçmişi tab added.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "3a152701-5fcc-4e92-a11e-90797aa2d030",
+            "text": {
+              "ops": [
+                {
+                  "insert": "SHA-256 CHECKSUMS (full 64-char)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "9e4fbab2-99cd-41aa-884c-99ba3a952ce4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "fabrika-data.ts: 83f3ad55cdcd02062a931c2ffb0c17bbe9c653d9482d2a0933f2f69aa1affc4c (487 lines, 21562 bytes)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f6270bdf-15fd-4e42-a6ab-3b0aae09a1e0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "FabrikaModule.tsx: 342fda57acd7d35d56d805bc089d1f9951b52b64f769e03b56fbbfe4627e69c9 (1078 lines, 68849 bytes)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "0108cb2d-e8a5-4886-bba6-10ab347de6bc",
+            "text": {
+              "ops": [
+                {
+                  "insert": "DIFF SUMMARY — fabrika-data.ts (4 changes)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "8be28ef9-6bb6-407e-af0d-23da47059a31",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "NEW: parseBrandKitFromOutput(content, brief) → BrandKit — line-by-line label extractor + hex regex for colors",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "38abf825-0d41-4df9-bb4e-b4c2e8e0e35b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MODIFIED: saveProductionOutput() — cross-write: brand_architect && approved → parseBrandKitFromOutput → saveBrandKits",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e30eb10a-2c5d-4588-9415-c6f412d57dac",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MODIFIED: FabrikaSection type — added 'uretim_gecmisi' union member",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "fc4eb800-7b4f-4046-9a2b-b9afd30865fe",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MODIFIED: FABRIKA_SECTIONS — added { id: 'uretim_gecmisi', label: 'Üretim Geçmişi', icon: 'clock' }",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "2c543768-95b2-45c1-8fc6-9a959934bbbe",
+            "text": {
+              "ops": [
+                {
+                  "insert": "DIFF SUMMARY — FabrikaModule.tsx (7 changes)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d1037373-999d-4876-a92f-f8f79a2c22ec",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "NEW: UretimGecmisiPanel({ onNavigate }) — full panel with expand/copy/delete, Brand Kit badge linking to brand_kits tab",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "91b3dda0-93e3-4f4e-b82f-95392c7e42e3",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MODIFIED: UretimSohbeti signature { ctx } → { ctx, onNavigate } for post-save navigation",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "900bedac-70fc-4116-9b40-c2740d65c110",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MODIFIED: Save step panel — isBrandArchitect conditional: Brand Kit otomatik oluşturuldu msg + Brand Kits'e Git + Üretim Geçmişi nav buttons",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9b9a25a2-0517-4cfc-8833-e9db539e6281",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MODIFIED: renderSection() — added 'uretim_gecmisi' case + onNavigate pass to UretimSohbeti",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "32d17657-8fab-4872-8ed5-255578754475",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MODIFIED: ICON_MAP — added 'message-circle': MessageCircle, 'clock': Clock",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "36bca632-fc18-433f-bbb0-1feaa4fa61fc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MODIFIED: imports — added saveProductionOutputs from fabrika-data",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "58db04c9-77e9-4f0e-90ba-ec3765cdf08b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MODIFIED: version strings v0.3.0 → v0.4.0 (header comment, header badge, footer)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "ad8b5198-a0cd-477a-a9c3-07b639542af2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "KARARGAH LOCAL STATUS — Honest Statement",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "7eac7eee-234e-4032-bc1c-1dcccb517eca",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "⚠️ Local KARARGAH does NOT contain these source files. EVE's sandbox VFS at /app/src/ holds the live files, but this is server-side only — not synced to Volkan's local filesystem.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3740c84c-c61b-49b6-8d7e-c1d703409295",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Checksums reported above are computed on EVE's sandbox. Codex CANNOT verify these locally until source files are exported to KARARGAH (via copy-paste, download, or git).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "87d978d3-388e-4f76-aa41-bd62940560cc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Full file contents were pasted in chat (Handoff #020 continuation message). This Taskade project stores diff summary + checksums durably. Full source must be copied from chat to KARARGAH by Volkan.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "97b52d42-5927-4dce-a97e-5e2032812574",
+            "text": {
+              "ops": [
+                {
+                  "insert": "EVE ENVIRONMENT LIMITATION — Chrome UI Smoke",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "ed8b005e-5571-4764-a417-348a812c0a35",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "⚠️ EVE CANNOT run Chrome UI smoke tests. EVE has no browser, no DOM, no click/type capability. All UI smoke must be performed by Volkan in Chrome on the live app.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e6e44043-14be-4261-8830-d2fc67d20e77",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "What EVE CAN verify: code paths exist, API calls are wired, Taskade project IDs match, data shapes are correct. This is CODE audit, not UI smoke.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a89c1e1f-970c-4572-90cd-63f3261ec1ac",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Below: compact per-module checklist for Volkan to execute in Chrome. Each module: open tab → create/fill → verify Taskade record → UI readback → delete → confirm 0/clean.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b61a1f44-3f7a-4368-a2ca-f20effac6488",
+            "text": {
+              "ops": [
+                {
+                  "insert": "CORE 9 SMOKE CHECKLIST (for Volkan — Chrome)",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d8e4677f-07ed-4fd5-a03d-885870bb976e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "1. Projeler — ProjectHub.tsx → qujHhVX1pJpC2Jh4 → Create project with name+status → verify row appears in Taskade project → readback in UI → delete → verify removed",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "344ec0d3-c344-4f56-9790-e0bc2b9dda0c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2. Görevler — GorevlerModule.tsx → qujHhVX1pJpC2Jh4 → Create task with title+priority+status → verify in Taskade → readback in UI → delete → verify removed",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d1a6a5df-e6de-42c8-8b92-3126e492aee6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "3. Finans — FinanceTracker.tsx → w5EPpzmGJ3pnwZtS → Add income/expense record → verify amount+category in Taskade → readback in UI → delete → verify removed",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "86922b91-d124-484c-8f42-243e363b86a8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "4. Katalog — CatalogModule.tsx → yEjrmczcFwSrYQBn + JYDvWUVTRtjtN9Hx → Add artist OR track → verify in Taskade project → readback in Katalog tab → delete → verify removed",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "fe89b2ce-1d87-41d1-b0be-77198a8f7bd6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "5. Kişiler/CRM — CrmModule.tsx → CYeN3eSk4BASymrF → Add contact with name+email+role → verify in Taskade → readback in CRM → delete → verify removed",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "4d468260-2993-4b6f-b2f4-33a756382bdb",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "6. Takvim — CalendarModule.tsx → FwJpuE4BjZoB7zif → Add event with title+date → verify in Taskade → readback on calendar → delete → verify removed",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "914c1c9f-0a8f-4758-b9d9-6f4d6242865d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "7. Wellness — WellnessZone.tsx → dBt8bMYNG8aL41Fv → Log mood/energy entry → verify in Taskade → readback in Wellness → delete → verify removed",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "6ded5b63-94b1-4314-8bc6-4f8a68340310",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "8. Notlar — NotesModule.tsx → Ba6qULrBj9iCmoBw → Create note with title+content → verify in Taskade → readback in Notlar → delete → verify removed",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "981522d5-f235-4283-a418-570c28f0e9a2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "9. Fikirler — IdeasModule.tsx → vRBUsv5XdkdYfB4q → Create idea with title+description → verify in Taskade → readback in Fikirler → delete → verify removed",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "checkbox",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "5fd68c83-21b1-4535-9788-16cdcfe6019f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ACCEPTANCE GATE STATUS",
+                  "attributes": {
+                    "bold": true
+                  }
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "de1e2359-2917-4cfe-98e1-d317811ec11b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Source export: ✅ DELIVERED (this project + chat paste). Checksums: ✅ DELIVERED. Diffs: ✅ DELIVERED.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "4d80bb2e-5e35-47b2-98ab-960e9f8076fa",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "KARARGAH local sync: ❌ PENDING — Volkan must copy from chat to local.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ac6f504a-f6ba-477d-961e-00e281379bd4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "FABRİKA Brand Kits readback: ✅ PASS (Chrome smoke 8/8 by Volkan).",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "701a59e5-7d1f-4aa8-b80a-0f4d3faa7e24",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Core 9 UI smoke: ❌ PENDING — 0/9 tested. Requires Volkan Chrome execution per checklist above.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "55bc6802-947a-47c1-bbf7-1e27a39d80b8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "MİHENK full acceptance: ❌ NOT READY — blocked on Core 9 smoke + KARARGAH sync.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "42966687-881b-4a8d-9f3d-7aba83b685b0",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "DO NOT mark TAM ÇALIŞAN or full READY without: source/diff in KARARGAH + Core 9 Chrome smoke PASS + cleanup verified.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "📗"
+    }
+  }
+}
